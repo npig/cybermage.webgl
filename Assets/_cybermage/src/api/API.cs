@@ -10,8 +10,8 @@ namespace Cybermage.API
         private const string ApiURL = "https://slipgate.vercel.app/api/graphql";
         private static string query = @"
             query {
-                viewer {
-                    name                    
+                users {
+                    userName                    
                   }
               }";
 

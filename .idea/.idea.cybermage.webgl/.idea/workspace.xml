@@ -1,0 +1,1680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4a2f826-1a78-4d13-8474-c429d4a59124" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Materials/CCTV_D.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Materials/CCTV_D.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Materials/Generator.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Materials/Generator.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Materials/Satellite_D.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Materials/Satellite_D.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Materials/SolarBattery_D.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Materials/SolarBattery_D.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Materials/Switchboard_D.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Materials/Switchboard_D.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Materials/VendingMachine_D.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Materials/VendingMachine_D.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Materials/VendingMachine_E.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Materials/VendingMachine_E.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/AirConditioning1.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/AirConditioning1.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/AirConditioning2.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/AirConditioning2.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/AirConditioningPropeller.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/AirConditioningPropeller.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Antenna1.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Antenna1.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Antenna2.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Antenna2.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Antenna3.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Antenna3.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/CCTV1.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/CCTV1.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/CCTV1Base.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/CCTV1Base.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/CCTV2.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/CCTV2.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/CCTV2Base.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/CCTV2Base.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/CCTV3.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/CCTV3.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/CCTV3Base.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/CCTV3Base.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/CoffeeCup.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/CoffeeCup.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/CoffeeMachine.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/CoffeeMachine.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Floodlight1.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Floodlight1.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Floodlight1Stand.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Floodlight1Stand.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Floodlight2.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Floodlight2.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Floodlight2Stand.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Floodlight2Stand.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Generator.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Generator.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/SatelliteDish1.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/SatelliteDish1.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/SatelliteDish1Stand.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/SatelliteDish1Stand.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/SatelliteDish2.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/SatelliteDish2.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/SatelliteDish2Stand.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/SatelliteDish2Stand.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/SolarBattery1.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/SolarBattery1.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/SolarBattery2.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/SolarBattery2.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Speaker.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Speaker.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Switchboard1.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Switchboard1.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Switchboard2.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Switchboard2.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Switchboard3.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Switchboard3.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Switchboard4.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Switchboard4.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/VendingMachine1.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/VendingMachine1.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/VendingMachine2.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/VendingMachine2.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/VendingMachine3.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/VendingMachine3.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Wire.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Meshes/Wire.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/CCTV_D.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/CCTV_D.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/CCTV_N.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/CCTV_N.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/CCTV_SRM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/CCTV_SRM.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/Satellite_D.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/Satellite_D.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/Satellite_N.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/Satellite_N.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/Satellite_SRM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/Satellite_SRM.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/SolarBattery_D.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/SolarBattery_D.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/SolarBattery_N.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/SolarBattery_N.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/SolarBattery_SRM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/SolarBattery_SRM.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/Switchboard_D.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/Switchboard_D.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/Switchboard_N.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/Switchboard_N.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/Switchboard_SRM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/Switchboard_SRM.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/VendingMachine_D.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/VendingMachine_D.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/VendingMachine_E.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/VendingMachine_E.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/VendingMachine_N.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/VendingMachine_N.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/VendingMachine_SRM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Industry Props Pack 5/Textures256/VendingMachine_SRM.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_01_A.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_01_A.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_01_B.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_01_B.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_01_C.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_01_C.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_01_D.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_01_D.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_02_A.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_02_A.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_02_B.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_02_B.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_02_C.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_02_C.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_02_D.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_02_D.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_03_A.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_03_A.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_03_B.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_03_B.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_03_C.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_03_C.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_03_D.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_03_D.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_04_A.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_04_A.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_04_B.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_04_B.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_04_C.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_04_C.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_04_D.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Alternatives/Dungeon_Material_04_D.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Dungeon_Material_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Dungeon_Material_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Dungeon_Material_02.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Dungeon_Material_02.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Dungeon_Material_03.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Dungeon_Material_03.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Dungeon_Material_04.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Dungeon_Material_04.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Dungeons_Material_Characters_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Dungeons_Material_Characters_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/Dungeon_Material_Ice.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/Dungeon_Material_Ice.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/Dungeon_Material_Snow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/Dungeon_Material_Snow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/Dungeon_Material_TextureFloor.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/Dungeon_Material_TextureFloor.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/Dungeon_Material_TextureWalls.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/Dungeon_Material_TextureWalls.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/Dungeon_Material_Transparent.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/Dungeon_Material_Transparent.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/Dungeons_Material_Dust_Soft.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/Dungeons_Material_Dust_Soft.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/Dungeons_Material_Emmision.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/Dungeons_Material_Emmision.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/Dungeons_Material_Ghost_Soft.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/Dungeons_Material_Ghost_Soft.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/Dungeons_Material_Lava.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/Dungeons_Material_Lava.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/Dungeons_Texture_Ghost.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/Dungeons_Texture_Ghost.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/FX_CandleFlame.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/FX_CandleFlame.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/FX_Dirt.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/FX_Dirt.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/FX_Fog_Breakup.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/FX_Fog_Breakup.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/FX_Fog_Dark.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/FX_Fog_Dark.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/FX_Fog_Light.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/FX_Fog_Light.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/FX_LightRay.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/FX_LightRay.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/FX_Standard.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/FX_Standard.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/FX_Water.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/FX_Water.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/FX_Water_Sewer.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Materials/Misc/FX_Water_Sewer.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/Characters.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/Characters.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/FX_CubePivot.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/FX_CubePivot.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/FX_CubePivot_Mesh.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/FX_CubePivot_Mesh.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/FX_Electricity_Mesh.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/FX_Electricity_Mesh.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/FX_Ring_Mesh.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/FX_Ring_Mesh.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/Materials/Dungeons_Texture.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/Materials/Dungeons_Texture.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/Materials/Dungeons_Texture_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/Materials/Dungeons_Texture_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Arrow_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Arrow_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Alter_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Alter_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Background_Black_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Background_Black_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Basement_Ceiling_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Basement_Ceiling_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Basement_Support_Beam_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Basement_Support_Beam_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Basement_Support_Beam_Bolt_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Basement_Support_Beam_Bolt_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Basement_Support_Pole_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Basement_Support_Pole_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Basement_Support_Wall_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Basement_Support_Wall_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Basement_WallPanel_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Basement_WallPanel_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_BonePile_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_BonePile_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_BonePile_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_BonePile_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_BonePile_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_BonePile_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_BonePile_Small_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_BonePile_Small_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_BonePile_Small_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_BonePile_Small_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Cracked_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Cracked_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Cracked_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Cracked_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Horn_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Horn_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Rib_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Rib_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Rib_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Rib_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Ribs_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Ribs_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Rigcage_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Rigcage_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Skull_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Skull_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Skull_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Skull_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Skull_Jaw_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Skull_Jaw_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Skull_Jaw_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Skull_Jaw_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Spike_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Spike_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Spike_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Spike_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Spike_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Spike_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Spike_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Spike_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Spike_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Spike_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Spine_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Spine_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Spine_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Spine_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Spine_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Spine_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Tail_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Bone_Tail_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Brick_Rubble_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Brick_Rubble_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Brick_Rubble_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Brick_Rubble_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Brick_Rubble_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Brick_Rubble_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Brick_Rubble_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Brick_Rubble_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Brick_Rubble_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Brick_Rubble_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Brick_Rubble_06.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Brick_Rubble_06.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_01_DoubleSided.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_01_DoubleSided.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_02_DoubleSided.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_02_DoubleSided.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Background_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Background_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Background_01_DoubleSided.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Background_01_DoubleSided.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Background_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Background_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Background_02_DoubleSided.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Background_02_DoubleSided.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Background_Corner_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Background_Corner_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Background_Corner_01_DoubleSided.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Background_Corner_01_DoubleSided.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Background_Corner_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Background_Corner_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Background_Corner_02_DoubleSided.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Background_Corner_02_DoubleSided.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Curved_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Curved_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Curved_01_DoubleSided.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Curved_01_DoubleSided.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Curved_Corner_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Curved_Corner_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Curved_Corner_01_DoubleSided.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Curved_Corner_01_DoubleSided.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Large_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Large_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Large_01_DoubleSided.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Large_01_DoubleSided.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Large_Corner_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Large_Corner_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Large_Corner_01_DoubleSided.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Large_Corner_01_DoubleSided.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Roof_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Roof_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Roof_01_DoubleSided.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Cave_Roof_01_DoubleSided.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Arch_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Arch_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Curved_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Curved_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Curved_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Curved_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Curved_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Curved_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Curved_Corner_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Curved_Corner_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Curved_Corner_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Curved_Corner_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Curved_End_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Curved_End_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Flat_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Flat_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Flat_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Flat_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Flat_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Flat_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Flat_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Flat_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Flat_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Flat_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Flat_06.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Flat_06.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Flat_07.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Flat_07.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Pillar_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Pillar_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Pillar_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Pillar_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Stairs_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ceiling_Stone_Stairs_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_CrackedRock_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_CrackedRock_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_CrackedRock_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_CrackedRock_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_CrackedRock_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_CrackedRock_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_DoorDouble_Flat_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_DoorDouble_Flat_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_DoorDouble_Flat_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_DoorDouble_Flat_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_DoorDouble_Round_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_DoorDouble_Round_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_DoorDouble_Round_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_DoorDouble_Round_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Bars_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Bars_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Frame_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Frame_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Frame_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Frame_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Frame_Round_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Frame_Round_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Frame_Round_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Frame_Round_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Large_Frame_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Large_Frame_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Large_Frame_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Large_Frame_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Large_Stone_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Large_Stone_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Large_Stone_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Large_Stone_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Large_Wood_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Large_Wood_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Large_Wood_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Door_Large_Wood_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Entrance_Crypt_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Entrance_Crypt_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Entrance_Crypt_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Entrance_Crypt_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Entrance_Crypt_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Entrance_Crypt_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Entrance_Dirt_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Entrance_Dirt_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Entrance_Large_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Entrance_Large_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Entrance_Small_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Entrance_Small_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Fence_Goblin_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Fence_Goblin_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Fence_Goblin_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Fence_Goblin_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Fence_Metal_Spikes_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Fence_Metal_Spikes_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Fence_Metal_Spikes_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Fence_Metal_Spikes_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Flowers_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Flowers_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Flowers_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Flowers_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Gem_Large_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Gem_Large_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Gem_Large_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Gem_Large_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Gem_Spike_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Gem_Spike_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Gem_Spike_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Gem_Spike_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GlowingOrb_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GlowingOrb_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GlowingOrb_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GlowingOrb_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GlowingOrb_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GlowingOrb_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GlowingOrb_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GlowingOrb_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GlowingOrb_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GlowingOrb_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Grass_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Grass_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Grass_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Grass_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Grass_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Grass_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Grate_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Grate_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Grate_Ground_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Grate_Ground_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GroundMound_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GroundMound_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GroundMound_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GroundMound_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GroundMound_Corner_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GroundMound_Corner_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GroundMound_Edge_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GroundMound_Edge_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GroundMound_Edge_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GroundMound_Edge_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GroundMound_Edge_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GroundMound_Edge_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GroundMound_Rough_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GroundMound_Rough_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GroundMound_Rough_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GroundMound_Rough_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GroundMound_Rough_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GroundMound_Rough_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GroundMound_Rough_Edge_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_GroundMound_Rough_Edge_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ground_Pit_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Ground_Pit_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_MineTunnel_Corner_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_MineTunnel_Corner_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_MineTunnel_Entrance_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_MineTunnel_Entrance_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_MineTunnel_Straight_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_MineTunnel_Straight_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Minetrack_Bridge_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Minetrack_Bridge_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Minetrack_Bridge_Broken_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Minetrack_Bridge_Broken_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Minetrack_Broken_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Minetrack_Broken_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Minetrack_Broken_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Minetrack_Broken_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Minetrack_Straight_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Minetrack_Straight_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Minetrack_Turn_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Minetrack_Turn_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Moss_Patch_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Moss_Patch_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Giant_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Giant_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Giant_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Giant_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Giant_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Giant_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Giant_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Giant_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Giant_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Giant_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Small_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Small_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Small_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Small_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Small_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Small_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Small_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Small_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Wall_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Wall_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Wall_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Wall_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Wall_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Mushroom_Wall_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Obelisk_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Obelisk_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Obelisk_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Obelisk_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Broken_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Broken_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Broken_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Broken_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Broken_Pile_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Broken_Pile_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Broken_Pile_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Broken_Pile_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Round_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Round_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Round_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Round_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Round_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Round_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Round_Simple_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Round_Simple_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Round_Simple_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Round_Simple_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Round_Simple_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Round_Simple_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_06.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_06.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_07.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_07.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_08.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_08.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_Base_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_Base_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_Round_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_Round_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_Simple_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_Simple_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_Simple_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_Simple_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_Simple_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_Simple_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_Simple_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_Simple_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_Simple_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Pillar_Square_Simple_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Portcullis_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Portcullis_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Angle_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Angle_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Angle_Broken_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Angle_Broken_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Angle_Broken_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Angle_Broken_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Broken_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Broken_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Broken_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Broken_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Broken_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Broken_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Broken_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Broken_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Pillar_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Pillar_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Pillar_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Pillar_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Pillar_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Pillar_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Pillar_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Pillar_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Pillar_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Railing_Pillar_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_ReinforedPole_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_ReinforedPole_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_ReinforedPole_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_ReinforedPole_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Pillar_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Pillar_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Pillar_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Pillar_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Pillar_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Pillar_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Rounded_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Rounded_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Rounded_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Rounded_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Rounded_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Rounded_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Square_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Square_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Square_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Square_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Square_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Square_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Square_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Square_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Square_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Square_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Square_06.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_RockPile_Square_06.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Brick_Simple_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Brick_Simple_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Brick_Simple_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Brick_Simple_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Brick_Simple_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Brick_Simple_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Brick_Simple_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Brick_Simple_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Brick_Simple_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Brick_Simple_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Brick_Simple_06.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Brick_Simple_06.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Brick_Simple_07.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Brick_Simple_07.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Brick_Simple_08.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Brick_Simple_08.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Brick_Simple_09.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Brick_Simple_09.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_06.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_06.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Large_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Large_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Large_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Large_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Large_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Large_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Large_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Large_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Platform_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Platform_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Platform_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Platform_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Platform_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Platform_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Platform_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Platform_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Platform_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Platform_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Platform_06.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Platform_06.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Platform_Large_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Platform_Large_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Platform_Large_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Platform_Large_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Platform_Large_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Platform_Large_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Platform_Large_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Flat_Platform_Large_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pebble_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pebble_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pebble_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pebble_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pebble_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pebble_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_010.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_010.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_011.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_011.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_012.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_012.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_013.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_013.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_06.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_06.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_07.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_07.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_08.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_08.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_09.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pillar_09.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Rectangle_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Rectangle_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Rectangle_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Rectangle_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Rectangle_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Rectangle_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Rectangle_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Rectangle_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Rectangle_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Rectangle_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Rectangle_06.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Rectangle_06.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Rectangle_07.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Rectangle_07.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Rectangle_08.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Rectangle_08.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Round_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Round_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Round_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Round_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Round_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Round_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Round_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Round_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Spike_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Spike_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Spike_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Spike_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Spike_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Spike_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Spike_04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Spike_04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Spike_05.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Spike_05.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Square_Simple_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Square_Simple_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Square_Simple_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Square_Simple_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Roots_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Roots_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Roots_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Roots_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rubble_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rubble_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rubble_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rubble_02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rubble_03.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rubble_03.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rubble_Pebbles_01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rubble_Pebbles_01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rubble_Pebbles_02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/Mixer.mixer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/Mixer.mixer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/00MusicLoop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/00MusicLoop.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/00MusicLoopB.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/00MusicLoopB.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/01SpawnA.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/01SpawnA.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/01SpawnB.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/01SpawnB.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/01SpawnC.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/01SpawnC.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/01SpawnD.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/01SpawnD.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/02LeadLoop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/02LeadLoop.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/03AtmosLoopA.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/03AtmosLoopA.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/03AtmosLoopB.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/03AtmosLoopB.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/03AtmosLoopC.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/03AtmosLoopC.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/04Dialtone.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/04Dialtone.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/04Modem.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/04Modem.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog04.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog05.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog05.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog06.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog06.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog07.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog07.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog08.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog08.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/06Prox.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/06Prox.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/06ProximB.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/06ProximB.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/07Pickup.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/07Pickup.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/08PickupSpawn.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/08PickupSpawn.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/pickup_spawns.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/pickup_spawns.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/H1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/H1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Heading.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Heading.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Link.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Link.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Lora-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Lora-Regular.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/ROBOTO-BLACK.TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/ROBOTO-BLACK.TTF.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Regular.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Thin 1.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Thin 1.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Thin.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Text Poster.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Text Poster.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Text.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Text.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/visitor2.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/visitor2.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/Drone.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/Drone.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/Glow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/Glow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/SF_Drone-ZR7.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/SF_Drone-ZR7.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/SF_Drone-ZR7_Diffuse1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/SF_Drone-ZR7_Diffuse1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/SF_Drone-ZR7_Glow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/SF_Drone-ZR7_Glow.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/SF_Drone-ZR7_Metallic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/SF_Drone-ZR7_Metallic.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/SF_Drone-ZR7_Normal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/SF_Drone-ZR7_Normal.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/SF_Drone-ZR7_Roughness.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/SF_Drone-ZR7_Roughness.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/Scan 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/Scan 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/Scan.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/Scan.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/scan.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/bot/scan.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/Base.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/Base.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/CameraTarget.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/CameraTarget.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/Grid.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/Grid.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/IntroSide.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/IntroSide.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/IntroTop.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/IntroTop.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/Top.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/Top.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/_dev.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/_dev.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/fog.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/fog/fog.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/fog/fog.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/fog/fogBottom.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/fog/fogBottom.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/fog/fogBottomFade.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/fog/fogBottomFade.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/fog/fogBottomFog.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/fog/fogBottomFog.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/fog/smoke.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/fog/smoke.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/ground_int-alb.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/ground_int-alb.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/lights-alb.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/lights-alb.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/pickup.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/pickup.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/props.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/props/MetalPole.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/props/MetalPole.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/props/Poster 2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/props/Poster 2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/props/Poster.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/props/Poster.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/props/SupportCables.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/props/SupportCables.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/props/SupportCables2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/props/SupportCables2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/props/Whiteight.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/props/Whiteight.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/screen.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/screen/Case.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/screen/Case.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/screen/Screen.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/screen/Screen.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/screen/ScreenBlack.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/screen/ScreenBlack.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/side_int-alb.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/side_int-alb.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skybox.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skybox.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/map_green_hill.hdr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/map_green_hill.hdr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/map_green_hill_LM.hdr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/map_green_hill_LM.hdr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/map_green_hill_TX.hdr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/map_green_hill_TX.hdr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/map_red_desert.hdr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/map_red_desert.hdr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/map_red_desert_fog.exr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/map_red_desert_fog.exr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/map_yellow_desert.hdr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/map_yellow_desert.hdr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_antartic.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_antartic.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_arctic_2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_arctic_2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_artric_03.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_artric_03.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_barren_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_barren_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_brown_cave.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_brown_cave.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_cave.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_cave.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_cavern.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_cavern.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_day_indie_day.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_day_indie_day.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_default.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_default.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_desert_cave.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_desert_cave.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_desert_storm.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_desert_storm.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_far_west.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_far_west.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_fog_desert.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_fog_desert.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_fog_pit.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_fog_pit.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_fog_sand.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_fog_sand.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_glacier.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_glacier.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_glacier_02.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_glacier_02.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_gray.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_gray.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_green_hill.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_green_hill.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_green_hill_02.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_green_hill_02.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_green_hill_02_LM.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_green_hill_02_LM.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_green_hill_02_TX.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_green_hill_02_TX.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_green_hill_02_TX_LM.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_green_hill_02_TX_LM.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_green_hill_04.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_green_hill_04.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_green_hill_LM.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_green_hill_LM.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_green_hill_LM_TX.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_green_hill_LM_TX.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_green_hill_TX.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_green_hill_TX.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_ice_cave.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_ice_cave.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_ice_cave_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_ice_cave_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_iceberg_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_iceberg_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_iceberg_04.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_iceberg_04.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_indie_day.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_indie_day.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_indie_dusk.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_indie_dusk.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_indie_night.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_indie_night.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_indie_night_2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_indie_night_2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_l.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_l.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_lava.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_lava.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_lighting_setup_AB.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_lighting_setup_AB.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_mars.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_mars.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_mars_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_mars_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_mine.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_mine.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_monument.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_monument.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_pit.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_pit.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_red_cave.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_red_cave.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_red_desert.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_red_desert.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_sand.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_sand.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_snow_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_snow_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_snow_02.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_snow_02.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_snow_03.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_snow_03.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_snow_mountains.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_snow_mountains.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_sunset_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_sunset_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_tunnel.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_tunnel.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_underwater.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_underwater.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_urban_cave.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_urban_cave.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_urban_cave_2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_urban_cave_2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_urban_cave_3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_urban_cave_3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_urban_cave_LM.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_urban_cave_LM.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_urban_cave_LM_TX.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_urban_cave_LM_TX.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_vally_cave.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_vally_cave.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_vista_desert_cave_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_vista_desert_cave_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_vista_desert_cave_02.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_vista_desert_cave_02.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_vista_desert_storm.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_vista_desert_storm.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_vista_far_west.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_vista_far_west.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_vista_indie_dusk.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_vista_indie_dusk.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_vista_mars.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_vista_mars.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_vista_mars_02.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_vista_mars_02.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_void.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_void.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_yellow_desert.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_yellow_desert.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_yellow_desert_02.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skyboxes/skybox_yellow_desert_02.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/Glass.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/Glass.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/Lcd 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/Lcd 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/Lcd 2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/Lcd 2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/Lcd 3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/Lcd 3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/Lcd.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/Lcd.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/LightBeam1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/LightBeam1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/LightBeam1b.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/LightBeam1b.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/LightBeam2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/LightBeam2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/LightRay.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/LightRay.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/LightRayDark.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/LightRayDark.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/Player.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/Player.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/Trail.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/Trail.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/Ui.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/Ui.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/awards.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/awards.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/wall_int-alb.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/wall_int-alb.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/xargon-Textures.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/xargon-Textures.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Main.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Main.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Base.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Base/Base_16x16.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Base/Base_16x16.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Base/Base_7x7.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Base/Base_7x7.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Base/Base_8x8.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Base/Base_8x8.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Bottom_Tile_Base01.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Bottom_Tile_Base01.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Debug01.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Debug01.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/IntroText.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/IntroText.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/IntroTile.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/IntroTile.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/IntroTile2.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/IntroTile2.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Main.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Main.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Plane_Beam.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Plane_Beam.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Plane_Shaft.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Plane_Shaft.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Prop_LargeScreen.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Prop_LargeScreen.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Tile_Base01.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Tile_Base01.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Tile_Bridge01.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Tile_Bridge01.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Tile_Intro.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Tile_Intro.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Tile_Start01.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Tile_Start01.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Top.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Top/Top_16x16.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Top/Top_16x16.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Top/Top_4x8.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Top/Top_4x8.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Top/Top_8x8.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Top/Top_8x8.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/fbx.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/fbx.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/shaderLayer.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/shaderLayer.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/testtile.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/testtile.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Fog_assets.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Fog_assets.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Fog_assets_prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Fog_assets_prefabs/Cube_beveled.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Fog_assets_prefabs/Cube_beveled.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Fog_assets_prefabs/Cylindre_beveled.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Fog_assets_prefabs/Cylindre_beveled.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Fog_assets_prefabs/Rock_Blocky_I_fog.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Fog_assets_prefabs/Rock_Blocky_I_fog.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Fog_assets_prefabs/Rock_ground_fog.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Fog_assets_prefabs/Rock_ground_fog.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Light_rays_prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Light_rays_prefabs/light_rays.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Light_rays_prefabs/light_rays.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Materials/lambert1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Materials/lambert1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Materials/m_light_fx_1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Materials/m_light_fx_1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Materials/m_rock_gray.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Materials/m_rock_gray.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Vista_Cards.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Vista_Cards.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Vista_prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Vista_prefabs/Vista_card_A.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Vista_prefabs/Vista_card_A.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Vista_prefabs/Vista_card_B.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Vista_prefabs/Vista_card_B.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Vista_prefabs/Vista_card_C.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Vista_prefabs/Vista_card_C.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Vista_prefabs/Vista_card_D.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/Vista_prefabs/Vista_card_D.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/light_rays.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Xtras/light_rays.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/bot.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/bot.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/buildinga.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/buildinga.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/lightpot lrg.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/lightpot lrg.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/lightpot sml.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/lightpot sml.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/lightshade-intro.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/lightshade-intro.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/lightshade.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/lightshade.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/main additional windows.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/main additional windows.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/posters.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/posters.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/prop objects.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/prop objects.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/prop.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/prop/safetyrail.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/prop/safetyrail.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/screens.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/screens.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/shaderlayer2.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/shaderlayer2.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/sky01.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/sky01.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/15dbf56a2a3b24d1767686fabcb43e7e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/15dbf56a2a3b24d1767686fabcb43e7e.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/4505-normal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/4505-normal.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/4692415876_e65cdd297a_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/4692415876_e65cdd297a_b.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/800px_COLOURBOX18071123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/800px_COLOURBOX18071123.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Bottom.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Grade01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Grade01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/LightSupports.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/LightSupports/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/LightSupports/Materials/lights_alb.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/LightSupports/Materials/lights_alb.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/LightSupports/lightsupport_alb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/LightSupports/lightsupport_alb.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/ground_ext-alb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/ground_ext-alb.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/ground_ext-norm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/ground_ext-norm.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/ground_int-alb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/ground_int-alb.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/ground_int-ao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/ground_int-ao.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/ground_int-cutout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/ground_int-cutout.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/ground_int-emit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/ground_int-emit.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/ground_int-met.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/ground_int-met.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/ground_int-norm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/ground_int-norm.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/lights_alb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/lights_alb.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/lights_highlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/lights_highlight.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/side_int-alb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/side_int-alb.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/side_int-emit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/side_int-emit.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/side_int-norm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/side_int-norm.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/wall_int-alb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/wall_int-alb.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/xargon-Textures-met.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/xargon-Textures-met.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/xargon-Textures.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Main/xargon-Textures.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Metal-Scaffelding-Planks-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Metal-Scaffelding-Planks-1.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/10.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/1b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/1b.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/6a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/6a.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/8.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/9.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/Flare50mm.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/Flare50mm.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/FlareStar.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/FlareStar.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/G1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/G1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/beem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/beem.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/beem2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/beem2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/cookie_01.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/cookie_01.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/g2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/g2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/g3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/g3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/g4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/g4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/light_fx_1.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/light_fx_1.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/light_fx_2.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/light_fx_2.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/mars_atmosphere.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/mars_atmosphere.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/mix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/mix.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/noise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Shader/noise.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Side.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/SidePlate.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/SidePlate/sideplate_alb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/SidePlate/sideplate_alb.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/SidePlate/sideplate_alb2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/SidePlate/sideplate_alb2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/SidePlate/sideplate_inv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/SidePlate/sideplate_inv.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Smoke15Frames.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Smoke15Frames.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Smoke30Frames.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Smoke30Frames.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/cables.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/cables.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/code.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/film.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/film.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/pickup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/pickup.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/pickup_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/pickup_normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/poster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/poster.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/poster2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/poster2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/struct.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/struct.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/TexturesCom_Electronics0009_S.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/TexturesCom_Electronics0009_S.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/TexturesCom_FloorsRegular0301_1_seamless_S (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/TexturesCom_FloorsRegular0301_1_seamless_S (1).png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/TilePlate.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/TilePlate/plate_alb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/TilePlate/plate_alb.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/TilePlate/plate_glow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/TilePlate/plate_glow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/TilePlate/plate_invert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/TilePlate/plate_invert.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/TilePlate/plate_met.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/TilePlate/plate_met.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/TilePlate/plate_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/TilePlate/plate_normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Top.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/b.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/color.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/fx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/fx/600px-Vista_smoke_alpha.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/fx/600px-Vista_smoke_alpha.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/fx/Mfmvb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/fx/Mfmvb.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/fx/Steam.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/fx/Steam.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/fx/arrow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/fx/arrow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/fx/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/fx/arrow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/fx/tumblr_inline_n5dkb4Ab9h1rzay4w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/fx/tumblr_inline_n5dkb4Ab9h1rzay4w.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/fx/tumblr_inline_n5dkbrBSQR1rzay4w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/fx/tumblr_inline_n5dkbrBSQR1rzay4w.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/fx/tumblr_inline_n5dkd7xX8I1rzay4w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/fx/tumblr_inline_n5dkd7xX8I1rzay4w.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/highlight1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/highlight1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/highlight2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/highlight2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/highlight3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/highlight3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/images.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/images.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/introside.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/introside.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/lab-floor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/lab-floor.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/m7QiQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/m7QiQ.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/metal_wall_ports.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/metal_wall_ports.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/noise_simplex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/noise_simplex.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/skirt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/skirt.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/t.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/ui.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/ui/box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/ui/box.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/ui/button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/ui/button.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/ui/color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/ui/color.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/ui/mute.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/ui/mute.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/webbing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/webbing.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/prefabs/CubeBox.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/prefabs/CubeBox.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/prefabs/Pickup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/prefabs/Pickup.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/prefabs/Start.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/prefabs/Start.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/prefabs/_Isomectric Alignment.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/prefabs/_Isomectric Alignment.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/prefabs/_Tile_Intro.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/prefabs/_Tile_Intro.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/level.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/level.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/ui.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/ui.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/world_ui.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/world_ui.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Data.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Data.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/DataShaft.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/DataShaft.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Editor/PolyboxShaderGUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Editor/PolyboxShaderGUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Electronic.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Electronic.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/LightBeam.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/LightBeam.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/LightBeamMove.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/LightBeamMove.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/LightShafting.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/LightShafting.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/MeshOverlay.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/MeshOverlay.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/PPP.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/PPP.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/PolyboxCore.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/PolyboxCore.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/PolyboxCoreForward.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/PolyboxCoreForward.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/PolyboxCoreForwardSimple.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/PolyboxCoreForwardSimple.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/PolyboxStandard.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/PolyboxStandard.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Video.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Video.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_Bot.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_Bot.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_CodeBeam.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_CodeBeam.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_Data.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_Data.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_DataShaft.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_DataShaft.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_Electronic.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_Electronic.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamBlue 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamBlue 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamBlue 2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamBlue 2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamBlue.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamBlue.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamFucked 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamFucked 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamFucked 2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamFucked 2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamFucked 3.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamFucked 3.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamFucked 4.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamFucked 4.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamFucked 5.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamFucked 5.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamMoving.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamMoving.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamPink.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamPink.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamPurple.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamPurple.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamRed.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamRed.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamSky.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamSky.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightShafting.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightShafting.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_MeshOverlay.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_MeshOverlay.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_MeshOverlayBlue.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_MeshOverlayBlue.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_Video.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_Video.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/fog_pit_05.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/fog_pit_05.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/main.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/main.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jBG8lnQWmko0c4lTmtF1wEY43T" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4a2f826-1a78-4d13-8474-c429d4a59124" name="Default Changelist" comment="" />
+      <created>1603269914812</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603269914812</updated>
+      <workItem from="1603269919628" duration="735000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

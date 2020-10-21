@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Xargon_MeshOverlayBlue
+  m_Shader: {fileID: 4800000, guid: bce60e68f9e32af44be381f8602ee1e2, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NegNoise:
+        m_Texture: {fileID: 2800000, guid: ea0fbdadee6289548901a9659fed7f7e, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: fe68aa5ce0f2b6b408be315f6c62d0d4, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _node_3721:
+        m_Texture: {fileID: 2800000, guid: ba6c301c768213c4ca7242b58ec10c24, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_6539:
+        m_Texture: {fileID: 2800000, guid: 0438db72d5f315f45b73254f0ded13c2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_6814:
+        m_Texture: {fileID: 2800000, guid: 706f224d30bc1e945a3aefd1978f95b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _Dissolve: 0.413
+    - _Opacity: 1
+    - _Refraction: 2
+    - _USpeed: 0.01
+    - _VSpeed: -0.01
+    - _nUSpeed: 0.01
+    - _nVSpeed: -0.01
+    - _node_1786: 0.5677469
+    - _node_4640: 0.129
+    - _node_5999: 1
+    m_Colors:
+    - _TintColor: {r: 0.1128893, g: 0.16172297, b: 0.5294118, a: 1}

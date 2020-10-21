@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Xargon_Data
+  m_Shader: {fileID: 4800000, guid: 1637f46501283644cab23af54a808121, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: f5ddbfd1a96dd7e47b02583747db860f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_2:
+        m_Texture: {fileID: 2800000, guid: ba6c301c768213c4ca7242b58ec10c24, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_6796:
+        m_Texture: {fileID: 2800000, guid: ba6c301c768213c4ca7242b58ec10c24, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_736:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AppendValue: 0
+    - _Cutoff: 0.5
+    - _Dissolve: 0
+    - _Opacity: 1
+    - _Strench: 1.2
+    - _USpeed: 0.01
+    - _VSpeed: 0.01
+    - _nUSpeed: -0.01
+    - _nVSpeed: 0.01
+    m_Colors:
+    - _TintColor: {r: 0.25137505, g: 0.101643585, b: 0.3455882, a: 1}

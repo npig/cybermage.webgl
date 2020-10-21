@@ -16,9 +16,9 @@ namespace Cybermage.Global
             _globalsManager = new GameObject("GlobalsManager").AddComponent<GlobalsManager>();
         }
 
-        public static void GlobalsAwake()
+        public static void Initialise()
         {
-            GraphQuery.Query();
+            
         }
     }
     

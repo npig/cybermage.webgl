@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: f28b9960294a13e40bc116714c8e6da7
+timeCreated: 1525922845
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Beam135
+    100002: Beam136
+    100004: Beam137
+    100006: Beam138
+    100008: Beam139
+    100010: Beam140
+    100012: Beam142
+    100014: Beam143
+    100016: Object056
+    100018: Object057
+    100020: Object058
+    100022: Object059
+    100024: Object060
+    100026: Object061
+    100028: Object063
+    100030: Object064
+    100032: //RootNode
+    100034: Screen001
+    100036: Screen002
+    100038: Screen003
+    100040: Screen004
+    100042: Screen005
+    100044: Screen006
+    100046: Screen008
+    100048: Screen009
+    400000: Beam135
+    400002: Beam136
+    400004: Beam137
+    400006: Beam138
+    400008: Beam139
+    400010: Beam140
+    400012: Beam142
+    400014: Beam143
+    400016: Object056
+    400018: Object057
+    400020: Object058
+    400022: Object059
+    400024: Object060
+    400026: Object061
+    400028: Object063
+    400030: Object064
+    400032: //RootNode
+    400034: Screen001
+    400036: Screen002
+    400038: Screen003
+    400040: Screen004
+    400042: Screen005
+    400044: Screen006
+    400046: Screen008
+    400048: Screen009
+    2100000: Xargon-Textures
+    2100002: 'Material #7827'
+    2300000: Beam135
+    2300002: Beam136
+    2300004: Beam137
+    2300006: Beam138
+    2300008: Beam139
+    2300010: Beam140
+    2300012: Beam142
+    2300014: Beam143
+    2300016: Object056
+    2300018: Object057
+    2300020: Object058
+    2300022: Object059
+    2300024: Object060
+    2300026: Object061
+    2300028: Object063
+    2300030: Object064
+    2300032: Screen001
+    2300034: Screen002
+    2300036: Screen003
+    2300038: Screen004
+    2300040: Screen005
+    2300042: Screen006
+    2300044: Screen008
+    2300046: Screen009
+    3300000: Beam135
+    3300002: Beam136
+    3300004: Beam137
+    3300006: Beam138
+    3300008: Beam139
+    3300010: Beam140
+    3300012: Beam142
+    3300014: Beam143
+    3300016: Object056
+    3300018: Object057
+    3300020: Object058
+    3300022: Object059
+    3300024: Object060
+    3300026: Object061
+    3300028: Object063
+    3300030: Object064
+    3300032: Screen001
+    3300034: Screen002
+    3300036: Screen003
+    3300038: Screen004
+    3300040: Screen005
+    3300042: Screen006
+    3300044: Screen008
+    3300046: Screen009
+    4300000: Screen001
+    4300002: Beam135
+    4300004: Object056
+    4300006: Screen002
+    4300008: Object057
+    4300010: Beam136
+    4300012: Screen003
+    4300014: Object058
+    4300016: Beam137
+    4300018: Screen004
+    4300020: Object059
+    4300022: Beam138
+    4300024: Screen005
+    4300026: Object060
+    4300028: Beam139
+    4300030: Screen006
+    4300032: Object061
+    4300034: Beam140
+    4300036: Screen008
+    4300038: Object063
+    4300040: Beam142
+    4300042: Screen009
+    4300044: Beam143
+    4300046: Object064
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #7827'
+    second: {fileID: 2100000, guid: b2bcc92edc9df72478547b67624f16f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Xargon-Textures
+    second: {fileID: 2100000, guid: f7e3532465144c34dab337307e0b1077, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -3,17 +3,8 @@ using UnityEngine;
 
 public class GlobalsManager : MonoBehaviour
 {
-   
     public void Awake()
     {
-        Globals.GlobalsAwake();
+        Globals.Initialise();
     }
-
-    public void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-        }
-    }
-    
 }

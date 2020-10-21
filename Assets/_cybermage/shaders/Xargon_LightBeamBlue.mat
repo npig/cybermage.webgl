@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Xargon_LightBeamBlue
+  m_Shader: {fileID: 4800000, guid: 866dc1479ab0a6b43bcbf8c41bb79252, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _1:
+        m_Texture: {fileID: 2800000, guid: 06a1104e2ce98934b9aa5721d9064794, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _2:
+        m_Texture: {fileID: 2800000, guid: f6c5e098785ef7f458fe66fc29c2bffc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _1Value: 0.8
+    - _2Value: 1.33
+    - _Cutoff: 0.5
+    - _Power: 0.39
+    - _node_9863: 1
+    m_Colors:
+    - _Color: {r: 0.1582149, g: 0, b: 0.35294116, a: 1}
+    - _node_7198: {r: 0.039215688, g: 0.27450982, b: 0.8784314, a: 0.17254902}

@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_cybermage/scenes/main.unity
+    guid: 57d23e3b1906de848997dc98f57e405a
   m_configObjects: {}

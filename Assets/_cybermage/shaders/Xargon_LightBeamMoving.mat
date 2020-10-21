@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Xargon_LightBeamMoving
+  m_Shader: {fileID: 4800000, guid: 90099644ace8b1840bbadcf17048b1b7, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _1:
+        m_Texture: {fileID: 2800000, guid: ba6c301c768213c4ca7242b58ec10c24, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _2:
+        m_Texture: {fileID: 2800000, guid: ba6c301c768213c4ca7242b58ec10c24, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OverallFade:
+        m_Texture: {fileID: 2800000, guid: 17a0c5cf917bf014baeb91160076eb8b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_9154:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _1Power: 1
+    - _1Speed: 0.01
+    - _1Time: 0
+    - _1Value: 1
+    - _2Power: 1
+    - _2Speed: 0.01
+    - _2Value: 1
+    - _OverallFadePower: 2
+    - _Power: 0.87
+    - _USpeed: 0.1
+    - _USpeed_copy: 0.1
+    - _VSpeed: 1
+    - _node_6825: 0
+    m_Colors:
+    - _Color: {r: 0.16862746, g: 0.08627451, b: 0.4666667, a: 0.32156864}

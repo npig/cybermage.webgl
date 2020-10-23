@@ -20,11 +20,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a2f826-1a78-4d13-8474-c429d4a59124" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/main.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/main/NavMesh.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/main/NavMesh.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/background.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/background.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/build_stats.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/build_stats.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/main_screen.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/main_screen.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui_canvas.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui_canvas.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Regular SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Regular SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/visitor2 SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/visitor2 SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/events/EventManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/events/EventManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/events/IEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/events/IEvent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/events/IEventHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/events/IEventHandler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/CommandInvoker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/CommandInvoker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/Utilities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/Utilities.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/ui.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/ui.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/api/API.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/api/API.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,21 +64,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/api/API.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/events/IEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Utilities.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1jBG8lnQWmko0c4lTmtF1wEY43T" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -82,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603269914812</updated>
-      <workItem from="1603269919628" duration="1733000" />
+      <workItem from="1603269919628" duration="12247000" />
     </task>
     <servers />
   </component>
@@ -103,6 +143,17 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603449218244">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603449218244" />
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1603445062268">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603445062268" />
   </component>
 </project>

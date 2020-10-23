@@ -30,9 +30,19 @@
             <e p="api" t="Include">
               <e p="API.cs" t="Include" />
             </e>
+            <e p="events" t="Include">
+              <e p="EventManager.cs" t="Include" />
+              <e p="IEvent.cs" t="Include" />
+              <e p="IEventHandler.cs" t="Include" />
+            </e>
             <e p="global" t="Include">
+              <e p="CommandInvoker.cs" t="Include" />
               <e p="Globals.cs" t="Include" />
               <e p="GlobalsManager.cs" t="Include" />
+              <e p="Utilities.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="UI_MainScreen.cs" t="Include" />
             </e>
             <e p="unity-graphql-client" t="Include">
               <e p="APIGraphQL.cs" t="Include" />

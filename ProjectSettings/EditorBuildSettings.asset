@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_cybermage/scenes/main.unity
     guid: 57d23e3b1906de848997dc98f57e405a
+  - enabled: 1
+    path: Assets/_cybermage/scenes/ui.unity
+    guid: fc6665f4e392d8844b0a27686a44a39f
+  - enabled: 1
+    path: Assets/_cybermage/scenes/level.unity
+    guid: 45e5473dcab51604e94c333b1494ba74
+  - enabled: 1
+    path: Assets/_cybermage/scenes/world_ui.unity
+    guid: 8c46f3b72195ee2439ae695d39c1c4a7
   m_configObjects: {}

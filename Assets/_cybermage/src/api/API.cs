@@ -18,10 +18,9 @@ namespace Cybermage.API
         public static async void Query()
         {
             UnityWebRequest request = UnityWebRequest.Post(ApiURL, UnityWebRequest.kHttpVerbPOST);
-            var fullQuery = new GraphQLQuery() {
+            GraphQLQuery fullQuery = new GraphQLQuery() {
                 query = query,
             };
-            
             string json = JsonConvert.SerializeObject(fullQuery);
             byte[] payload = Encoding.UTF8.GetBytes(json);
             request.uploadHandler = new UploadHandlerRaw(payload);
@@ -30,6 +29,7 @@ namespace Cybermage.API
             
             if (request.isNetworkError) {
                 Debug.Log(request.error);
+                return;
             }
             else
             {

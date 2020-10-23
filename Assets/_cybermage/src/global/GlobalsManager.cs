@@ -1,10 +1,12 @@
-﻿using Cybermage.Global;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class GlobalsManager : MonoBehaviour
+namespace Cybermage
 {
-    public void Awake()
+    public class GlobalsManager : MonoBehaviour
     {
-        Globals.Initialise();
+        public void Awake()
+        {
+            Globals.Initialise();
+        }
     }
 }

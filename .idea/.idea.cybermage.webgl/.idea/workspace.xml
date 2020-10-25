@@ -20,41 +20,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a2f826-1a78-4d13-8474-c429d4a59124" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/background.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/background.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/build_stats.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/build_stats.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/main_screen.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/main_screen.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui_canvas.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui_canvas.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Regular SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Regular SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/visitor2 SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/visitor2 SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/events/EventManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/events/EventManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/events/IEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/events/IEvent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/events/IEventHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/events/IEventHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/CommandInvoker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/CommandInvoker.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/Utilities.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/Utilities.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/background.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/background.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/mainScreen.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/mainScreen.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/statsContainer.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/statsContainer.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/uiCanvas.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/uiCanvas.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_ui.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_ui.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_world_ui.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_world_ui.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/GraphQLClient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/User.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/User/AddUser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/User/AddUser.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_Stats.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_Stats.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/ui.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/ui.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/api/API.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/api/API.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/background.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/background.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/build_stats.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/build_stats.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/main_screen.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/main_screen.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui_canvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui_canvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/fonts/visitor2 SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/visitor2 SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/Top.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/Top.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/_dev.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/_dev.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/level.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/level.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/main.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/main.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/ui.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/ui.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/world_ui.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/world_ui.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/api.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/GraphQl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/api/API.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/api/API.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/Utilities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/Utilities.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +85,24 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMP_InputField.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/api/API.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/events/IEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/api/API.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/api/GraphQl.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/GraphQl/GraphQLClient.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/newUser/NewUser.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/newUser/AddUser.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/GraphQLClient.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/User/AddUser.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_Stats.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphql/GraphQLClient.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphql/User/AddUser.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Utilities.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" />
@@ -93,6 +123,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -122,7 +153,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603269914812</updated>
-      <workItem from="1603269919628" duration="12247000" />
+      <workItem from="1603269919628" duration="23778000" />
+      <workItem from="1603526936255" duration="18226000" />
     </task>
     <servers />
   </component>
@@ -141,6 +173,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -155,5 +188,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603445062268" />
+    <state x="-2119" y="194" width="1766" height="880" maximized="true" key="dock-window-1" timestamp="1603540671654">
+      <screen x="-1920" y="0" width="1536" height="832" />
+    </state>
+    <state x="-2119" y="194" width="1766" height="880" maximized="true" key="dock-window-1/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603540671654" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603543328285">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603543328285" />
   </component>
 </project>

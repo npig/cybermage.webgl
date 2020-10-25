@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using Cybermage;
-using Lithodomos.Events;
+using Cybermage.GraphQL.Mutations;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,28 +10,71 @@ public class UI_MainScreen : MonoBehaviour
 {
     private TextMeshProUGUI _title;
     private TextMeshProUGUI _placeHolderText;
+    private TMP_InputField _inputField;
     private TextMeshProUGUI _inputText;
+    private TextMeshProUGUI _errorLabel;
+    private Transform _errorTransform;
     private Button _button;
+    private Regex _regex = new Regex(@"^(?=.{4,20}$)(?:[a-zA-Z\d]+(?:(?:\.|-|_)[a-zA-Z\d])*)+$", RegexOptions.IgnoreCase);
     
     public void Awake()
     {
         _title = Utilities.FindDeepChild<TextMeshProUGUI>(this.transform, "title");
-        _placeHolderText = Utilities.FindDeepChild<TextMeshProUGUI>(this.transform, "Placeholder");
-        _inputText = Utilities.FindDeepChild<TextMeshProUGUI>(this.transform, "Text");
-        _button = Utilities.FindDeepChild<Button>(this.transform, "Button");
+        _placeHolderText = Utilities.FindDeepChild<TextMeshProUGUI>(this.transform, "inputPlaceholder");
+        _inputText = Utilities.FindDeepChild<TextMeshProUGUI>(this.transform, "inputText");
+        _errorLabel = Utilities.FindDeepChild<TextMeshProUGUI>(this.transform, "errorLabel");
+        _button = Utilities.FindDeepChild<Button>(this.transform, "button");
+        _inputField = Utilities.FindDeepChild<TMP_InputField>(this.transform, "inputField");
+        _errorTransform = _errorLabel.transform.parent;
+        _errorTransform.gameObject.SetActive(false);
     }
 
     // Start is called before the first frame update
-    public void Initialise(UIMainScreenData data)
+    public void SetData(UIMainScreenData data)
     {
         _title.text = data.Title;
         _placeHolderText.text = data.InputPlaceHolderText;
         _button.onClick.AddListener(OnCLickButton);
     }
 
-    private void OnCLickButton()
+    private async void DisplayError(string errorMessage)
     {
-        Debug.Log(_inputText.text);
+        if (_errorTransform.gameObject.activeSelf)
+            return;
+
+        string currentText = _inputText.text;
+        
+        _errorLabel.text = $"{errorMessage}";
+        _errorTransform.gameObject.SetActive(true);
+        
+        while (String.Equals(_inputText.text, currentText))
+        {
+            await new WaitForSeconds(1);  
+        }
+        
+        _errorTransform.gameObject.SetActive(false);
+        _errorLabel.text = "";
+
+    }
+
+    private async void OnCLickButton()
+    {
+        if (!_regex.IsMatch(_inputText.text)) {
+            DisplayError("illegal characters");
+            return;
+        }
+        
+        GlobalsConfig.SetUsername(_inputText.text);
+        var result = await AddUser.Query(_inputText.text);
+        
+        if (result.userName != null)
+        {
+            Debug.Log(result.userName);
+        }
+        else
+        {
+            DisplayError(result.error);
+        }
     }
 }
 

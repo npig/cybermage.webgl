@@ -30,7 +30,7 @@ namespace Cybermage
 
             return null;
         }
-
+        
         public static T FindDeepChild<T>(Transform parentTransform, string gameObjectName)
         {
             Queue<Transform> queue = new Queue<Transform>();

@@ -1,4 +1,4 @@
-namespace Lithodomos.Events 
+namespace Cybermage.Events 
 {
   /// <summary>
   /// Base event for all EventManager events.

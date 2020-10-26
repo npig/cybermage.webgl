@@ -59,17 +59,24 @@ public class UI_MainScreen : MonoBehaviour
 
     private async void OnCLickButton()
     {
-        if (!_regex.IsMatch(_inputText.text)) {
+        /*if (!_regex.IsMatch(_inputText.text)) {
             DisplayError("illegal characters");
+            return;
+        }*/
+
+        if (GlobalsConfig.Dev)
+        {
+            StateMachine.QueueState(new Game());
             return;
         }
         
         GlobalsConfig.SetUsername(_inputText.text);
-        var result = await AddUser.Query(_inputText.text);
+        AddUserResult result = await AddUser.Query(_inputText.text);
         
         if (result.userName != null)
         {
             Debug.Log(result.userName);
+            StateMachine.QueueState(new Game());
         }
         else
         {

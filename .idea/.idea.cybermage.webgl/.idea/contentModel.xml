@@ -27,6 +27,11 @@
             <e p="Video.shader" t="Include" />
           </e>
           <e p="src" t="Include">
+            <e p="common" t="Include">
+              <e p="CharacterController.cs" t="Include" />
+              <e p="InputController.cs" t="Include" />
+              <e p="MainCamera.cs" t="Include" />
+            </e>
             <e p="events" t="Include">
               <e p="EventManager.cs" t="Include" />
               <e p="IEvent.cs" t="Include" />
@@ -37,6 +42,8 @@
               <e p="Globals.cs" t="Include" />
               <e p="GlobalsConfig.cs" t="Include" />
               <e p="GlobalsManager.cs" t="Include" />
+              <e p="StateMachine.cs" t="Include" />
+              <e p="States.cs" t="Include" />
               <e p="Utilities.cs" t="Include" />
             </e>
             <e p="GraphQl" t="Include">
@@ -45,15 +52,12 @@
                 <e p="AddUser.cs" t="Include" />
               </e>
             </e>
+            <e p="mono" t="Include">
+              <e p="Player.cs" t="Include" />
+            </e>
             <e p="UI" t="Include">
               <e p="UI_MainScreen.cs" t="Include" />
               <e p="UI_Stats.cs" t="Include" />
-            </e>
-            <e p="unity-graphql-client" t="Include">
-              <e p="APIGraphQL.cs" t="Include" />
-              <e p="Coroutiner.cs" t="Include" />
-              <e p="GraphQLClient.cs" t="Include" />
-              <e p="GraphQLResponse.cs" t="Include" />
             </e>
           </e>
         </e>

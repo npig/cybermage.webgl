@@ -4,6 +4,7 @@ namespace Cybermage
 {
     public static class GlobalsConfig
     {
+        public static bool Dev = true;
         public static string Username { get; private set; }
 
         public static void SetUsername(string userName)

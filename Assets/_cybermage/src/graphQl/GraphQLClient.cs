@@ -13,7 +13,7 @@ namespace Cybermage.GraphQL
         private const string ApiURL = "https://slipgate.vercel.app/api/graphql";
         private const string Token = "";
 
-        public static async Task<GraphQLResponse> Request(GraphQLQuery query)
+        public static async Task<T> Request<T>(GraphQLQuery query)
         {
             string json = JsonConvert.SerializeObject(query);
             byte[] payload = Encoding.UTF8.GetBytes(json);
@@ -31,8 +31,8 @@ namespace Cybermage.GraphQL
             {
                 await request.SendWebRequest();
                 string responseString = request.downloadHandler.text;
-                GraphQLResponse result = new GraphQLResponse(responseString);
-                return result;
+                T responseJSON = JsonConvert.DeserializeObject<T>(responseString);
+                return responseJSON;
             }
             catch (Exception e)
             {
@@ -58,74 +58,13 @@ namespace Cybermage.GraphQL
         }
     }
 
-    public class GraphQLResponse 
+    public class GQLData<T>
     {
-        public string Raw { get; private set; }
-        private readonly JObject data;
-        public string Exception { get; private set; }
-        
-        public GraphQLResponse (string text, string ex = null) {
-            Exception = ex;
-            Raw = text;
-            data = text != null ? JObject.Parse(text) : null;
-        }
-        
-        public T Get<T> (string key) {
-            return GetData()[key].ToObject<T>();
-        }
-        
-        private JObject GetData () {
-            return data == null ? null : JObject.Parse(data["data"].ToString());
-        }
+        public T result;
     }
-    
-    public class GQLMutationError
+
+    public class GQLResponse<T>
     {
-        public string message = "";
-        public string title = "";
-        public string type = "";
+        public GQLData<T> data;
     }
 }
-
-/* 
-      private static string query = @"
-            query {
-                users {
-                    userName                    
-                  }
-              }";
-        
-        private static string mutation = @"
-            query {
-                users {
-                    userName                    
-                  }
-              }";
-
-
-        public static async void QueryUsers()
-        {
-            UnityWebRequest request = UnityWebRequest.Post(ApiURL, UnityWebRequest.kHttpVerbPOST);
-            GraphQLQuery fullQuery = new GraphQLQuery() {
-                query = query,
-                
-            };
-            string json = JsonConvert.SerializeObject(fullQuery);
-            byte[] payload = Encoding.UTF8.GetBytes(json);
-            request.uploadHandler = new UploadHandlerRaw(payload);
-            request.SetRequestHeader("Content-Type", "application/json");
-            await request.SendWebRequest();
-            
-            if (request.isNetworkError) {
-                Debug.Log(request.error);
-                return;
-            }
-            else
-            {
-                Debug.Log(request.downloadHandler.text);
-                JsonConvert.DeserializeObject<>()
-            }
-        }
-                
-    }
-*/

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Cybermage
 {
@@ -6,7 +7,13 @@ namespace Cybermage
     {
         public void Awake()
         {
-            Globals.Initialise();
+            DontDestroyOnLoad(this);
+            Globals.Awake();
+        }
+
+        public void Update()
+        {
+            Globals.Update();
         }
     }
 }

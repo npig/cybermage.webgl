@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using Cybermage;
-using Cybermage.GraphQL.Mutations;
-using Lithodomos.Events;
+﻿using Cybermage;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class UI_Stats : MonoBehaviour
 {

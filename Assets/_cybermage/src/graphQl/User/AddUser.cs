@@ -25,7 +25,7 @@ namespace Cybermage.GraphQL.Mutations
     {
         private static string _query = @"
             mutation ($input: String!) {
-                addUser (userName: $input) {
+                result: addUser (userName: $input) {
                     userName
                     error
                   }
@@ -38,9 +38,8 @@ namespace Cybermage.GraphQL.Mutations
 
             try
             {
-                GraphQLResponse response = await GraphQLClient.Request(graphQLQuery);
-                AddUserResult userResult = response.Get<AddUserResult>("addUser");
-                return userResult;
+                var response = await GraphQLClient.Request<GQLResponse<AddUserResult>>(graphQLQuery);
+                return response.data.result;
             }
             catch (Exception e)
             {

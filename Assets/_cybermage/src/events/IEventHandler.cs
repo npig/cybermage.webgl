@@ -1,4 +1,4 @@
-namespace Lithodomos.Events 
+namespace Cybermage.Events 
 {
   /// <summary>
   ///  Interface for event handlers

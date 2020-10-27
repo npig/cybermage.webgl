@@ -1,18 +1,32 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.AI;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private NavMeshAgent _agent;
+    private const float _rotationSpeed = 10f;
+    
+    private void Awake() 
     {
-        
+        _agent = GetComponent<NavMeshAgent>();
+        _agent.updateRotation = false;
+        _agent.updatePosition = false;
     }
-
-    // Update is called once per frame
-    void Update()
+    
+    private void Update() 
     {
+        InstantlyTurn(_agent.destination);
+        _agent.nextPosition = transform.position;
+        transform.rotation = _agent.transform.rotation;
+    }
+    
+    private void InstantlyTurn(Vector3 destination) {
         
+        if ((destination - transform.position).magnitude < 0.1f) 
+            return; 
+     
+        Vector3 direction = (destination - transform.position).normalized;
+        Quaternion qDir = Quaternion.LookRotation(direction);
+        transform.rotation = Quaternion.Slerp(transform.rotation, qDir, Time.deltaTime * _rotationSpeed);
     }
 }

@@ -1,8 +1,19 @@
 ﻿
+using Cybermage.Events;
 using UnityEngine;
 
 namespace Cybermage.Common
 {
+    public class MouseHitPoint : IEvent
+    {
+        public Vector3 HitPoint { get; private set; }
+        
+        public MouseHitPoint(Vector3 hitPoint)
+        {
+            HitPoint = hitPoint;
+        }
+    }
+    
     public static class InputController
     {
         private static float _inputHorizontal = 0;
@@ -22,34 +33,22 @@ namespace Cybermage.Common
         
         public static void Update()
         {
-            Inputs();
-            MoveInput = CameraRelativeInput(_inputHorizontal, _inputVertical);
-            AimInput = new Vector2(_inputAimHorizontal, _inputAimVertical);
+            if (Input.GetMouseButtonDown(0))
+            {
+                Physics.Raycast(
+                    MainCamera.Camera.ScreenPointToRay(Input.mousePosition), 
+                    out RaycastHit hit, 
+                    Mathf.Infinity, 
+                    1 << 8);
+                {
+                    EventManager.Instance.Raise(new MouseHitPoint(hit.point));
+                }
+            }
         }
 
         private static void Inputs()
         {
-            _inputHorizontal = UnityEngine.Input.GetAxisRaw("Horizontal");
-            _inputVertical = UnityEngine.Input.GetAxisRaw("Vertical");
-            //_inputAimVertical = UnityEngine.Input.GetAxisRaw("AimVertical");
-            //_inputAimHorizontal = UnityEngine.Input.GetAxisRaw("AimHorizontal");
-        }
-        
-        private static Vector3 CameraRelativeInput(float inputX, float inputZ)
-        {
-            //Forward vector relative to the camera along the x-z plane   
-            Vector3 forward = MainCamera.Camera.transform.TransformDirection(Vector3.forward);
-            forward.y = 0;
-            forward = forward.normalized;
-            //Right vector relative to the camera always orthogonal to the forward vector.
-            Vector3 right = new Vector3(forward.z, 0, -forward.x);
-            Vector3 relativeVelocity = _inputHorizontal * right + _inputVertical * forward;
-            //Reduce input for diagonal movement.
-            if(relativeVelocity.magnitude > 1)
-            {
-                relativeVelocity.Normalize();
-            }
-            return relativeVelocity;
+   
         }
     }
 }

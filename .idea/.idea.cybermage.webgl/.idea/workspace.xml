@@ -20,291 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a2f826-1a78-4d13-8474-c429d4a59124" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/RPG Character Animation Pack.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/RPG Character Animation Pack/Code.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/Player.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/Player.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/isometricAlignment.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/isometricAlignment.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/PlayerAnimatorController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/PlayerAnimatorController.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/RPG-Character-Animation-Controller.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/RPG-Character-Animation-Controller.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Activate.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Activate.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Bow1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Bow1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Bow2.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Bow2.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Drink1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Drink1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Idle-Crouch.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Idle-Crouch.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Idle.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Idle.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Laydown-Getup.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Laydown-Getup.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Laydown-Laydown.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Laydown-Laydown.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Laydown-Sleep.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Laydown-Sleep.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@No.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@No.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Pickup.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Pickup.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Sit-Idle.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Sit-Idle.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Sit-Sitdown.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Sit-Sitdown.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Sit-Standup.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Sit-Standup.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Talk1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Talk1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Talk2.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Talk2.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Talk3.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Talk3.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Talk4.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Talk4.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Talk5.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Talk5.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Talk6.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Talk6.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Talk7.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Talk7.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Talk8.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Talk8.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@UnSheath-ToUnarmed.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@UnSheath-ToUnarmed.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Unsheath-Dual-Back.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Unsheath-Dual-Back.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Unsheath-Dual-Hips.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Unsheath-Dual-Hips.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Unsheath-L-Back.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Unsheath-L-Back.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Unsheath-L-Hips.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Unsheath-L-Hips.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Unsheath-R-Back.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Unsheath-R-Back.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Unsheath-R-Hips.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Unsheath-R-Hips.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Unsheath-Shield.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Unsheath-Shield.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Walk-Female.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Walk-Female.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Walk-Slow-Female.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Walk-Slow-Female.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Walk-Slow.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Walk-Slow.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Walk.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Walk.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Yes.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Yes.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Activate.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Activate.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Air-Attack1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Air-Attack1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Attack-Kick-L1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Attack-Kick-L1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Attack-Kick-L2.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Attack-Kick-L2.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Attack-Kick-R1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Attack-Kick-R1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Attack-Kick-R2.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Attack-Kick-R2.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Attack-L1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Attack-L1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Attack-L2.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Attack-L2.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Attack-L3.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Attack-L3.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Attack-R1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Attack-R1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Attack-R2.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Attack-R2.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Attack-R3.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Attack-R3.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Block-Break.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Block-Break.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Block-GetHit1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Block-GetHit1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Block-GetHit2.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Block-GetHit2.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Block.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Block.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Boost1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Boost1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-Dual-AOE1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-Dual-AOE1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-Dual-AOE2.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-Dual-AOE2.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-Dual-Attack1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-Dual-Attack1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-Dual-Attack2.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-Dual-Attack2.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-Dual-Attack3.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-Dual-Attack3.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-Dual-Buff1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-Dual-Buff1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-Dual-Buff2.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-Dual-Buff2.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-Dual-Summon1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-Dual-Summon1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-Dual-Summon2.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-Dual-Summon2.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-L-Attack1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-L-Attack1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-L-Attack2.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-L-Attack2.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-L-Attack3.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-L-Attack3.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-R-Attack1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-R-Attack1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-R-Attack2.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-R-Attack2.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-R-Attack3.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-R-Attack3.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Death1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Death1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Dodge-Left.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Dodge-Left.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Dodge-Right.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Dodge-Right.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Fall.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Fall.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-GetHit-B1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-GetHit-B1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-GetHit-F1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-GetHit-F1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-GetHit-F2.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-GetHit-F2.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-GetHit-L1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-GetHit-L1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-GetHit-R1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-GetHit-R1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Idle-Alert1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Idle-Alert1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Idle-Crouch.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Idle-Crouch.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Idle-Injured1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Idle-Injured1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Idle.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Idle.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Jump-Flip.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Jump-Flip.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Jump.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Jump.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Pickup.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Pickup.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Revive1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Revive1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Roll-Backward.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Roll-Backward.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Roll-Forward-Loop.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Roll-Forward-Loop.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Roll-Forward.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Roll-Forward.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Roll-Left.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Roll-Left.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Roll-Right.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Roll-Right.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Run-Backward-Left.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Run-Backward-Left.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Run-Backward-Right.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Run-Backward-Right.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Run-Backward.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Run-Backward.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Run-Forward-Left.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Run-Forward-Left.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Run-Forward-Right.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Run-Forward-Right.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Run-Forward.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Run-Forward.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Run-Left.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Run-Left.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Run-Right.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Run-Right.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Sheath.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Sheath.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Sprint.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Sprint.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Strafe-Backward-Left.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Strafe-Backward-Left.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Strafe-Backward-Right.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Strafe-Backward-Right.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Strafe-Backward.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Strafe-Backward.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Strafe-Forward-Left.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Strafe-Forward-Left.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Strafe-Forward-Right.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Strafe-Forward-Right.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Strafe-Forward.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Strafe-Forward.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Strafe-Left.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Strafe-Left.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Strafe-Right.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Strafe-Right.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Stunned.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Stunned.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Turn-Left-90.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Turn-Left-90.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Turn-Left-Loop.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Turn-Left-Loop.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Turn-Right-90.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Turn-Right-90.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Turn-Right-Loop.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Turn-Right-Loop.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Unsheath-Dual-Back.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Unsheath-Dual-Back.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Unsheath-Dual-Hips.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Unsheath-Dual-Hips.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Unsheath-L-Back.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Unsheath-L-Back.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Unsheath-L-Hips.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Unsheath-L-Hips.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Unsheath-R-Back.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Unsheath-R-Back.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Unsheath-R-Hips.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Unsheath-R-Hips.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Unsheath-Shield.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Unsheath-Shield.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Walk-Injured.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Walk-Injured.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/CharacterController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/CharacterController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/InputController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/InputController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/MainCamera.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/MainCamera.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/StateMachine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/StateMachine.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/Player.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/Player.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/NavMesh.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/NavMesh.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/CharacterEvents.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/CharacterEvents.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/mainScreen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/mainScreen.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/animations/RPG-Character-Animation-Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/RPG-Character-Animation-Controller.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Walk-Slow.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Walk-Slow.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Walk.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Walk.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/events/EventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/events/EventManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/events/IEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/events/IEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/events/IEventHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/events/IEventHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/CommandInvoker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/CommandInvoker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/GraphQLClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/GraphQLClient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/User/AddUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/User/AddUser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_Stats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_Stats.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/unity-graphql-client" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/unity-graphql-client.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/common/CharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/CharacterController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/common/InputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/InputController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -346,8 +78,11 @@
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/MainCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/InputController.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/CharacterController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/CharacterEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/InputController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/CharacterEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/Player.cs" />
       </list>
     </option>
   </component>
@@ -400,7 +135,8 @@
       <updated>1603269914812</updated>
       <workItem from="1603269919628" duration="23778000" />
       <workItem from="1603526936255" duration="19544000" />
-      <workItem from="1603703990321" duration="12374000" />
+      <workItem from="1603703990321" duration="12698000" />
+      <workItem from="1603798657365" duration="5312000" />
     </task>
     <servers />
   </component>
@@ -430,70 +166,74 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603449218244" />
-    <state width="1879" height="165" key="GridCell.Tab.0.bottom" timestamp="1603709845668">
+    <state width="526" height="438" key="DebuggerActiveHint" timestamp="1603800985474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603709845668" />
-    <state width="1879" height="165" key="GridCell.Tab.0.center" timestamp="1603709845668">
+    <state width="526" height="438" key="DebuggerActiveHint/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603800985474" />
+    <state width="1879" height="165" key="GridCell.Tab.0.bottom" timestamp="1603800965613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603709845668" />
-    <state width="1879" height="165" key="GridCell.Tab.0.left" timestamp="1603709845667">
+    <state width="1879" height="165" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603800965613" />
+    <state width="1879" height="165" key="GridCell.Tab.0.center" timestamp="1603800965612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603709845667" />
-    <state width="1879" height="165" key="GridCell.Tab.0.right" timestamp="1603709845668">
+    <state width="1879" height="165" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603800965612" />
+    <state width="1879" height="165" key="GridCell.Tab.0.left" timestamp="1603800965612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603709845668" />
-    <state width="1879" height="165" key="GridCell.Tab.1.bottom" timestamp="1603709861672">
+    <state width="1879" height="165" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603800965612" />
+    <state width="1879" height="165" key="GridCell.Tab.0.right" timestamp="1603800965612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603709861672" />
-    <state width="1879" height="165" key="GridCell.Tab.1.center" timestamp="1603709861672">
+    <state width="1879" height="165" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603800965612" />
+    <state width="1879" height="165" key="GridCell.Tab.1.bottom" timestamp="1603800978101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603709861672" />
-    <state width="1879" height="165" key="GridCell.Tab.1.left" timestamp="1603709861672">
+    <state width="1879" height="165" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603800978101" />
+    <state width="1879" height="165" key="GridCell.Tab.1.center" timestamp="1603800978101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603709861672" />
-    <state width="1879" height="165" key="GridCell.Tab.1.right" timestamp="1603709861672">
+    <state width="1879" height="165" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603800978101" />
+    <state width="1879" height="165" key="GridCell.Tab.1.left" timestamp="1603800978101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603709861672" />
-    <state width="1879" height="165" key="GridCell.Tab.2.bottom" timestamp="1603709845393">
+    <state width="1879" height="165" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603800978101" />
+    <state width="1879" height="165" key="GridCell.Tab.1.right" timestamp="1603800978101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.2.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603709845393" />
-    <state width="1879" height="165" key="GridCell.Tab.2.center" timestamp="1603709845393">
+    <state width="1879" height="165" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603800978101" />
+    <state width="1879" height="165" key="GridCell.Tab.2.bottom" timestamp="1603800965499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.2.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603709845393" />
-    <state width="1879" height="165" key="GridCell.Tab.2.left" timestamp="1603709845393">
+    <state width="1879" height="165" key="GridCell.Tab.2.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603800965499" />
+    <state width="1879" height="165" key="GridCell.Tab.2.center" timestamp="1603800965499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.2.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603709845393" />
-    <state width="1879" height="165" key="GridCell.Tab.2.right" timestamp="1603709845393">
+    <state width="1879" height="165" key="GridCell.Tab.2.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603800965499" />
+    <state width="1879" height="165" key="GridCell.Tab.2.left" timestamp="1603800965499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.2.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603709845393" />
-    <state width="1879" height="165" key="GridCell.Tab.3.bottom" timestamp="1603709845394">
+    <state width="1879" height="165" key="GridCell.Tab.2.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603800965499" />
+    <state width="1879" height="165" key="GridCell.Tab.2.right" timestamp="1603800965499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.3.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603709845394" />
-    <state width="1879" height="165" key="GridCell.Tab.3.center" timestamp="1603709845394">
+    <state width="1879" height="165" key="GridCell.Tab.2.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603800965499" />
+    <state width="1879" height="165" key="GridCell.Tab.3.bottom" timestamp="1603800965500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.3.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603709845394" />
-    <state width="1879" height="165" key="GridCell.Tab.3.left" timestamp="1603709845394">
+    <state width="1879" height="165" key="GridCell.Tab.3.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603800965500" />
+    <state width="1879" height="165" key="GridCell.Tab.3.center" timestamp="1603800965499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.3.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603709845394" />
-    <state width="1879" height="165" key="GridCell.Tab.3.right" timestamp="1603709845394">
+    <state width="1879" height="165" key="GridCell.Tab.3.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603800965499" />
+    <state width="1879" height="165" key="GridCell.Tab.3.left" timestamp="1603800965499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.3.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603709845394" />
+    <state width="1879" height="165" key="GridCell.Tab.3.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603800965499" />
+    <state width="1879" height="165" key="GridCell.Tab.3.right" timestamp="1603800965499">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="165" key="GridCell.Tab.3.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603800965499" />
     <state x="754" y="204" key="RiderGenerateDialog" timestamp="1603706860615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -502,13 +242,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603709776335" />
+    <state x="646" y="177" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603799592722">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="646" y="177" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603799592722" />
     <state x="-2119" y="194" width="1766" height="880" maximized="true" key="dock-window-1" timestamp="1603540671654">
       <screen x="-1920" y="0" width="1536" height="832" />
     </state>
     <state x="-2119" y="194" width="1766" height="880" maximized="true" key="dock-window-1/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603540671654" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603543328285">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603800361961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603543328285" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603800361961" />
   </component>
 </project>

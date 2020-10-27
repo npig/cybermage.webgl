@@ -131,7 +131,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 407425961}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: groundPlane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 498909196}
   - component: {fileID: 498909195}
   - component: {fileID: 498909194}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ground_d
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 1484896650}
   - component: {fileID: 1484896649}
   - component: {fileID: 1484896648}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ground_b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 1545567857}
   - component: {fileID: 1545567856}
   - component: {fileID: 1545567855}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ground_a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -542,7 +542,7 @@ GameObject:
   - component: {fileID: 2119192441}
   - component: {fileID: 2119192440}
   - component: {fileID: 2119192439}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ground_c
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -631,6 +631,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1397623583261434734, guid: c98fd6d59c72e9b4faaf18ae3c0d6d3b,
+        type: 3}
+      propertyPath: m_AngularSpeed
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 1397623583261434734, guid: c98fd6d59c72e9b4faaf18ae3c0d6d3b,
+        type: 3}
+      propertyPath: m_Speed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1397623583261434734, guid: c98fd6d59c72e9b4faaf18ae3c0d6d3b,
+        type: 3}
+      propertyPath: m_Acceleration
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1869896558116491325, guid: c98fd6d59c72e9b4faaf18ae3c0d6d3b,
         type: 3}
       propertyPath: m_Name

@@ -53,6 +53,7 @@
               </e>
             </e>
             <e p="mono" t="Include">
+              <e p="CharacterEvents.cs" t="Include" />
               <e p="Player.cs" t="Include" />
             </e>
             <e p="UI" t="Include">

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.SceneManagement;
 
 namespace Cybermage
@@ -42,15 +43,20 @@ namespace Cybermage
     public class Game : State
     {
         private readonly string SCENE = "_main";
+        private Scene _uiScene;
 
         public Game()
         {
-            
         }
         
         public override void Load()
         {
-            Cybermage.Common.CharacterController.Initialise();
+            _uiScene = SceneManager.GetSceneByName(SCENE);
+            SceneManager.SetActiveScene(_uiScene);
+            EntityFactory.SpawnPlayer(Vector3.zero);
+            EntityFactory.SpawnZombie(Vector3.one);
+            EntityFactory.SpawnZombie(Vector3.one * 2);
+
         }
 
         public override void Unload()

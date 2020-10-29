@@ -28,7 +28,6 @@
           </e>
           <e p="src" t="Include">
             <e p="common" t="Include">
-              <e p="CharacterController.cs" t="Include" />
               <e p="InputController.cs" t="Include" />
               <e p="MainCamera.cs" t="Include" />
             </e>
@@ -53,12 +52,121 @@
               </e>
             </e>
             <e p="mono" t="Include">
-              <e p="CharacterEvents.cs" t="Include" />
-              <e p="Player.cs" t="Include" />
+              <e p="ColliderComponent.cs" t="Include" />
+              <e p="MobileController.cs" t="Include" />
+              <e p="PlayerController.cs" t="Include" />
+              <e p="ZombieController.cs" t="Include" />
+            </e>
+            <e p="scriptableObjects" t="Include">
+              <e p="EntityData.cs" t="Include" />
+            </e>
+            <e p="typeobject" t="Include">
+              <e p="EntityFactory.cs" t="Include" />
             </e>
             <e p="UI" t="Include">
               <e p="UI_MainScreen.cs" t="Include" />
               <e p="UI_Stats.cs" t="Include" />
+            </e>
+          </e>
+          <e p="StompyRobot" t="Include">
+            <e p="TypeSafe" t="Include">
+              <e p="CHANGELOG.txt" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="CompileController.cs" t="Include" />
+                <e p="Compiler" t="Include">
+                  <e p="CompilerUtil.cs" t="Include" />
+                  <e p="DataUnitCompiler.cs" t="Include" />
+                  <e p="ResourceCompiler.cs" t="Include" />
+                  <e p="ResourceCompilerUtil.cs" t="Include" />
+                </e>
+                <e p="Data" t="Include">
+                  <e p="ResourceDatabase.cs" t="Include" />
+                  <e p="ResourceDefinition.cs" t="Include" />
+                  <e p="ResourceFolder.cs" t="Include" />
+                </e>
+                <e p="DataSources" t="Include">
+                  <e p="AnimatorControllerDataSource.cs" t="Include" />
+                  <e p="AudioMixerDataSource.cs" t="Include" />
+                  <e p="InputDataSource.cs" t="Include" />
+                  <e p="LayerDataSource.cs" t="Include" />
+                  <e p="LayerMaskDataSource.cs" t="Include" />
+                  <e p="ResourceScanner.cs" t="Include" />
+                  <e p="SceneDataSource.cs" t="Include" />
+                  <e p="SortingLayerDataSource.cs" t="Include" />
+                  <e p="TagsDataSource.cs" t="Include" />
+                </e>
+                <e p="Embedded.cs" t="Include" />
+                <e p="ITypeSafeDataSource.cs" t="Include" />
+                <e p="PathUtility.cs" t="Include" />
+                <e p="Properties" t="Include">
+                  <e p="AssemblyInfo.cs" t="Include" />
+                </e>
+                <e p="ScanController.cs" t="Include" />
+                <e p="Settings.cs" t="Include" />
+                <e p="Strings.cs" t="Include" />
+                <e p="TSLog.cs" t="Include" />
+                <e p="TypeCache.cs" t="Include" />
+                <e p="TypeSafe.Editor.asmdef" t="Include" />
+                <e p="TypeSafeApi.cs" t="Include" />
+                <e p="TypeSafeController.cs" t="Include" />
+                <e p="TypeSafeDataEntry.cs" t="Include" />
+                <e p="TypeSafeDataUnit.cs" t="Include" />
+                <e p="TypeSafeUtil.cs" t="Include" />
+                <e p="Unity" t="Include">
+                  <e p="AssetTypeCache.cs" t="Include" />
+                  <e p="InternalEditorUtilityWrapper.cs" t="Include" />
+                  <e p="ITab.cs" t="Include" />
+                  <e p="MenuItems.cs" t="Include" />
+                  <e p="ProgressIndicationController.cs" t="Include" />
+                  <e p="ResourceChangeListener.cs" t="Include" />
+                  <e p="SettingsEditor.cs" t="Include" />
+                  <e p="SettingsTabs" t="Include">
+                    <e p="AdvancedTab.cs" t="Include" />
+                    <e p="AssetsTab.cs" t="Include" />
+                    <e p="BlacklistTab.cs" t="Include" />
+                    <e p="GeneralTab.cs" t="Include" />
+                    <e p="NamingSchemeTab.cs" t="Include" />
+                  </e>
+                  <e p="SettingsWindow.cs" t="Include" />
+                  <e p="SRProgressBar.cs" t="Include" />
+                  <e p="Styles.cs" t="Include" />
+                  <e p="TabWindow.cs" t="Include" />
+                  <e p="TypeCacheEditor.cs" t="Include" />
+                  <e p="TypeSafeGUI.cs" t="Include" />
+                  <e p="UI" t="Include">
+                    <e p="AssetTable.cs" t="Include" />
+                  </e>
+                  <e p="UnityUtility.cs" t="Include" />
+                  <e p="UserInteraction.cs" t="Include" />
+                  <e p="WelcomeTabs" t="Include">
+                    <e p="ChangelogTab.cs" t="Include" />
+                    <e p="GuideTab.cs" t="Include" />
+                  </e>
+                  <e p="WelcomeWindow.cs" t="Include" />
+                </e>
+              </e>
+              <e p="README.txt" t="Include" />
+              <e p="Runtime" t="Include">
+                <e p="InputAxis.cs" t="Include" />
+                <e p="Layer.cs" t="Include" />
+                <e p="PrefabResource.cs" t="Include" />
+                <e p="Resource.cs" t="Include" />
+                <e p="Scene.cs" t="Include" />
+                <e p="SortingLayer.cs" t="Include" />
+                <e p="TypeSafe.Runtime.asmdef" t="Include" />
+                <e p="TypeSafeUtil.cs" t="Include" />
+              </e>
+              <e p="usr" t="Include">
+                <e p="Animators.Generated.cs" t="Include" />
+                <e p="AudioMixers.Generated.cs" t="Include" />
+                <e p="Input.Generated.cs" t="Include" />
+                <e p="LayerMask.Generated.cs" t="Include" />
+                <e p="Layers.Generated.cs" t="Include" />
+                <e p="Resources.Generated.cs" t="Include" />
+                <e p="Scenes.Generated.cs" t="Include" />
+                <e p="SortingLayers.Generated.cs" t="Include" />
+                <e p="Tags.Generated.cs" t="Include" />
+              </e>
             </e>
           </e>
         </e>
@@ -126,6 +234,8 @@
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="TypeSafe.Editor.csproj" t="IncludeRecursive" />
+      <e p="TypeSafe.Runtime.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>

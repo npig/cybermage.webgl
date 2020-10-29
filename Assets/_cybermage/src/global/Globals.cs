@@ -25,6 +25,7 @@ namespace Cybermage
         public static void Awake()
         {
             MainCamera.Awake();
+            EntityFactory.Awake();
             StateMachine.QueueState(new MainMenu());
         }
         
@@ -33,7 +34,6 @@ namespace Cybermage
             CommandInvoker.Update();
             StateMachine.Update();
             InputController.Update();
-            Cybermage.Common.CharacterController.Update();
         }
     }
 

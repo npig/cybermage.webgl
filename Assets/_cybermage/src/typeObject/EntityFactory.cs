@@ -18,7 +18,7 @@ public static class EntityFactory
                 Resources.Load<MobileController>(CM_Resources.prefabs.entities.Cybermage.Path),
                 10,
                 50,
-                5,
+                3,
                 false));
         
         ZombieType = new Entity(null, 
@@ -105,15 +105,9 @@ public class Mobile
         _mobileController = mobileController;
     }
 
-    public EntityData GetData()
-    {
-        return _mobileData;
-    }
-    
-    public MobileController GetController()
-    {
-        return _mobileController;
-    }
+    public EntityData GetData() => _mobileData;
+    public MobileController GetController() => _mobileController;
+    public Vector3 GetPosition() => _mobileController.transform.position;
 }
 
 

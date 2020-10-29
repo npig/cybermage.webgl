@@ -18,7 +18,5 @@ namespace Cybermage.Common
         {
             base.Update();
         }
-        
-        
     }
 }

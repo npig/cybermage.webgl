@@ -11,6 +11,11 @@ namespace Cybermage.Common
         {
             return _mobileController;
         }
+        
+        public Mobile GetMobile()
+        {
+            return _mobileController.GetMobile();
+        }
 
         public void SetMobileController(MobileController zombieController)
         {

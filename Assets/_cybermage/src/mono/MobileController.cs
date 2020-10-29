@@ -1,13 +1,15 @@
 ﻿using System;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Serialization;
 
 public class MobileController : MonoBehaviour
 {
+    internal NavMeshAgent _agent;
     internal Mobile _mobileData;
     internal Animator _animator;
-    internal NavMeshAgent _agent;
     internal const float _rotationSpeed = 10f;
+    internal Mobile _target;
     
     public virtual void Awake() 
     {
@@ -31,10 +33,7 @@ public class MobileController : MonoBehaviour
         {
             _animator.SetFloat("Velocity Z", 0);
         }
-        
-        if(!_agent.hasPath)
-            return;
-        
+
         _agent.nextPosition = transform.position;
         TurnAgent(_agent.destination);
     }
@@ -59,7 +58,17 @@ public class MobileController : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, qDir, Time.deltaTime * _rotationSpeed);
     }
 
-    private bool HasReachedDestination()
+    public void ClearTarget()
+    {
+        _target = null;
+    }
+
+    public void ProximityToTarget()
+    {
+        
+    }
+
+    internal bool HasReachedDestination()
     {
         if (!_agent.pathPending)
         {

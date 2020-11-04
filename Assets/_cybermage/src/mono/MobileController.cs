@@ -10,7 +10,10 @@ public class MobileController : MonoBehaviour
     internal Animator _animator;
     internal const float _rotationSpeed = 10f;
     internal Mobile _target;
-    
+    internal bool _isLocked;
+
+    #region Lifecycle
+
     public virtual void Awake() 
     {
         _animator = GetComponent<Animator>();
@@ -27,17 +30,30 @@ public class MobileController : MonoBehaviour
         if(_agent.velocity.sqrMagnitude > 0)
         {
             _animator.SetBool("Moving", true);
-            _animator.SetFloat("Velocity Z", _agent.velocity.magnitude);
+            _animator.SetFloat("Velocity", _agent.velocity.magnitude);
         }
         else
         {
-            _animator.SetFloat("Velocity Z", 0);
+            _animator.SetFloat("Velocity", 0);
         }
 
         _agent.nextPosition = transform.position;
         TurnAgent(_agent.destination);
     }
-
+    
+    #endregion
+    
+    private void TurnAgent(Vector3 destination) 
+    {
+        //Todo: refactor
+        if ((destination - transform.position).magnitude < 0.1f) 
+            return; 
+     
+        Vector3 direction = (destination - transform.position).normalized;
+        Quaternion qDir = Quaternion.LookRotation(direction);
+        transform.rotation = Quaternion.Slerp(transform.rotation, qDir, Time.deltaTime * _rotationSpeed);
+    }
+    
     public Mobile GetMobile()
     {
         return _mobileData;
@@ -48,14 +64,9 @@ public class MobileController : MonoBehaviour
         _mobileData = mobileData;
     }
     
-    private void TurnAgent(Vector3 destination) {
-        
-        if ((destination - transform.position).magnitude < 0.1f) 
-            return; 
-     
-        Vector3 direction = (destination - transform.position).normalized;
-        Quaternion qDir = Quaternion.LookRotation(direction);
-        transform.rotation = Quaternion.Slerp(transform.rotation, qDir, Time.deltaTime * _rotationSpeed);
+    public Mobile GetTarget()
+    {
+        return _target;
     }
 
     public void ClearTarget()
@@ -63,9 +74,20 @@ public class MobileController : MonoBehaviour
         _target = null;
     }
 
-    public void ProximityToTarget()
+    internal virtual void Attack()
     {
         
+    }
+
+    internal async void Lock(float delayTime, float lockTime, Action unlockAction)
+    {
+        _isLocked = true;
+        if(delayTime > 0)
+            await new WaitForSeconds(delayTime);
+        
+        await new WaitForSeconds(lockTime);
+        unlockAction?.Invoke();
+        _isLocked = false;
     }
 
     internal bool HasReachedDestination()
@@ -83,14 +105,23 @@ public class MobileController : MonoBehaviour
         
         return false;
     }
-    
-    public void FootL()
-    {
-        
-    }
 
+    #region Animation Events
+    public void Hit()
+    {
+    }
+    public void Shoot()
+    {
+    }
     public void FootR()
     {
-        
     }
+    public void FootL()
+    {
+    }
+    public void Land()
+    {
+    }
+    #endregion
+
 }

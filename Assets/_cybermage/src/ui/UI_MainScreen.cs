@@ -66,16 +66,17 @@ public class UI_MainScreen : MonoBehaviour
 
         if (GlobalsConfig.Dev)
         {
+            GlobalsConfig.SetUsername("Developer");
             StateMachine.QueueState(new Game());
             return;
         }
         
-        GlobalsConfig.SetUsername(_inputText.text);
+        //GlobalsConfig.SetUsername(_inputText.text);
         AddUserResult result = await AddUser.Query(_inputText.text);
         
         if (result.userName != null)
         {
-            Debug.Log(result.userName);
+            GlobalsConfig.SetUsername(result.userName);
             StateMachine.QueueState(new Game());
         }
         else

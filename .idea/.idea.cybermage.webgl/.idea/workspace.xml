@@ -20,418 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a2f826-1a78-4d13-8474-c429d4a59124" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Animations.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Animations.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Attack_1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Attack_1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Attack_2.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Attack_2.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Attack_3.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Attack_3.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Attack_4.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Attack_4.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Attack_5.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Attack_5.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Attack_6.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Attack_6.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Attack_7.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Attack_7.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Attack_8.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Attack_8.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Attack_From_Ground.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Attack_From_Ground.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Dead_1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Dead_1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Dead_2.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Dead_2.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Dead_3.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Dead_3.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Down_On_Ground_&amp;_Up.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Down_On_Ground_&amp;_Up.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Eat.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Eat.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Eat_Loop.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Eat_Loop.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Get_Hit_1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Get_Hit_1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Get_Hit_2.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Get_Hit_2.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Idle_1.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Idle_1.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Idle_2.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Idle_2.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Jump.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Jump.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Jump_From_The_Ceiling.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Jump_From_The_Ceiling.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Lies_On_The_Ground_Pose.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Lies_On_The_Ground_Pose.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_On_The_Celing_Idle.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_On_The_Celing_Idle.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Out_Of_ Ground.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Out_Of_ Ground.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Rebound_Bacward.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Rebound_Bacward.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Rebound_Left.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Rebound_Left.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Rebound_Right.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Rebound_Right.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Rotation_Left.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Rotation_Left.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Rotation_Right.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Rotation_Right.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Run.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Run.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Run_02_Root.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Run_02_Root.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Run_Root.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Run_Root.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Shout.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Shout.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Sit_Run_02.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Sit_Run_02.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Sleep.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Sleep.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Up_&amp;_Shout.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Up_&amp;_Shout.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Walk.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Walk.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Walk_Back.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Walk_Back.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Walk_Back_Root.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Walk_Back_Root.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Walk_Left.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Walk_Left.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Walk_Left_Root.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Walk_Left_Root.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Walk_Right.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Walk_Right.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Walk_Right_Root.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Walk_Right_Root.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Walk_Root.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_Walk_Root.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_jump_On_The_Ground.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Animations/Creature@Sit_jump_On_The_Ground.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Materials/Monster_01.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Materials/Monster_01.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Materials/Monster_02.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Materials/Monster_02.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Materials/Monster_03.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Materials/Monster_03.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Materials/Monster_04.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Materials/Monster_04.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Materials/Monster_05.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Materials/Monster_05.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Materials/Stand.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Materials/Stand.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_01.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_01/Mesh.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_01/Mesh/Monster_01_Mesh.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_01/Mesh/Monster_01_Mesh.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_01/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_01/Textures/Monster_01_Albedo.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_01/Textures/Monster_01_Albedo.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_01/Textures/Monster_01_Ao.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_01/Textures/Monster_01_Ao.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_01/Textures/Monster_01_Metallic.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_01/Textures/Monster_01_Metallic.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_01/Textures/Monster_01_Normals.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_01/Textures/Monster_01_Normals.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_02.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_02/Mesh.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_02/Mesh/Monster_02_Mesh.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_02/Mesh/Monster_02_Mesh.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_02/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_02/Textures/Monster_02_Albedo.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_02/Textures/Monster_02_Albedo.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_02/Textures/Monster_02_Ao.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_02/Textures/Monster_02_Ao.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_02/Textures/Monster_02_Metallic.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_02/Textures/Monster_02_Metallic.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_02/Textures/Monster_02_Normals.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_02/Textures/Monster_02_Normals.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_03.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_03/Mesh.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_03/Mesh/Monster_03_Mesh.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_03/Mesh/Monster_03_Mesh.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_03/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_03/Textures/Monster_03_Albedo.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_03/Textures/Monster_03_Albedo.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_03/Textures/Monster_03_Ao.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_03/Textures/Monster_03_Ao.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_03/Textures/Monster_03_Metallic.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_03/Textures/Monster_03_Metallic.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_03/Textures/Monster_03_Normals.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_03/Textures/Monster_03_Normals.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_04.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_04/Mesh.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_04/Mesh/Monster_04_Mesh.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_04/Mesh/Monster_04_Mesh.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_04/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_04/Textures/Monster_04_Albedo.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_04/Textures/Monster_04_Albedo.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_04/Textures/Monster_04_Ao.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_04/Textures/Monster_04_Ao.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_04/Textures/Monster_04_Metallic.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_04/Textures/Monster_04_Metallic.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_04/Textures/Monster_04_Normals.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_04/Textures/Monster_04_Normals.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_05.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_05/Mesh.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_05/Mesh/Monster_05_Mesh.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_05/Mesh/Monster_05_Mesh.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_05/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_05/Textures/Monster_05_Albedo.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_05/Textures/Monster_05_Albedo.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_05/Textures/Monster_05_Ao.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_05/Textures/Monster_05_Ao.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_05/Textures/Monster_05_Metallic.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_05/Textures/Monster_05_Metallic.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_05/Textures/Monster_05_Normals.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Monster_05/Textures/Monster_05_Normals.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Stand.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Stand/Mesh.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Stand/Mesh/Stand.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Moldes/Stand/Mesh/Stand.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Prefabs/Monster_01.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Prefabs/Monster_01.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Prefabs/Monster_02.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Prefabs/Monster_02.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Prefabs/Monster_03.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Prefabs/Monster_03.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Prefabs/Monster_05.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Humanoids_Monsters_Pack/Prefabs/Monster_05.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/data.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/entities.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/entities/Cybermage.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/entities/Cybermage.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/entities/Zombie.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/entities/Zombie.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/CHANGELOG.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/CHANGELOG.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Cache.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Cache.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/CompileController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Compiler.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Compiler/CompilerUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Compiler/CompilerUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Compiler/DataUnitCompiler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Compiler/DataUnitCompiler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Compiler/ResourceCompiler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Compiler/ResourceCompiler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Compiler/ResourceCompilerUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Compiler/ResourceCompilerUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Data.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Data/ResourceDatabase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Data/ResourceDatabase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Data/ResourceDefinition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Data/ResourceDefinition.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Data/ResourceFolder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Data/ResourceFolder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/AnimatorControllerDataSource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/AnimatorControllerDataSource.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/AudioMixerDataSource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/AudioMixerDataSource.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/InputDataSource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/InputDataSource.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/LayerDataSource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/LayerDataSource.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/LayerMaskDataSource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/LayerMaskDataSource.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/ResourceScanner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/ResourceScanner.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/SceneDataSource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/SceneDataSource.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/SortingLayerDataSource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/SortingLayerDataSource.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/TagsDataSource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/TagsDataSource.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Embedded.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Embedded.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/ITypeSafeDataSource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/ITypeSafeDataSource.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/PathUtility.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/PathUtility.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Properties.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Properties/AssemblyInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/ScanController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/ScanController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Settings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Settings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Settings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Settings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Strings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Strings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TSLog.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TSLog.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeCache.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeCache.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeCache.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeCache.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafe.Editor.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafe.Editor.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafeApi.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafeApi.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafeController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafeDataEntry.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafeDataEntry.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafeDataUnit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafeDataUnit.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafeUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafeUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/BG_Dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/BG_Dark.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/BG_Light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/BG_Light.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/ResourcesDemo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/ResourcesDemo.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/Settings_DarkBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/Settings_DarkBG.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/Settings_LightBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/Settings_LightBG.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/UsageDemo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/UsageDemo.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/Welcome_DarkBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/Welcome_DarkBG.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/Welcome_LightBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/Welcome_LightBG.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/AssetTypeCache.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/AssetTypeCache.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/ITab.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/ITab.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/InternalEditorUtilityWrapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/InternalEditorUtilityWrapper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/MenuItems.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/MenuItems.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/ProgressIndicationController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/ProgressIndicationController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/ResourceChangeListener.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/ResourceChangeListener.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SRProgressBar.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SRProgressBar.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/AdvancedTab.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/AdvancedTab.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/AssetsTab.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/AssetsTab.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/BlacklistTab.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/BlacklistTab.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/GeneralTab.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/GeneralTab.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/NamingSchemeTab.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/NamingSchemeTab.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsWindow.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/Styles.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/Styles.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/TabWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/TabWindow.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/TypeCacheEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/TypeCacheEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/TypeSafeGUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/TypeSafeGUI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/UI/AssetTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/UI/AssetTable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/UnityUtility.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/UnityUtility.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/UserInteraction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/UserInteraction.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/WelcomeTabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/WelcomeTabs/ChangelogTab.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/WelcomeTabs/ChangelogTab.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/WelcomeTabs/GuideTab.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/WelcomeTabs/GuideTab.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/WelcomeWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/WelcomeWindow.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/README.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/InputAxis.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/InputAxis.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/Layer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/Layer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/PrefabResource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/PrefabResource.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/Resource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/Resource.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/Scene.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/Scene.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/SortingLayer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/SortingLayer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/TypeSafe.Runtime.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/TypeSafe.Runtime.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/TypeSafeUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/TypeSafeUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Animators.Generated.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Animators.Generated.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/AudioMixers.Generated.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/AudioMixers.Generated.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Input.Generated.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Input.Generated.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/LayerMask.Generated.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/LayerMask.Generated.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Layers.Generated.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Layers.Generated.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Resources.Generated.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Resources.Generated.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Scenes.Generated.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Scenes.Generated.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/SortingLayers.Generated.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/SortingLayers.Generated.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Tags.Generated.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Tags.Generated.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/CyberMageAnimationController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/CyberMageAnimationController.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/MobileAnimationController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/MobileAnimationController.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/ColliderComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/ColliderComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/scriptableObjects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/scriptableObjects/EntityData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/scriptableObjects/EntityData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/typeObject.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/CyberMage.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/CyberMage.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/RPGCharacterMecanimAnimationPackReadMe.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/RPGCharacterMecanimAnimationPackReadMe.pdf.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RPG Character Animation Pack.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RPG Character Animation Pack/Code.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/animations/PlayerAnimatorController.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/animations/PlayerAnimatorController.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/animations/RPG-Character-Animation-Controller.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/animations/RPG-Character-Animation-Controller.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/entities/Cybermage.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/entities/Cybermage.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/statsContainer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/statsContainer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/animations/CyberMageAnimationController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/CyberMageAnimationController.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Walk-Slow.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Walk-Slow.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Walk.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Walk.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Regular SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/common/CharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/common/CharacterController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/common/InputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/InputController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/common/MainCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/MainCamera.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/CharacterEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/CharacterEvents.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/CompileController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/Player.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/scriptableObjects/EntityData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/scriptableObjects/EntityData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_Stats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_Stats.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -443,6 +53,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/aa/4a5daec3/AttributeUsageAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03035303-2B91-4045-A0B9-6BEA329B98D3/01/900123e5/NavMeshAgent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMP_InputField.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -462,16 +73,12 @@
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/events/EventManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/events/IEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/events/IEventHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/MainCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/CommandInvoker.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Commands.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/StateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/animations/RPGCharacterInputController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/MainCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/CharacterEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/Entity.cs" />
@@ -484,17 +91,21 @@
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/scriptableObjects/PlayerData.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/Entities.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/CharacterController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/InputController.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/ReportMobileInteraction.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/InteractionEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/ColliderComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/ColliderComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/scriptableObjects/EntityData.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_Stats.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/MainCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" />
       </list>
     </option>
   </component>
@@ -528,10 +139,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="31284">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="13084">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="31284" />
+      <option name="pid" value="13084" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -549,7 +160,8 @@
       <workItem from="1603269919628" duration="23778000" />
       <workItem from="1603526936255" duration="19544000" />
       <workItem from="1603703990321" duration="12698000" />
-      <workItem from="1603798657365" duration="32382000" />
+      <workItem from="1603798657365" duration="40078000" />
+      <workItem from="1604271665513" duration="25164000" />
     </task>
     <servers />
   </component>
@@ -579,74 +191,74 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603449218244" />
-    <state width="575" height="438" key="DebuggerActiveHint" timestamp="1603964882522">
+    <state width="575" height="438" key="DebuggerActiveHint" timestamp="1604321503682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="575" height="438" key="DebuggerActiveHint/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603964882522" />
-    <state width="1879" height="165" key="GridCell.Tab.0.bottom" timestamp="1603964949075">
+    <state width="575" height="438" key="DebuggerActiveHint/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604321503682" />
+    <state width="1879" height="165" key="GridCell.Tab.0.bottom" timestamp="1604321447313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603964949075" />
-    <state width="1879" height="165" key="GridCell.Tab.0.center" timestamp="1603964949074">
+    <state width="1879" height="165" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604321447313" />
+    <state width="1879" height="165" key="GridCell.Tab.0.center" timestamp="1604321447313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603964949074" />
-    <state width="1879" height="165" key="GridCell.Tab.0.left" timestamp="1603964949074">
+    <state width="1879" height="165" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604321447313" />
+    <state width="1879" height="165" key="GridCell.Tab.0.left" timestamp="1604321447313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603964949074" />
-    <state width="1879" height="165" key="GridCell.Tab.0.right" timestamp="1603964949075">
+    <state width="1879" height="165" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604321447313" />
+    <state width="1879" height="165" key="GridCell.Tab.0.right" timestamp="1604321447313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603964949075" />
-    <state width="1879" height="165" key="GridCell.Tab.1.bottom" timestamp="1603964964502">
+    <state width="1879" height="165" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604321447313" />
+    <state width="1879" height="165" key="GridCell.Tab.1.bottom" timestamp="1604321451011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603964964502" />
-    <state width="1879" height="165" key="GridCell.Tab.1.center" timestamp="1603964964502">
+    <state width="1879" height="165" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604321451011" />
+    <state width="1879" height="165" key="GridCell.Tab.1.center" timestamp="1604321451011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603964964502" />
-    <state width="1879" height="165" key="GridCell.Tab.1.left" timestamp="1603964964502">
+    <state width="1879" height="165" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604321451011" />
+    <state width="1879" height="165" key="GridCell.Tab.1.left" timestamp="1604321451011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603964964502" />
-    <state width="1879" height="165" key="GridCell.Tab.1.right" timestamp="1603964964502">
+    <state width="1879" height="165" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604321451011" />
+    <state width="1879" height="165" key="GridCell.Tab.1.right" timestamp="1604321451011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603964964502" />
-    <state width="1879" height="165" key="GridCell.Tab.2.bottom" timestamp="1603964948977">
+    <state width="1879" height="165" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604321451011" />
+    <state width="1879" height="165" key="GridCell.Tab.2.bottom" timestamp="1604030435315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.2.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603964948977" />
-    <state width="1879" height="165" key="GridCell.Tab.2.center" timestamp="1603964948977">
+    <state width="1879" height="165" key="GridCell.Tab.2.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604030435315" />
+    <state width="1879" height="165" key="GridCell.Tab.2.center" timestamp="1604030435315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.2.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603964948977" />
-    <state width="1879" height="165" key="GridCell.Tab.2.left" timestamp="1603964948977">
+    <state width="1879" height="165" key="GridCell.Tab.2.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604030435315" />
+    <state width="1879" height="165" key="GridCell.Tab.2.left" timestamp="1604030435315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.2.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603964948977" />
-    <state width="1879" height="165" key="GridCell.Tab.2.right" timestamp="1603964948977">
+    <state width="1879" height="165" key="GridCell.Tab.2.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604030435315" />
+    <state width="1879" height="165" key="GridCell.Tab.2.right" timestamp="1604030435315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.2.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603964948977" />
-    <state width="1879" height="165" key="GridCell.Tab.3.bottom" timestamp="1603964948977">
+    <state width="1879" height="165" key="GridCell.Tab.2.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604030435315" />
+    <state width="1879" height="165" key="GridCell.Tab.3.bottom" timestamp="1604030435315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.3.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603964948977" />
-    <state width="1879" height="165" key="GridCell.Tab.3.center" timestamp="1603964948977">
+    <state width="1879" height="165" key="GridCell.Tab.3.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604030435315" />
+    <state width="1879" height="165" key="GridCell.Tab.3.center" timestamp="1604030435315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.3.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603964948977" />
-    <state width="1879" height="165" key="GridCell.Tab.3.left" timestamp="1603964948977">
+    <state width="1879" height="165" key="GridCell.Tab.3.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604030435315" />
+    <state width="1879" height="165" key="GridCell.Tab.3.left" timestamp="1604030435315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.3.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603964948977" />
-    <state width="1879" height="165" key="GridCell.Tab.3.right" timestamp="1603964948977">
+    <state width="1879" height="165" key="GridCell.Tab.3.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604030435315" />
+    <state width="1879" height="165" key="GridCell.Tab.3.right" timestamp="1604030435315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.3.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603964948977" />
+    <state width="1879" height="165" key="GridCell.Tab.3.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604030435315" />
     <state x="754" y="204" key="RiderGenerateDialog" timestamp="1603706860615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -655,10 +267,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="491" y="165" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603890020967" />
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1603928966628">
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1604317057811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603928966628" />
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604317057811" />
     <state x="646" y="177" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603799592722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -667,6 +279,10 @@
       <screen x="-1920" y="0" width="1536" height="832" />
     </state>
     <state x="-2119" y="194" width="1766" height="880" maximized="true" key="dock-window-1/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603540671654" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1603975214333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603975214333" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603800361961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -676,30 +292,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_cybermage/src/mono/ColliderComponent.cs</url>
-          <line>16</line>
-          <properties documentPath="D:\_dev\cybermage.webgl\Assets\_cybermage\src\mono\ColliderComponent.cs" initialLine="16">
+          <url>file://$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs</url>
+          <line>17</line>
+          <properties documentPath="D:\_dev\cybermage.webgl\Assets\_cybermage\src\global\GlobalsConfig.cs" initialLine="17">
             <startOffsets>
-              <option value="400" />
+              <option value="452" />
             </startOffsets>
             <endOffsets>
-              <option value="437" />
+              <option value="468" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_cybermage/src/mono/ColliderComponent.cs</url>
-          <line>11</line>
-          <properties documentPath="D:\_dev\cybermage.webgl\Assets\_cybermage\src\mono\ColliderComponent.cs" initialLine="11">
-            <startOffsets>
-              <option value="266" />
-            </startOffsets>
-            <endOffsets>
-              <option value="291" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="20" />
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

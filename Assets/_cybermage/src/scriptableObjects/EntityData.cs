@@ -13,6 +13,7 @@ namespace Cybermage.Entities
         public EntityType EntityType { get; private set; }
         public MobileController EntityPrefab { get; private set; }
         public float Range { get; private set; }
+        public float Cooldown { get; private set; }
         public bool IsEnemy { get; private set; }
         public float Speed { get; set; }
         public int Health { get; set; }
@@ -24,6 +25,7 @@ namespace Cybermage.Entities
             float speed,
             int health,
             float range,
+            float cooldown,
             bool isEnemy)
         {
             EntityType = entityType;
@@ -31,6 +33,7 @@ namespace Cybermage.Entities
             Speed = speed;
             Health = health;
             Range = range;
+            Cooldown = cooldown;
             IsEnemy = isEnemy;
         }
     }

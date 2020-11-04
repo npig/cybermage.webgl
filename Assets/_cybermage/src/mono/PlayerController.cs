@@ -1,4 +1,5 @@
-﻿using Cybermage.Events;
+﻿using System;
+using Cybermage.Events;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -12,21 +13,34 @@ namespace Cybermage.Common
             EventManager.Instance.AddListener<MouseHitPoint>(MouseHitPoint);
         }
 
+        public void Start()
+        {
+            //_animator.SetInteger("Weapon", -1);
+            //_animator.SetInteger("Weapon", 0);
+        }
+
         public override void Update()
         {
             base.Update();
 
-            if (_target != null)
+            //Required during path recalculation as remainingDistance will report incorrectly
+            if (_agent.pathPending ||
+                _agent.pathStatus == NavMeshPathStatus.PathInvalid ||
+                _agent.path.corners.Length == 0)
+                return;
+            
+            if (_target != null && !_isLocked)
             {
-                if (_agent.pathPending ||
-                    _agent.pathStatus == NavMeshPathStatus.PathInvalid ||
-                    _agent.path.corners.Length == 0)
-                    return;
-                
                 if (_agent.remainingDistance < _mobileData.GetData().Range)
                 {
                     _agent.ResetPath();
-                    Debug.Log($"Attacking {_target.GetData().EntityType}");
+                    _animator.SetBool("Moving", false);
+
+                    Lock(.1f, .5f, () =>
+                    {
+                        Debug.Log("Unlocking");
+                        _target = null;
+                    });
                 }
             }
         }

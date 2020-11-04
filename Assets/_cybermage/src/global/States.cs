@@ -42,8 +42,10 @@ namespace Cybermage
     
     public class Game : State
     {
-        private readonly string SCENE = "_main";
-        private Scene _uiScene;
+        private readonly string MAIN_SCENE = "_main";
+        private readonly string UI_SCENE = "_ui";
+        private readonly string LEVEL_SCENE = "_ui";
+        private Scene _mainScene;
 
         public Game()
         {
@@ -51,11 +53,19 @@ namespace Cybermage
         
         public override void Load()
         {
-            _uiScene = SceneManager.GetSceneByName(SCENE);
-            SceneManager.SetActiveScene(_uiScene);
+            _mainScene = SceneManager.GetSceneByName(MAIN_SCENE);
+            SceneManager.SetActiveScene(_mainScene);
+            Canvas mainCanvas = UIManager.BuildCanvas();
+            UI_Stats statsContainer = MonoBehaviour.Instantiate(Resources.Load<UI_Stats>("prefabs/ui/statsContainer"), mainCanvas.transform);
+            statsContainer.SetData(new UIStatsData(Application.version, GlobalsConfig.Username));
+            
+            
+
             EntityFactory.SpawnPlayer(Vector3.zero);
             EntityFactory.SpawnZombie(Vector3.one);
             EntityFactory.SpawnZombie(Vector3.one * 2);
+            
+            
 
         }
 

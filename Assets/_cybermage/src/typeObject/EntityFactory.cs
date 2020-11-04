@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
+using Cybermage;
 using Cybermage.Entities;
 using UnityEngine.AI;
 
@@ -18,7 +19,8 @@ public static class EntityFactory
                 Resources.Load<MobileController>(CM_Resources.prefabs.entities.Cybermage.Path),
                 10,
                 50,
-                3,
+                10,
+                2,
                 false));
         
         ZombieType = new Entity(null, 
@@ -27,12 +29,14 @@ public static class EntityFactory
                 10,
                 10,
                 1,
+                2,
                 true));
     }
 
     public static Mobile SpawnPlayer(Vector3 spawnPosition)
     {
         Mobile playerMobile = PlayerType.SpawnMobile(spawnPosition);
+        GlobalsConfig.SetPlayer(playerMobile);
         MobileCollection.Add(playerMobile);
         return playerMobile;
     }
@@ -94,17 +98,19 @@ public class Entity
 
 public class Mobile
 {
+    private Entity _entityType;
     private EntityData _mobileData;
-    private Entity _entity;
     private MobileController _mobileController;
+    private bool _isDead;
 
-    public Mobile(Entity entity, MobileController mobileController)
+    public Mobile(Entity entityType, MobileController mobileController)
     {
-        _mobileData = entity.GetData();
-        _entity = entity;
+        _mobileData = entityType.GetData();
+        _entityType = entityType;
         _mobileController = mobileController;
     }
 
+    public Mobile GetTarget() => _mobileController.GetTarget();
     public EntityData GetData() => _mobileData;
     public MobileController GetController() => _mobileController;
     public Vector3 GetPosition() => _mobileController.transform.position;

@@ -8,8 +8,7 @@ namespace Cybermage
     public static class Globals
     {
         private static GlobalsManager _globalsManager;
-        
-        
+
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         private static void Main()
         {
@@ -24,7 +23,7 @@ namespace Cybermage
 
         public static void Awake()
         {
-            MainCamera.Awake();
+            MainCamera.Awake(3);
             EntityFactory.Awake();
             StateMachine.QueueState(new MainMenu());
         }
@@ -42,12 +41,6 @@ namespace Cybermage
         public static Canvas BuildCanvas()
         {
             return MonoBehaviour.Instantiate(Resources.Load<Canvas>("prefabs/ui/uiCanvas"));
-        }
-
-        private static void BuildStatsMenu()
-        {
-            UI_Stats statsContainer = MonoBehaviour.Instantiate(Resources.Load<UI_Stats>("prefabs/ui/statsContainer"));
-            statsContainer.SetData(new UIStatsData(Application.version, GlobalsConfig.Username));
         }
     }
 }

@@ -5,7 +5,6 @@
     <e p="C:\Users\CyberDreams\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_cybermage.webgl.1711859044.00" t="ExcludeRecursive" />
     <e p="D:\_dev\cybermage.webgl" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
-      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="_cybermage" t="Include">
@@ -31,6 +30,9 @@
               <e p="InputController.cs" t="Include" />
               <e p="MainCamera.cs" t="Include" />
             </e>
+            <e p="Data" t="Include">
+              <e p="EntityData.cs" t="Include" />
+            </e>
             <e p="events" t="Include">
               <e p="EventManager.cs" t="Include" />
               <e p="IEvent.cs" t="Include" />
@@ -52,13 +54,12 @@
               </e>
             </e>
             <e p="mono" t="Include">
+              <e p="CameraController.cs" t="Include" />
               <e p="ColliderComponent.cs" t="Include" />
               <e p="MobileController.cs" t="Include" />
+              <e p="NavPathDebug.cs" t="Include" />
               <e p="PlayerController.cs" t="Include" />
               <e p="ZombieController.cs" t="Include" />
-            </e>
-            <e p="scriptableObjects" t="Include">
-              <e p="EntityData.cs" t="Include" />
             </e>
             <e p="typeobject" t="Include">
               <e p="EntityFactory.cs" t="Include" />
@@ -172,28 +173,6 @@
         </e>
         <e p="JsonDotNet" t="Include">
           <e p="link.xml" t="Include" />
-        </e>
-        <e p="Plugins" t="Include">
-          <e p="AsyncAwaitUtil" t="Include">
-            <e p="Source" t="Include">
-              <e p="Awaiters.cs" t="Include" />
-              <e p="AwaitExtensions.cs" t="Include" />
-              <e p="IEnumeratorAwaitExtensions.cs" t="Include" />
-              <e p="Internal" t="Include">
-                <e p="AsyncCoroutineRunner.cs" t="Include" />
-                <e p="SyncContextUtil.cs" t="Include" />
-              </e>
-              <e p="TaskExtensions.cs" t="Include" />
-              <e p="WaitForBackgroundThread.cs" t="Include" />
-              <e p="WaitForUpdate.cs" t="Include" />
-            </e>
-            <e p="Tests" t="Include">
-              <e p="AsyncUtilTests.cs" t="Include" />
-              <e p="Util" t="Include">
-                <e p="TestButtonHandler.cs" t="Include" />
-              </e>
-            </e>
-          </e>
         </e>
         <e p="SFN_FogColor" t="Include">
           <e p="SFN_FogColor.shader" t="Include" />

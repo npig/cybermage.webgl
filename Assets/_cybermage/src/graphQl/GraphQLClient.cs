@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text;
 using System.Threading.Tasks;
+using Cysharp.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using UnityEngine;
@@ -13,7 +14,7 @@ namespace Cybermage.GraphQL
         private const string ApiURL = "https://slipgate.vercel.app/api/graphql";
         private const string Token = "";
 
-        public static async Task<T> Request<T>(GraphQLQuery query)
+        public static async UniTask<T> Request<T>(GraphQLQuery query)
         {
             string json = JsonConvert.SerializeObject(query);
             byte[] payload = Encoding.UTF8.GetBytes(json);

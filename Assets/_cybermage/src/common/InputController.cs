@@ -8,7 +8,6 @@ namespace Cybermage.Common
     {
         public Vector3 HitPoint { get; private set; }
         public Collider Collider { get; private set; }
-
         
         public MouseHitPoint(Vector3 hitPoint, Collider collider = null)
         {
@@ -26,9 +25,10 @@ namespace Cybermage.Common
             {
                 Physics.Raycast(
                     MainCamera.Camera.ScreenPointToRay(Input.mousePosition), 
-                    out RaycastHit hit);
+                    out RaycastHit hit, Mathf.Infinity, 1 << 8);
                 {
-                    EventManager.Instance.Raise(new MouseHitPoint(hit.point, hit.collider));
+                    if(hit.point != null)
+                        EventManager.Instance.Raise(new MouseHitPoint(hit.point, hit.collider));
                 }
             }
         }

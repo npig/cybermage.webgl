@@ -1,5 +1,6 @@
 ﻿using System;
 using Cybermage;
+using Cysharp.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 
@@ -21,15 +22,18 @@ public class UI_Stats : MonoBehaviour
 
     private void Start()
     {
-        UpdateData();
+        //UpdateData();
     }
 
-    public async void UpdateData()
+    public async UniTaskVoid UpdateData()
     {
-        while (gameObject.activeSelf)
+        while (true)
         {
+            if (gameObject.activeSelf)
+                continue;
+            
             Debug.Log("Updating Console");
-            await new WaitForSeconds(1);
+            await UniTask.Delay(60);
             
             if(_data == null)
                 return;

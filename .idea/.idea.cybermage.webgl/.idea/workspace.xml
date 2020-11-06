@@ -20,28 +20,104 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a2f826-1a78-4d13-8474-c429d4a59124" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/CyberMage.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/CyberMage.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/RPGCharacterMecanimAnimationPackReadMe.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/RPGCharacterMecanimAnimationPackReadMe.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_loader.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_loader.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/CameraController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/NavPathDebug.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/NavPathDebug.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/22d474190b1889d3373fa4f9334e979c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/22d474190b1889d3373fa4f9334e979c.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/a276129472f6ad4719e01704016e6f73" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/a276129472f6ad4719e01704016e6f73.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/cmdline_frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/cmdline_frame.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/comment-reply.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/comment-reply.min.js.download.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/default.min.css.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/font-awesome.min(1).css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/font-awesome.min(1).css.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/font-awesome.min.css.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/jquery-migrate.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/jquery-migrate.min.js.download.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/jquery.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/jquery.js.download.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/shBrushCSharp.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/shBrushCSharp.js.download.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/shCore.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/shCore.css.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/shCore.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/shCore.js.download.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/shThemeDefault.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/shThemeDefault.css.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/style.min.css.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/style.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/style.min.js.download.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/wp-embed.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/wp-embed.min.js.download.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/wp-emoji-release.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/wp-emoji-release.min.js.download.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/wp-slimstat.min.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Documentation/ReadMe_files/wp-slimstat.min.js.download.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Source.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Source/AwaitExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Source/AwaitExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Source/Awaiters.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Source/Awaiters.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Source/IEnumeratorAwaitExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Source/IEnumeratorAwaitExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Source/Internal.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Source/Internal/AsyncCoroutineRunner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Source/Internal/AsyncCoroutineRunner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Source/Internal/SyncContextUtil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Source/Internal/SyncContextUtil.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Source/TaskExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Source/TaskExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Source/WaitForBackgroundThread.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Source/WaitForBackgroundThread.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Source/WaitForUpdate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Source/WaitForUpdate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Tests.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Tests/AsyncTests.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Tests/AsyncTests.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Tests/AsyncUtilTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Tests/AsyncUtilTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Tests/Util.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Tests/Util/TestButtonHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/Tests/Util/TestButtonHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/UniRx.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/AsyncAwaitUtil/UniRx.zip.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/entities/Cybermage.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/entities/Cybermage.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/statsContainer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/statsContainer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/animations/CyberMageAnimationController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/CyberMageAnimationController.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Walk-Slow.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Walk-Slow.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Walk.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/relax/RPG-Character@Walk.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/isometricAlignment.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/isometricAlignment.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/common/MainCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/MainCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main/NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main/NavMesh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_ui.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_ui.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/common/InputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/InputController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/StateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/StateMachine.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/GraphQLClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/GraphQLClient.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/scriptableObjects/EntityData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/scriptableObjects/EntityData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/scriptableObjects.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/data.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/scriptableObjects/EntityData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/data/EntityData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/scriptableObjects/EntityData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/data/EntityData.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_Stats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_Stats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +130,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9577AC7A-62EF-4317-9789-031239BA8798/aa/4a5daec3/AttributeUsageAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03035303-2B91-4045-A0B9-6BEA329B98D3/01/900123e5/NavMeshAgent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMP_InputField.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -68,7 +145,6 @@
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/GraphQLClient.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/User/AddUser.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Utilities.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphql/GraphQLClient.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphql/User/AddUser.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/events/EventManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/events/IEvent.cs" />
@@ -77,7 +153,6 @@
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/CommandInvoker.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Commands.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/StateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/animations/RPGCharacterInputController.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/CharacterEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/Player.cs" />
@@ -91,21 +166,26 @@
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/scriptableObjects/PlayerData.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/Entities.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/CharacterController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/InputController.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/ReportMobileInteraction.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/InteractionEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/ColliderComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/scriptableObjects/EntityData.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphql/GraphQLClient.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_Stats.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/MainCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/StateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/Camera.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/MainCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/NavPathDebug.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/InputController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" />
       </list>
     </option>
   </component>
@@ -139,10 +219,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="13084">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="13084" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -161,7 +241,8 @@
       <workItem from="1603526936255" duration="19544000" />
       <workItem from="1603703990321" duration="12698000" />
       <workItem from="1603798657365" duration="40078000" />
-      <workItem from="1604271665513" duration="25164000" />
+      <workItem from="1604271665513" duration="57429000" />
+      <workItem from="1604662897572" duration="362000" />
     </task>
     <servers />
   </component>
@@ -195,70 +276,70 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="575" height="438" key="DebuggerActiveHint/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604321503682" />
-    <state width="1879" height="165" key="GridCell.Tab.0.bottom" timestamp="1604321447313">
+    <state width="1879" height="165" key="GridCell.Tab.0.bottom" timestamp="1604626718202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604321447313" />
-    <state width="1879" height="165" key="GridCell.Tab.0.center" timestamp="1604321447313">
+    <state width="1879" height="165" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604626718202" />
+    <state width="1879" height="165" key="GridCell.Tab.0.center" timestamp="1604626718202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604321447313" />
-    <state width="1879" height="165" key="GridCell.Tab.0.left" timestamp="1604321447313">
+    <state width="1879" height="165" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604626718202" />
+    <state width="1879" height="165" key="GridCell.Tab.0.left" timestamp="1604626718202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604321447313" />
-    <state width="1879" height="165" key="GridCell.Tab.0.right" timestamp="1604321447313">
+    <state width="1879" height="165" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604626718202" />
+    <state width="1879" height="165" key="GridCell.Tab.0.right" timestamp="1604626718202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604321447313" />
-    <state width="1879" height="165" key="GridCell.Tab.1.bottom" timestamp="1604321451011">
+    <state width="1879" height="165" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604626718202" />
+    <state width="1879" height="165" key="GridCell.Tab.1.bottom" timestamp="1604626721522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604321451011" />
-    <state width="1879" height="165" key="GridCell.Tab.1.center" timestamp="1604321451011">
+    <state width="1879" height="165" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604626721522" />
+    <state width="1879" height="165" key="GridCell.Tab.1.center" timestamp="1604626721522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604321451011" />
-    <state width="1879" height="165" key="GridCell.Tab.1.left" timestamp="1604321451011">
+    <state width="1879" height="165" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604626721522" />
+    <state width="1879" height="165" key="GridCell.Tab.1.left" timestamp="1604626721522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604321451011" />
-    <state width="1879" height="165" key="GridCell.Tab.1.right" timestamp="1604321451011">
+    <state width="1879" height="165" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604626721522" />
+    <state width="1879" height="165" key="GridCell.Tab.1.right" timestamp="1604626721522">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604321451011" />
-    <state width="1879" height="165" key="GridCell.Tab.2.bottom" timestamp="1604030435315">
+    <state width="1879" height="165" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604626721522" />
+    <state width="1879" height="165" key="GridCell.Tab.2.bottom" timestamp="1604626718091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.2.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604030435315" />
-    <state width="1879" height="165" key="GridCell.Tab.2.center" timestamp="1604030435315">
+    <state width="1879" height="165" key="GridCell.Tab.2.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604626718091" />
+    <state width="1879" height="165" key="GridCell.Tab.2.center" timestamp="1604626718091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.2.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604030435315" />
-    <state width="1879" height="165" key="GridCell.Tab.2.left" timestamp="1604030435315">
+    <state width="1879" height="165" key="GridCell.Tab.2.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604626718091" />
+    <state width="1879" height="165" key="GridCell.Tab.2.left" timestamp="1604626718091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.2.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604030435315" />
-    <state width="1879" height="165" key="GridCell.Tab.2.right" timestamp="1604030435315">
+    <state width="1879" height="165" key="GridCell.Tab.2.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604626718091" />
+    <state width="1879" height="165" key="GridCell.Tab.2.right" timestamp="1604626718091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.2.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604030435315" />
-    <state width="1879" height="165" key="GridCell.Tab.3.bottom" timestamp="1604030435315">
+    <state width="1879" height="165" key="GridCell.Tab.2.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604626718091" />
+    <state width="1879" height="165" key="GridCell.Tab.3.bottom" timestamp="1604626718091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.3.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604030435315" />
-    <state width="1879" height="165" key="GridCell.Tab.3.center" timestamp="1604030435315">
+    <state width="1879" height="165" key="GridCell.Tab.3.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604626718091" />
+    <state width="1879" height="165" key="GridCell.Tab.3.center" timestamp="1604626718091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.3.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604030435315" />
-    <state width="1879" height="165" key="GridCell.Tab.3.left" timestamp="1604030435315">
+    <state width="1879" height="165" key="GridCell.Tab.3.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604626718091" />
+    <state width="1879" height="165" key="GridCell.Tab.3.left" timestamp="1604626718091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.3.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604030435315" />
-    <state width="1879" height="165" key="GridCell.Tab.3.right" timestamp="1604030435315">
+    <state width="1879" height="165" key="GridCell.Tab.3.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604626718091" />
+    <state width="1879" height="165" key="GridCell.Tab.3.right" timestamp="1604626718091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.3.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604030435315" />
+    <state width="1879" height="165" key="GridCell.Tab.3.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604626718091" />
     <state x="754" y="204" key="RiderGenerateDialog" timestamp="1603706860615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -267,44 +348,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="491" y="165" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603890020967" />
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1604317057811">
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1604626358577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604317057811" />
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604626358577" />
     <state x="646" y="177" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603799592722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="646" y="177" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603799592722" />
-    <state x="-2119" y="194" width="1766" height="880" maximized="true" key="dock-window-1" timestamp="1603540671654">
+    <state x="-1920" y="57" width="1550" height="861" maximized="true" key="dock-window-1" timestamp="1604532572300">
       <screen x="-1920" y="0" width="1536" height="832" />
     </state>
-    <state x="-2119" y="194" width="1766" height="880" maximized="true" key="dock-window-1/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603540671654" />
+    <state x="-1920" y="57" width="1550" height="861" maximized="true" key="dock-window-1/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604532572300" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1603975214333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603975214333" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603800361961">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604623226433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603800361961" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs</url>
-          <line>17</line>
-          <properties documentPath="D:\_dev\cybermage.webgl\Assets\_cybermage\src\global\GlobalsConfig.cs" initialLine="17">
-            <startOffsets>
-              <option value="452" />
-            </startOffsets>
-            <endOffsets>
-              <option value="468" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604623226433" />
   </component>
 </project>

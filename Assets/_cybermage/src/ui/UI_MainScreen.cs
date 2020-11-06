@@ -2,6 +2,7 @@
 using System.Text.RegularExpressions;
 using Cybermage;
 using Cybermage.GraphQL.Mutations;
+using Cysharp.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -37,7 +38,7 @@ public class UI_MainScreen : MonoBehaviour
         _button.onClick.AddListener(OnCLickButton);
     }
 
-    private async void DisplayError(string errorMessage)
+    private async UniTaskVoid DisplayError(string errorMessage)
     {
         if (_errorTransform.gameObject.activeSelf)
             return;
@@ -49,7 +50,7 @@ public class UI_MainScreen : MonoBehaviour
         
         while (String.Equals(_inputText.text, currentText))
         {
-            await new WaitForSeconds(1);  
+            await UniTask.Delay(1);  
         }
         
         _errorTransform.gameObject.SetActive(false);

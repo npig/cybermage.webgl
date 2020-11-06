@@ -15,7 +15,7 @@ namespace Cybermage
         
         public abstract void Load();
         public abstract void Unload();
-        public virtual void StateUpdate() {}
+        public virtual void Update() {}
     }
 
     public static class StateMachine
@@ -25,7 +25,7 @@ namespace Cybermage
         public static void Update()
         {
             if (_stateQueue.Count > 0)
-                _stateQueue.Peek().StateUpdate();
+                _stateQueue.Peek().Update();
         }
 
         public static void QueueState(State state)

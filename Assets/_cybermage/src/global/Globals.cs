@@ -1,5 +1,12 @@
-﻿using Cybermage.Common;
+﻿using System;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
+using Cybermage.Common;
+using Cysharp.Threading.Tasks;
+using Cysharp.Threading.Tasks.Triggers;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using CharacterController = UnityEngine.CharacterController;
 
@@ -23,7 +30,8 @@ namespace Cybermage
 
         public static void Awake()
         {
-            MainCamera.Awake(3);
+            MainCamera.Awake(5);
+            UIManager.Awake();
             EntityFactory.Awake();
             StateMachine.QueueState(new MainMenu());
         }
@@ -34,13 +42,105 @@ namespace Cybermage
             StateMachine.Update();
             InputController.Update();
         }
+        
+    }
+
+    public static class SceneLoader
+    {
+        private static CancellationTokenSource _cancellationTokenSource;
+
+        public static async Task LoadAdditive(string sceneName, Action sceneLoadAction)
+        {
+            if (_cancellationTokenSource != null)
+            {
+                _cancellationTokenSource.Cancel();
+                _cancellationTokenSource = null;
+                return;
+            }
+
+            _cancellationTokenSource = new CancellationTokenSource();
+
+            try
+            {
+                await SceneLoadOperation(_cancellationTokenSource.Token, sceneName, LoadSceneMode.Additive);
+                Scene scene = SceneManager.GetSceneByName(sceneName);
+                SceneManager.SetActiveScene(scene);
+                sceneLoadAction?.Invoke();
+            }
+            catch (OperationCanceledException ex)
+            {
+                if (ex.CancellationToken == _cancellationTokenSource.Token)
+                {
+                    Debug.Log("Task cancelled");
+                }
+            }
+            finally
+            {
+                _cancellationTokenSource.Cancel();
+                _cancellationTokenSource = null;
+            }
+        }
+        
+        private static async Task SceneLoadOperation(CancellationToken token, string sceneName, LoadSceneMode mode)
+        {
+            token.ThrowIfCancellationRequested();
+
+            if (token.IsCancellationRequested)
+                return;
+            
+            AsyncOperation asyncOperation = SceneManager.LoadSceneAsync(sceneName, mode);
+            asyncOperation.allowSceneActivation = false;
+
+            while (true)
+            {
+                token.ThrowIfCancellationRequested();
+                
+                if (token.IsCancellationRequested)
+                    return;
+                
+                if (asyncOperation.progress >= 0.9f)
+                    break;            
+            }
+            
+            asyncOperation.allowSceneActivation = true;
+            
+            while (!asyncOperation.isDone)
+            {
+                if (token.IsCancellationRequested)
+                    return;
+                
+                await UniTask.DelayFrame(1, PlayerLoopTiming.Update, token);
+            }
+        }
+
+        public static void UnloadScene(string sceneName)
+        {
+            SceneManager.UnloadSceneAsync(sceneName);
+        }
     }
 
     public static class UIManager
     {
-        public static Canvas BuildCanvas()
+        public static Canvas Canvas => BuildCanvas(); 
+        private static Canvas _canvas;
+
+        public static void Awake()
         {
-            return MonoBehaviour.Instantiate(Resources.Load<Canvas>("prefabs/ui/uiCanvas"));
+            GameObject eventSystem = new GameObject("EventSystem");
+            eventSystem.AddComponent<EventSystem>();
+            eventSystem.AddComponent<StandaloneInputModule>();
+            eventSystem.AddComponent<BaseInput>();
+            MonoBehaviour.DontDestroyOnLoad(eventSystem);
+        }
+        
+        private static Canvas BuildCanvas()
+        {
+            if (_canvas == null)
+            {
+                _canvas = MonoBehaviour.Instantiate(Resources.Load<Canvas>("prefabs/ui/uiCanvas"));
+            }
+
+            return _canvas;
         }
     }
 }

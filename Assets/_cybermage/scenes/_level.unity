@@ -1010,9 +1010,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08addbfc21bb7dc458d962e9d2218dc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timePerFrame: 0.4
-  _MaterialIndex: 1
-  PauseOnLastFrame: 1
 --- !u!23 &45743445
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1778,8 +1775,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8583391a007411446afd103fbe3962e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _active: 0
-  clip: 03AtmosLoopC
 --- !u!65 &65124259
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1995,9 +1990,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08addbfc21bb7dc458d962e9d2218dc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timePerFrame: 2.5
-  _MaterialIndex: 1
-  PauseOnLastFrame: 0
 --- !u!23 &74868774
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8460,7 +8452,7 @@ GameObject:
   - component: {fileID: 140103537}
   - component: {fileID: 140103536}
   - component: {fileID: 140103535}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Awards
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15279,7 +15271,7 @@ GameObject:
   - component: {fileID: 222156924}
   - component: {fileID: 222156923}
   - component: {fileID: 222156922}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15636,7 +15628,7 @@ GameObject:
   - component: {fileID: 241214715}
   - component: {fileID: 241214714}
   - component: {fileID: 241214713}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PipesSmallB_mesh004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15918,7 +15910,7 @@ GameObject:
   - component: {fileID: 254140692}
   - component: {fileID: 254140691}
   - component: {fileID: 254140690}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Beam132
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17693,7 +17685,7 @@ GameObject:
   - component: {fileID: 316698107}
   - component: {fileID: 316698106}
   - component: {fileID: 316698105}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WallCorner009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18925,7 +18917,7 @@ GameObject:
   - component: {fileID: 348031512}
   - component: {fileID: 348031511}
   - component: {fileID: 348031510}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19288,9 +19280,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08addbfc21bb7dc458d962e9d2218dc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timePerFrame: 0.5
-  _MaterialIndex: 1
-  PauseOnLastFrame: 0
 --- !u!23 &361321728
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19994,12 +19983,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3492950ef3c07e7438796a620cd12d53, type: 3}
---- !u!23 &386235512 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 2300000, guid: 2aecc991f906bd64c94877c7de9311f9,
-    type: 3}
-  m_PrefabInstance: {fileID: 843180573}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &387870551
 GameObject:
   m_ObjectHideFlags: 0
@@ -28133,7 +28116,7 @@ GameObject:
   - component: {fileID: 509655743}
   - component: {fileID: 509655742}
   - component: {fileID: 509655741}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34037,7 +34020,7 @@ GameObject:
   - component: {fileID: 537282105}
   - component: {fileID: 537282104}
   - component: {fileID: 537282103}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34339,7 +34322,7 @@ GameObject:
   - component: {fileID: 540806730}
   - component: {fileID: 540806729}
   - component: {fileID: 540806728}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PipesSmallB_mesh003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34443,7 +34426,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75bbc149234f6ed4e9fac3bce4340c1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lb: {fileID: 706294044}
 --- !u!1 &542470904
 GameObject:
   m_ObjectHideFlags: 0
@@ -42991,7 +42973,7 @@ GameObject:
   - component: {fileID: 691045573}
   - component: {fileID: 691045572}
   - component: {fileID: 691045571}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43491,9 +43473,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c25530a66541d6447bc99b58900d6de5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiplier: 1
-  _active: 0
-  MeshRender: {fileID: 386235512}
 --- !u!65 &706294045
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43876,7 +43855,7 @@ GameObject:
   - component: {fileID: 710548092}
   - component: {fileID: 710548091}
   - component: {fileID: 710548090}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Barrier017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45068,7 +45047,7 @@ GameObject:
   - component: {fileID: 757051720}
   - component: {fileID: 757051719}
   - component: {fileID: 757051718}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47594,7 +47573,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 810280652}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Object044
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48386,7 +48365,7 @@ GameObject:
   - component: {fileID: 851407694}
   - component: {fileID: 851407693}
   - component: {fileID: 851407692}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Barrier005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50616,7 +50595,7 @@ GameObject:
   - component: {fileID: 909209695}
   - component: {fileID: 909209694}
   - component: {fileID: 909209693}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52296,8 +52275,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8583391a007411446afd103fbe3962e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _active: 0
-  clip: 03AtmosLoopC
 --- !u!65 &966171864
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52747,7 +52724,7 @@ GameObject:
   - component: {fileID: 975034084}
   - component: {fileID: 975034083}
   - component: {fileID: 975034082}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PipesSmallB_mesh002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53307,7 +53284,7 @@ GameObject:
   - component: {fileID: 992999731}
   - component: {fileID: 992999730}
   - component: {fileID: 992999729}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53406,7 +53383,7 @@ GameObject:
   - component: {fileID: 993549463}
   - component: {fileID: 993549462}
   - component: {fileID: 993549461}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Barrier018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53833,7 +53810,7 @@ GameObject:
   - component: {fileID: 1006473929}
   - component: {fileID: 1006473928}
   - component: {fileID: 1006473927}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Barrier012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53932,7 +53909,7 @@ GameObject:
   - component: {fileID: 1006522986}
   - component: {fileID: 1006522985}
   - component: {fileID: 1006522984}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Barrier007 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54390,7 +54367,7 @@ GameObject:
   - component: {fileID: 1022375224}
   - component: {fileID: 1022375223}
   - component: {fileID: 1022375222}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Barrier013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55426,15 +55403,14 @@ Light:
 --- !u!1 &1067511856
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1594724304754272, guid: cf0f51bf2d24f7440a5056a017b2ba66,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1067511857}
-  m_Layer: 8
-  m_Name: PlayerStartPosition
+  m_Layer: 0
+  m_Name: _playerSpawn
   m_TagString: Spawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55443,13 +55419,12 @@ GameObject:
 --- !u!4 &1067511857
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4780114110251754, guid: cf0f51bf2d24f7440a5056a017b2ba66,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067511856}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -36.8, y: 0.66, z: -0.38}
+  m_LocalPosition: {x: -37.28, y: 0.66, z: -0.02}
   m_LocalScale: {x: 8, y: 1, z: 8}
   m_Children: []
   m_Father: {fileID: 0}
@@ -55932,7 +55907,7 @@ GameObject:
   - component: {fileID: 1084464745}
   - component: {fileID: 1084464744}
   - component: {fileID: 1084464743}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WallCorner002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56417,8 +56392,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8583391a007411446afd103fbe3962e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _active: 0
-  clip: 03AtmosLoopA
 --- !u!65 &1104095471
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57020,7 +56993,7 @@ GameObject:
   - component: {fileID: 1113099761}
   - component: {fileID: 1113099760}
   - component: {fileID: 1113099759}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Barrier011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57274,7 +57247,7 @@ GameObject:
   - component: {fileID: 1124398011}
   - component: {fileID: 1124398010}
   - component: {fileID: 1124398009}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58427,9 +58400,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08addbfc21bb7dc458d962e9d2218dc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timePerFrame: 1.5
-  _MaterialIndex: 1
-  PauseOnLastFrame: 0
 --- !u!23 &1154441893
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -58668,7 +58638,7 @@ GameObject:
   - component: {fileID: 1157340250}
   - component: {fileID: 1157340249}
   - component: {fileID: 1157340248}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60200,7 +60170,7 @@ GameObject:
   - component: {fileID: 1221347296}
   - component: {fileID: 1221347295}
   - component: {fileID: 1221347294}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FloorB4_mesh001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62053,7 +62023,7 @@ GameObject:
   - component: {fileID: 1267929181}
   - component: {fileID: 1267929180}
   - component: {fileID: 1267929179}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WallCorner008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68060,8 +68030,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8583391a007411446afd103fbe3962e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _active: 0
-  clip: 03AtmosLoopC
 --- !u!65 &1317062133
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73713,7 +73681,7 @@ GameObject:
   - component: {fileID: 1371397748}
   - component: {fileID: 1371397747}
   - component: {fileID: 1371397746}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WallCorner006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74422,7 +74390,7 @@ GameObject:
   - component: {fileID: 1383324778}
   - component: {fileID: 1383324777}
   - component: {fileID: 1383324776}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Barrier007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75205,7 +75173,7 @@ GameObject:
   - component: {fileID: 1422005284}
   - component: {fileID: 1422005283}
   - component: {fileID: 1422005282}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Barrier006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75519,7 +75487,7 @@ GameObject:
   - component: {fileID: 1442811917}
   - component: {fileID: 1442811916}
   - component: {fileID: 1442811915}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WallCorner010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75718,7 +75686,7 @@ GameObject:
   - component: {fileID: 1447566997}
   - component: {fileID: 1447566996}
   - component: {fileID: 1447566995}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Barrier021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77538,7 +77506,7 @@ GameObject:
   - component: {fileID: 1514530468}
   - component: {fileID: 1514530467}
   - component: {fileID: 1514530466}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CableHangingB_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80246,7 +80214,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1536054431}
   - component: {fileID: 1536054430}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: _mainLayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82135,7 +82103,7 @@ GameObject:
   - component: {fileID: 1600528998}
   - component: {fileID: 1600528997}
   - component: {fileID: 1600528996}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83906,7 +83874,7 @@ GameObject:
   - component: {fileID: 1655059462}
   - component: {fileID: 1655059461}
   - component: {fileID: 1655059460}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FrameALarge_mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84356,7 +84324,7 @@ GameObject:
   - component: {fileID: 1662812873}
   - component: {fileID: 1662812872}
   - component: {fileID: 1662812871}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Barrier020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84486,8 +84454,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8583391a007411446afd103fbe3962e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _active: 0
-  clip: 03AtmosLoopB
 --- !u!65 &1664406965
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -89516,7 +89482,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1681235189}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MechArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90686,73 +90652,145 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 100018, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100018, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100020, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 100022, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100022, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 100024, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100024, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 100026, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 100028, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 100030, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 100032, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 100034, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100034, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 466f6f84a892cc44597a9026f8ae2efd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -90819,7 +90857,7 @@ GameObject:
   - component: {fileID: 1722461223}
   - component: {fileID: 1722461222}
   - component: {fileID: 1722461221}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WallCorner011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99537,7 +99575,7 @@ GameObject:
   - component: {fileID: 1840455141}
   - component: {fileID: 1840455140}
   - component: {fileID: 1840455139}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100138,9 +100176,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57b0b4e212bbd724f8c4e0a4c48b59bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _canvas: {fileID: 0}
-  _hoverText: Restoration (2017, Nine Network)\nProduction and Post Production Sound
-    Supervisor
 --- !u!65 &1860744474
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -100792,7 +100827,7 @@ GameObject:
   - component: {fileID: 1889380503}
   - component: {fileID: 1889380502}
   - component: {fileID: 1889380501}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Beam133
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100971,7 +101006,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1891993772}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Object053
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101583,7 +101618,7 @@ GameObject:
   - component: {fileID: 1913854395}
   - component: {fileID: 1913854394}
   - component: {fileID: 1913854393}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wall017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104961,7 +104996,7 @@ GameObject:
   - component: {fileID: 2028693184}
   - component: {fileID: 2028693183}
   - component: {fileID: 2028693182}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WallCorner007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106395,9 +106430,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08addbfc21bb7dc458d962e9d2218dc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timePerFrame: 2.5
-  _MaterialIndex: 1
-  PauseOnLastFrame: 0
 --- !u!23 &2066305433
 MeshRenderer:
   m_ObjectHideFlags: 0

@@ -1,4 +1,5 @@
 ﻿using System;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Serialization;
@@ -79,13 +80,13 @@ public class MobileController : MonoBehaviour
         
     }
 
-    internal async void Lock(float delayTime, float lockTime, Action unlockAction)
+    internal async UniTaskVoid Lock(int delayTime, int lockTime, Action unlockAction)
     {
         _isLocked = true;
-        if(delayTime > 0)
-            await new WaitForSeconds(delayTime);
+        if (delayTime > 0)
+            await UniTask.Delay(delayTime);
         
-        await new WaitForSeconds(lockTime);
+        await UniTask.Delay(lockTime);
         unlockAction?.Invoke();
         _isLocked = false;
     }

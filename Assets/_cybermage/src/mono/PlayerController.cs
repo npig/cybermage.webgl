@@ -11,6 +11,9 @@ namespace Cybermage.Common
         {
             base.Awake();
             EventManager.Instance.AddListener<MouseHitPoint>(MouseHitPoint);
+
+            if (GlobalsConfig.Dev)
+                gameObject.AddComponent<NavPathDebug>();
         }
 
         public void Start()
@@ -36,7 +39,7 @@ namespace Cybermage.Common
                     _agent.ResetPath();
                     _animator.SetBool("Moving", false);
 
-                    Lock(.1f, .5f, () =>
+                    Lock(1, 5, () =>
                     {
                         Debug.Log("Unlocking");
                         _target = null;

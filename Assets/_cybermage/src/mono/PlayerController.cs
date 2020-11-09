@@ -38,10 +38,10 @@ namespace Cybermage.Common
                 {
                     _agent.ResetPath();
                     _animator.SetBool("Moving", false);
+                    _animator.SetTrigger("Attack");
 
-                    Lock(1, 5, () =>
+                    Lock(0, 10, () =>
                     {
-                        Debug.Log("Unlocking");
                         _target = null;
                     });
                 }
@@ -50,11 +50,9 @@ namespace Cybermage.Common
 
         private void MouseHitPoint(MouseHitPoint e)
         {
-            _agent.ResetPath();
+            //_agent.ResetPath();
             _target = null;
-
             ColliderComponent colliderComponent = e.Collider.GetComponent<ColliderComponent>();
-            
             if (colliderComponent != null)
             {
                 _target = colliderComponent.GetMobile();
@@ -63,6 +61,12 @@ namespace Cybermage.Common
             }
             
             _agent.destination = e.HitPoint;
+        }
+
+        public override void Shoot()
+        {
+            Transform transform = Instantiate(CM_Resources.prefabs.vfx.superCyberFire.Load(), _target.GetTransform()).transform;
+            transform.position = _target.GetPosition();
         }
     }
 }

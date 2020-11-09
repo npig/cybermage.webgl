@@ -96,19 +96,14 @@ public class MobileController : MonoBehaviour
     {
         _target = null;
     }
-
-    internal virtual void Attack()
-    {
-        
-    }
-
+    
     internal async UniTaskVoid Lock(int delayTime, int lockTime, Action unlockAction)
     {
         _isLocked = true;
         if (delayTime > 0)
-            await UniTask.Delay(delayTime);
+            await UniTask.Delay(delayTime *  60);
         
-        await UniTask.Delay(lockTime);
+        await UniTask.Delay(lockTime * 60);
         unlockAction?.Invoke();
         _isLocked = false;
     }
@@ -133,8 +128,9 @@ public class MobileController : MonoBehaviour
     public void Hit()
     {
     }
-    public void Shoot()
+    public virtual void Shoot()
     {
+        Debug.Log("ATTACK!@#!#");
     }
     public void FootR()
     {

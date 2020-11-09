@@ -22,18 +22,14 @@ public class UI_Stats : MonoBehaviour
 
     private void Start()
     {
-        //UpdateData();
+        UpdateData();
     }
 
     public async UniTaskVoid UpdateData()
     {
         while (true)
         {
-            if (gameObject.activeSelf)
-                continue;
-            
-            Debug.Log("Updating Console");
-            await UniTask.Delay(60);
+            await UniTask.Delay(240);
             
             if(_data == null)
                 return;

@@ -116,6 +116,8 @@ public class Mobile
     public EntityData GetData() => _mobileData;
     public MobileController GetController() => _mobileController;
     public Vector3 GetPosition() => _mobileController.transform.position;
+    public Transform GetTransform() => _mobileController.transform;
+
 }
 
 

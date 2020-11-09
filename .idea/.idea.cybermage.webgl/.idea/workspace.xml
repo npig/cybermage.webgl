@@ -20,13 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a2f826-1a78-4d13-8474-c429d4a59124" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/animations/CyberMage.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/animations/CyberMage.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/NavPathDebug.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/NavPathDebug.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/NavController.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +146,7 @@
       <workItem from="1603798657365" duration="40078000" />
       <workItem from="1604271665513" duration="57429000" />
       <workItem from="1604662897572" duration="362000" />
-      <workItem from="1604877112016" duration="2526000" />
+      <workItem from="1604877112016" duration="2989000" />
     </task>
     <servers />
   </component>

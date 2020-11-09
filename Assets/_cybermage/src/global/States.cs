@@ -1,6 +1,6 @@
-﻿using Cysharp.Threading.Tasks;
+﻿using Cybermage.Common;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
-using UnityEngine.AI;
 using UnityEngine.SceneManagement;
 
 namespace Cybermage
@@ -62,8 +62,8 @@ namespace Cybermage
             await SceneLoader.LoadAdditive("_level", () =>
             {
                 EntityFactory.SpawnPlayer(GameObject.Find("_playerSpawn").transform.position);
-                //EntityFactory.SpawnZombie(Vector3.one);
-                //EntityFactory.SpawnZombie(Vector3.one * 2);
+                EntityFactory.SpawnZombie(ObjectSpawner.GetSpawnPosition());
+                EntityFactory.SpawnZombie(ObjectSpawner.GetSpawnPosition());
             });
 
             await SceneLoader.LoadAdditive("_world_ui");

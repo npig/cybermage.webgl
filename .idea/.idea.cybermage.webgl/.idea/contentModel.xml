@@ -29,6 +29,7 @@
             <e p="common" t="Include">
               <e p="InputController.cs" t="Include" />
               <e p="MainCamera.cs" t="Include" />
+              <e p="ObjectSpawner.cs" t="Include" />
             </e>
             <e p="Data" t="Include">
               <e p="EntityData.cs" t="Include" />

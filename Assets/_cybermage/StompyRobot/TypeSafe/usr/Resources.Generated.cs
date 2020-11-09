@@ -21,32 +21,25 @@ public sealed class CM_Resources {
     
     private const string _tsInternal = "1.4.1";
     
-    public static global::TypeSafe.PrefabResource pickup_spawns {
-        get {
-            return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[0]));
-        }
-    }
-    
     public static global::TypeSafe.Resource<global::UnityEngine.Audio.AudioMixer> Mixer {
         get {
-            return ((global::TypeSafe.Resource<global::UnityEngine.Audio.AudioMixer>)(@__ts_internal_resources[1]));
+            return ((global::TypeSafe.Resource<global::UnityEngine.Audio.AudioMixer>)(@__ts_internal_resources[0]));
         }
     }
     
     public static global::TypeSafe.Resource<global::UnityEngine.TextAsset> LineBreaking_Leading_Characters {
         get {
-            return ((global::TypeSafe.Resource<global::UnityEngine.TextAsset>)(@__ts_internal_resources[2]));
+            return ((global::TypeSafe.Resource<global::UnityEngine.TextAsset>)(@__ts_internal_resources[1]));
         }
     }
     
     public static global::TypeSafe.Resource<global::UnityEngine.TextAsset> LineBreaking_Following_Characters {
         get {
-            return ((global::TypeSafe.Resource<global::UnityEngine.TextAsset>)(@__ts_internal_resources[3]));
+            return ((global::TypeSafe.Resource<global::UnityEngine.TextAsset>)(@__ts_internal_resources[2]));
         }
     }
     
     private static global::System.Collections.Generic.IList<global::TypeSafe.IResource> @__ts_internal_resources = new global::System.Collections.ObjectModel.ReadOnlyCollection<global::TypeSafe.IResource>(new global::TypeSafe.IResource[] {
-                new global::TypeSafe.PrefabResource("pickup_spawns", "pickup_spawns"),
                 new global::TypeSafe.Resource<global::UnityEngine.Audio.AudioMixer>("Mixer", "Mixer"),
                 new global::TypeSafe.Resource<global::UnityEngine.TextAsset>("LineBreaking Leading Characters", "LineBreaking Leading Characters"),
                 new global::TypeSafe.Resource<global::UnityEngine.TextAsset>("LineBreaking Following Characters", "LineBreaking Following Characters")});
@@ -56,13 +49,20 @@ public sealed class CM_Resources {
         private prefabs() {
         }
         
-        public static global::TypeSafe.PrefabResource isometricAlignment {
+        public static global::TypeSafe.PrefabResource pickupSpawns {
             get {
                 return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[0]));
             }
         }
         
+        public static global::TypeSafe.PrefabResource isometricAlignment {
+            get {
+                return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[1]));
+            }
+        }
+        
         private static global::System.Collections.Generic.IList<global::TypeSafe.IResource> @__ts_internal_resources = new global::System.Collections.ObjectModel.ReadOnlyCollection<global::TypeSafe.IResource>(new global::TypeSafe.IResource[] {
+                    new global::TypeSafe.PrefabResource("pickupSpawns", "prefabs/pickupSpawns"),
                     new global::TypeSafe.PrefabResource("isometricAlignment", "prefabs/isometricAlignment")});
         
         public sealed class entities {

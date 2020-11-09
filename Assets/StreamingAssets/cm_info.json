@@ -1,0 +1,57 @@
+{
+  "features": [
+    "Project Management",
+    "Sound Editing",
+    "ADR and Dialogue Editing",
+    "Oculus Audio SDK",
+    "Resonance Audio SDK",
+    "Spatial Audio Integration",
+    "Unity3d and Unreal Development",
+    "Audio Implementation",
+    "Sound Design"
+  ],
+  "skills": [
+    {
+      "header": "Design",
+      "content": "Audio designer focused on facilitating engaging stories. Passionate about designing exciting audio experiences for end users."
+    },
+    {
+      "header": "Tech",
+      "content": "Credited with producing detailed content during post-production. Routinely achieved industry broadcast specifications and passed QA requirements."
+    },
+    {
+      "header": "Mech",
+      "content": "Developed audio solutions for projects using different technologies. Proven ability to develop, maintain and manage long-term objectives."
+    }
+  ],
+  "folio": [
+    {
+      "header": "Virtual Production",
+      "tags": [        "tag02",        "tag01"      ],
+      "content": "A real-time interactive VR story based on a man who was lost and forgotten for twelve years in a mental asylum and how the search to find his true identity brought hope to a nation in mourning."
+    },
+    {
+      "header": "Design",
+      "tags": [
+        "dtag02",
+        "dtag01"
+      ],
+      "content": "50+ sound department credits for involvement with commercial, television and film productions of known brands, several received global broadcast and awards.\n"
+    },
+    {
+      "header": "Coding",
+      "tags": [
+        "ctag02",
+        "ctag01"
+      ],
+      "content": "In the near future, a company offers individuals the service of having their memories downloaded \"for backup\". So, in the event of death, those memories can be uploaded into a new body."
+    }
+  ],
+  "biography": {
+    "name": "Leon East",
+    "content": "Audio developer interested in film, game development and web development. Likes sharing knowledge, telling stories and connecting with audiences. ",
+    "email": "mail@cybermage.live",
+    "linkedin": "linkedin.com/in/leon-east-096a2788/",
+    "imdb": "imdb.com/name/nm3864209"
+  }
+}

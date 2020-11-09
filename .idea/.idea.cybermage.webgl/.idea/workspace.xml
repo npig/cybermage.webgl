@@ -20,7 +20,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a2f826-1a78-4d13-8474-c429d4a59124" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/NavController.cs.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/cm_info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/cm_info.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/folioContainer.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/folioContainer.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/worldSpaceHeader.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/worldSpaceHeader.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/worldSpaceLink.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/worldSpaceLink.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/worldSpaceSubHeader.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/worldSpaceSubHeader.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/worldSpaceText.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/worldSpaceText.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Mont-Bold SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Mont-Bold SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Mont-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Mont-Bold.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/WorldUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/WorldUI.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Resources.Generated.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Resources.Generated.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/fonts/visitor2 SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/visitor2 SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_world_ui.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_world_ui.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,19 +102,20 @@
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/scriptableObjects/EntityData.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphql/GraphQLClient.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/StateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/Camera.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/MainCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/CameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/InputController.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/NavPathDebug.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/WorldUI.cs" />
       </list>
     </option>
   </component>
@@ -146,7 +173,7 @@
       <workItem from="1603798657365" duration="40078000" />
       <workItem from="1604271665513" duration="57429000" />
       <workItem from="1604662897572" duration="362000" />
-      <workItem from="1604877112016" duration="2989000" />
+      <workItem from="1604877112016" duration="13091000" />
     </task>
     <servers />
   </component>
@@ -176,74 +203,74 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603449218244" />
-    <state width="575" height="438" key="DebuggerActiveHint" timestamp="1604761903785">
+    <state width="732" height="438" key="DebuggerActiveHint" timestamp="1604884828050">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="575" height="438" key="DebuggerActiveHint/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604761903785" />
-    <state width="1879" height="165" key="GridCell.Tab.0.bottom" timestamp="1604878420532">
+    <state width="732" height="438" key="DebuggerActiveHint/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604884828050" />
+    <state width="1879" height="165" key="GridCell.Tab.0.bottom" timestamp="1604898681142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604878420532" />
-    <state width="1879" height="165" key="GridCell.Tab.0.center" timestamp="1604878420532">
+    <state width="1879" height="165" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604898681142" />
+    <state width="1879" height="165" key="GridCell.Tab.0.center" timestamp="1604898681142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604878420532" />
-    <state width="1879" height="165" key="GridCell.Tab.0.left" timestamp="1604878420532">
+    <state width="1879" height="165" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604898681142" />
+    <state width="1879" height="165" key="GridCell.Tab.0.left" timestamp="1604898681142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604878420532" />
-    <state width="1879" height="165" key="GridCell.Tab.0.right" timestamp="1604878420532">
+    <state width="1879" height="165" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604898681142" />
+    <state width="1879" height="165" key="GridCell.Tab.0.right" timestamp="1604898681142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604878420532" />
-    <state width="1879" height="165" key="GridCell.Tab.1.bottom" timestamp="1604878421034">
+    <state width="1879" height="165" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604898681142" />
+    <state width="1879" height="165" key="GridCell.Tab.1.bottom" timestamp="1604898687352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604878421034" />
-    <state width="1879" height="165" key="GridCell.Tab.1.center" timestamp="1604878421034">
+    <state width="1879" height="165" key="GridCell.Tab.1.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604898687352" />
+    <state width="1879" height="165" key="GridCell.Tab.1.center" timestamp="1604898687352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604878421034" />
-    <state width="1879" height="165" key="GridCell.Tab.1.left" timestamp="1604878421034">
+    <state width="1879" height="165" key="GridCell.Tab.1.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604898687352" />
+    <state width="1879" height="165" key="GridCell.Tab.1.left" timestamp="1604898687352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604878421034" />
-    <state width="1879" height="165" key="GridCell.Tab.1.right" timestamp="1604878421034">
+    <state width="1879" height="165" key="GridCell.Tab.1.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604898687352" />
+    <state width="1879" height="165" key="GridCell.Tab.1.right" timestamp="1604898687352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604878421034" />
-    <state width="1879" height="165" key="GridCell.Tab.2.bottom" timestamp="1604847711711">
+    <state width="1879" height="165" key="GridCell.Tab.1.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604898687352" />
+    <state width="1879" height="165" key="GridCell.Tab.2.bottom" timestamp="1604898680939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.2.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604847711711" />
-    <state width="1879" height="165" key="GridCell.Tab.2.center" timestamp="1604847711711">
+    <state width="1879" height="165" key="GridCell.Tab.2.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604898680939" />
+    <state width="1879" height="165" key="GridCell.Tab.2.center" timestamp="1604898680939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.2.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604847711711" />
-    <state width="1879" height="165" key="GridCell.Tab.2.left" timestamp="1604847711711">
+    <state width="1879" height="165" key="GridCell.Tab.2.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604898680939" />
+    <state width="1879" height="165" key="GridCell.Tab.2.left" timestamp="1604898680939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.2.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604847711711" />
-    <state width="1879" height="165" key="GridCell.Tab.2.right" timestamp="1604847711711">
+    <state width="1879" height="165" key="GridCell.Tab.2.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604898680939" />
+    <state width="1879" height="165" key="GridCell.Tab.2.right" timestamp="1604898680939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.2.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604847711711" />
-    <state width="1879" height="165" key="GridCell.Tab.3.bottom" timestamp="1604847711711">
+    <state width="1879" height="165" key="GridCell.Tab.2.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604898680939" />
+    <state width="1879" height="165" key="GridCell.Tab.3.bottom" timestamp="1604898680940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.3.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604847711711" />
-    <state width="1879" height="165" key="GridCell.Tab.3.center" timestamp="1604847711711">
+    <state width="1879" height="165" key="GridCell.Tab.3.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604898680940" />
+    <state width="1879" height="165" key="GridCell.Tab.3.center" timestamp="1604898680939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.3.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604847711711" />
-    <state width="1879" height="165" key="GridCell.Tab.3.left" timestamp="1604847711711">
+    <state width="1879" height="165" key="GridCell.Tab.3.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604898680939" />
+    <state width="1879" height="165" key="GridCell.Tab.3.left" timestamp="1604898680939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.3.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604847711711" />
-    <state width="1879" height="165" key="GridCell.Tab.3.right" timestamp="1604847711711">
+    <state width="1879" height="165" key="GridCell.Tab.3.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604898680939" />
+    <state width="1879" height="165" key="GridCell.Tab.3.right" timestamp="1604898680940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="165" key="GridCell.Tab.3.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604847711711" />
+    <state width="1879" height="165" key="GridCell.Tab.3.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604898680940" />
     <state x="754" y="204" key="RiderGenerateDialog" timestamp="1603706860615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -252,10 +279,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="491" y="165" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1603890020967" />
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1604843254159">
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1604885259009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604843254159" />
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604885259009" />
     <state x="646" y="177" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603799592722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -272,5 +299,24 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604840875806" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs</url>
+          <line>48</line>
+          <properties documentPath="D:\_dev\cybermage.webgl\Assets\_cybermage\src\global\GlobalsConfig.cs" initialLine="48">
+            <startOffsets>
+              <option value="1414" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1505" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

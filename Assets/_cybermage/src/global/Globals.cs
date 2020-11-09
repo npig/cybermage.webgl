@@ -20,6 +20,7 @@ namespace Cybermage
         private static void Main()
         {
             _globalsManager = new GameObject("GlobalsManager").AddComponent<GlobalsManager>();
+            GlobalsConfig.Initialise(true);
             SceneManager.sceneLoaded += SceneLoaded;
         }
 

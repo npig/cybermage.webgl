@@ -14,6 +14,8 @@ namespace Cybermage.Common
         {
             _lineRenderer = gameObject.AddComponent<LineRenderer>();
             _navMeshAgent = gameObject.GetComponent<NavMeshAgent>();
+            _lineRenderer.startWidth = .1f;
+            _lineRenderer.endWidth = .1f;
         }
 
         private void Update()

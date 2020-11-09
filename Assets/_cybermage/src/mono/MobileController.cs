@@ -22,28 +22,50 @@ public class MobileController : MonoBehaviour
         _agent.updateRotation = false;
         _agent.updatePosition = false;
     }
+
+    private Vector2 _smoothDeltaPosition = Vector2.zero;
+    private Vector2 _velocity = Vector2.zero;
     
     public virtual void Update() 
     {
         if (_agent == null) 
             return;
-        
-        if(_agent.velocity.sqrMagnitude > 0)
-        {
-            _animator.SetBool("Moving", true);
-            _animator.SetFloat("Velocity", _agent.velocity.magnitude);
-        }
-        else
-        {
-            _animator.SetFloat("Velocity", 0);
-        }
 
-        _agent.nextPosition = transform.position;
-        TurnAgent(_agent.destination);
+        Vector3 worldDeltaPosition = _agent.nextPosition - transform.position;
+
+        // Map 'worldDeltaPosition' to local space
+        float dx = Vector3.Dot (transform.right, worldDeltaPosition);
+        float dy = Vector3.Dot (transform.forward, worldDeltaPosition);
+        Vector2 deltaPosition = new Vector2 (dx, dy);
+
+        // Low-pass filter the deltaMove
+        float smooth = Mathf.Min(1.0f, Time.deltaTime/0.15f);
+        _smoothDeltaPosition = Vector2.Lerp (_smoothDeltaPosition, deltaPosition, smooth);
+
+        // Update velocity if time advances
+        if (Time.deltaTime > 1e-5f)
+            _velocity = _smoothDeltaPosition / Time.deltaTime;
+
+        bool shouldMove = _velocity.magnitude > 0.1f && _agent.remainingDistance > 0.1f;
+
+        // Update animation parameters
+        _animator.SetBool("Moving", shouldMove);
+        _animator.SetFloat ("VelocityX", _velocity.x);
+        _animator.SetFloat ("VelocityY", _velocity.y);
+        
+        // Pull character towards agent
+        transform.position = _agent.nextPosition - 0.9f * worldDeltaPosition;
+        
+        TurnAgent(_agent.steeringTarget);
     }
-    
     #endregion
-    
+
+    private void OnAnimatorMove()
+    {
+        float speed = (_animator.deltaPosition / Time.deltaTime).magnitude;
+        _agent.speed = Mathf.Clamp(speed, 1f, 4f);
+    }
+
     private void TurnAgent(Vector3 destination) 
     {
         //Todo: refactor

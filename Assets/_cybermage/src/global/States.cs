@@ -62,8 +62,8 @@ namespace Cybermage
             await SceneLoader.LoadAdditive("_level", () =>
             {
                 EntityFactory.SpawnPlayer(GameObject.Find("_playerSpawn").transform.position);
-                EntityFactory.SpawnZombie(Vector3.one);
-                EntityFactory.SpawnZombie(Vector3.one * 2);
+                //EntityFactory.SpawnZombie(Vector3.one);
+                //EntityFactory.SpawnZombie(Vector3.one * 2);
             });
         }
 

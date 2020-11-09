@@ -57,6 +57,8 @@
               <e p="CameraController.cs" t="Include" />
               <e p="ColliderComponent.cs" t="Include" />
               <e p="MobileController.cs" t="Include" />
+              <e p="MouseClickTarget.cs" t="Include" />
+              <e p="NavController.cs" t="Include" />
               <e p="NavPathDebug.cs" t="Include" />
               <e p="PlayerController.cs" t="Include" />
               <e p="ZombieController.cs" t="Include" />

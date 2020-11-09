@@ -158,56 +158,63 @@ public sealed class CM_Resources {
                 }
             }
             
-            public static global::TypeSafe.PrefabResource worldSpaceHeader {
+            public static global::TypeSafe.PrefabResource skillsContainer {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[1]));
                 }
             }
             
-            public static global::TypeSafe.PrefabResource folioContainer {
+            public static global::TypeSafe.PrefabResource worldSpaceHeader {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[2]));
                 }
             }
             
-            public static global::TypeSafe.PrefabResource worldSpaceText {
+            public static global::TypeSafe.PrefabResource folioContainer {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[3]));
                 }
             }
             
-            public static global::TypeSafe.PrefabResource worldSpaceLink {
+            public static global::TypeSafe.PrefabResource worldSpaceText {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[4]));
                 }
             }
             
-            public static global::TypeSafe.PrefabResource background {
+            public static global::TypeSafe.PrefabResource worldSpaceLink {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[5]));
                 }
             }
             
-            public static global::TypeSafe.PrefabResource mainScreen {
+            public static global::TypeSafe.PrefabResource background {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[6]));
                 }
             }
             
-            public static global::TypeSafe.PrefabResource uiCanvas {
+            public static global::TypeSafe.PrefabResource mainScreen {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[7]));
                 }
             }
             
-            public static global::TypeSafe.PrefabResource worldSpaceSubHeader {
+            public static global::TypeSafe.PrefabResource uiCanvas {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[8]));
                 }
             }
             
+            public static global::TypeSafe.PrefabResource worldSpaceSubHeader {
+                get {
+                    return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[9]));
+                }
+            }
+            
             private static global::System.Collections.Generic.IList<global::TypeSafe.IResource> @__ts_internal_resources = new global::System.Collections.ObjectModel.ReadOnlyCollection<global::TypeSafe.IResource>(new global::TypeSafe.IResource[] {
                         new global::TypeSafe.PrefabResource("statsContainer", "prefabs/ui/statsContainer"),
+                        new global::TypeSafe.PrefabResource("skillsContainer", "prefabs/ui/skillsContainer"),
                         new global::TypeSafe.PrefabResource("worldSpaceHeader", "prefabs/ui/worldSpaceHeader"),
                         new global::TypeSafe.PrefabResource("folioContainer", "prefabs/ui/folioContainer"),
                         new global::TypeSafe.PrefabResource("worldSpaceText", "prefabs/ui/worldSpaceText"),

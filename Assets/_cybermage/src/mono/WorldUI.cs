@@ -1,5 +1,6 @@
 ﻿using System;
 using Cybermage.Events;
+using Cysharp.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -13,10 +14,22 @@ namespace Cybermage.Common
         {
             SetDetails();
             SetFeatures();
-            SetSkills();
+            SetSkills(GlobalsConfig.Information.skills[0], 7.5f);
+            SetSkills(GlobalsConfig.Information.skills[1], 0);
+            SetSkills(GlobalsConfig.Information.skills[2], -7.5f);
             SetFolio(GlobalsConfig.Information.folio[0], 22);
             SetFolio(GlobalsConfig.Information.folio[1], 0);
             SetFolio(GlobalsConfig.Information.folio[2], -22);
+        }
+
+        private void SetSkills(Skills informationSkill, float d)
+        {
+            Transform skillTransform = Instantiate(CM_Resources.prefabs.ui.skillsContainer.Load(), transform).transform;
+            skillTransform.position = new Vector3(skillTransform.position.x, skillTransform.position.y, d);
+            TextMeshProUGUI title = Utilities.FindDeepChild<TextMeshProUGUI>(skillTransform, "title");
+            title.text = informationSkill.header;
+            TextMeshProUGUI content = Utilities.FindDeepChild<TextMeshProUGUI>(skillTransform, "text");
+            content.text = informationSkill.content;
         }
 
         private void SetFolio(Folio informationFeature, float p1)
@@ -26,18 +39,15 @@ namespace Cybermage.Common
             TextMeshProUGUI title = Utilities.FindDeepChild<TextMeshProUGUI>(folioTransform, "title");
             title.text = informationFeature.header;
             Transform tagTransform = Utilities.FindDeepChild(folioTransform, "tagsContainer");
+            
             foreach (string tag in informationFeature.tags)
             {
                 TextMeshProUGUI text = Instantiate(CM_Resources.prefabs.ui.worldSpaceSubHeader.Load(), tagTransform).GetComponent<TextMeshProUGUI>();
                 text.text = tag;
             }
+            
             TextMeshProUGUI content = Utilities.FindDeepChild<TextMeshProUGUI>(folioTransform, "text");
             content.text = informationFeature.content;
-        }
-
-        private void SetSkills()
-        {
-            
         }
 
         private void SetFeatures()
@@ -105,9 +115,18 @@ namespace Cybermage.Common
             linkText_3.gameObject.AddComponent<WebLink>().SetURL(bio.imdb, linkText_3);
             linkText_3.color = CM_Styles.Link;
 
-            LayoutRebuilder.MarkLayoutForRebuild(detailsContentTransform.transform as RectTransform);
+            //Set UI for rebuilding.
+            UpdateUI(detailsContentTransform.GetComponent<VerticalLayoutGroup>());
         }
 
+        //work around for content size fitter components
+        private async UniTaskVoid UpdateUI<T>(T t) where T : MonoBehaviour
+        {
+            t.enabled = false;
+            await UniTask.Delay(1);
+            t.enabled = true;
+            LayoutRebuilder.ForceRebuildLayoutImmediate(t.transform as RectTransform);
+        }
     }
     
     class WebLink : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler

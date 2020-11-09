@@ -50,7 +50,7 @@ namespace Cybermage
     {
         private static CancellationTokenSource _cancellationTokenSource;
 
-        public static async Task LoadAdditive(string sceneName, Action sceneLoadAction)
+        public static async Task LoadAdditive(string sceneName, Action sceneLoadAction = null)
         {
             if (_cancellationTokenSource != null)
             {

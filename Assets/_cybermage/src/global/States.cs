@@ -65,6 +65,8 @@ namespace Cybermage
                 //EntityFactory.SpawnZombie(Vector3.one);
                 //EntityFactory.SpawnZombie(Vector3.one * 2);
             });
+
+            await SceneLoader.LoadAdditive("_world_ui");
         }
 
         public override void Unload()

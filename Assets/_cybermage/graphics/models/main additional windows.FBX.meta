@@ -1,103 +1,281 @@
 fileFormatVersion: 2
 guid: 466f6f84a892cc44597a9026f8ae2efd
-timeCreated: 1525685164
-licenseType: Free
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Wall048
-    100004: Wall049
-    100006: Wall022
-    100008: Wall029
-    100010: Wall030
-    100012: Wall032
-    100014: Wall034
-    100016: Wall036
-    100018: Wall037
-    100020: Wall039
-    100022: Wall041
-    100024: Wall050
-    100026: Wall051
-    100028: Wall052
-    100030: Wall053
-    100032: Wall054
-    100034: Wall055
-    400000: //RootNode
-    400002: Wall048
-    400004: Wall049
-    400006: Wall022
-    400008: Wall029
-    400010: Wall030
-    400012: Wall032
-    400014: Wall034
-    400016: Wall036
-    400018: Wall037
-    400020: Wall039
-    400022: Wall041
-    400024: Wall050
-    400026: Wall051
-    400028: Wall052
-    400030: Wall053
-    400032: Wall054
-    400034: Wall055
-    2100000: Xargon-Textures
-    2100002: Glass
-    2300000: Wall048
-    2300002: Wall049
-    2300004: Wall022
-    2300006: Wall029
-    2300008: Wall030
-    2300010: Wall032
-    2300012: Wall034
-    2300014: Wall036
-    2300016: Wall037
-    2300018: Wall039
-    2300020: Wall041
-    2300022: Wall050
-    2300024: Wall051
-    2300026: Wall052
-    2300028: Wall053
-    2300030: Wall054
-    2300032: Wall055
-    3300000: Wall048
-    3300002: Wall049
-    3300004: Wall022
-    3300006: Wall029
-    3300008: Wall030
-    3300010: Wall032
-    3300012: Wall034
-    3300014: Wall036
-    3300016: Wall037
-    3300018: Wall039
-    3300020: Wall041
-    3300022: Wall050
-    3300024: Wall051
-    3300026: Wall052
-    3300028: Wall053
-    3300030: Wall054
-    3300032: Wall055
-    4300000: Wall048
-    4300002: Wall049
-    4300004: Wall022
-    4300006: Wall029
-    4300008: Wall030
-    4300010: Wall032
-    4300012: Wall034
-    4300014: Wall036
-    4300016: Wall037
-    4300018: Wall039
-    4300020: Wall041
-    4300022: Wall050
-    4300024: Wall051
-    4300026: Wall052
-    4300028: Wall053
-    4300030: Wall054
-    4300032: Wall055
-    9500000: //RootNode
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Wall048
+  - first:
+      1: 100004
+    second: Wall049
+  - first:
+      1: 100006
+    second: Wall022
+  - first:
+      1: 100008
+    second: Wall029
+  - first:
+      1: 100010
+    second: Wall030
+  - first:
+      1: 100012
+    second: Wall032
+  - first:
+      1: 100014
+    second: Wall034
+  - first:
+      1: 100016
+    second: Wall036
+  - first:
+      1: 100018
+    second: Wall037
+  - first:
+      1: 100020
+    second: Wall039
+  - first:
+      1: 100022
+    second: Wall041
+  - first:
+      1: 100024
+    second: Wall050
+  - first:
+      1: 100026
+    second: Wall051
+  - first:
+      1: 100028
+    second: Wall052
+  - first:
+      1: 100030
+    second: Wall053
+  - first:
+      1: 100032
+    second: Wall054
+  - first:
+      1: 100034
+    second: Wall055
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Wall048
+  - first:
+      4: 400004
+    second: Wall049
+  - first:
+      4: 400006
+    second: Wall022
+  - first:
+      4: 400008
+    second: Wall029
+  - first:
+      4: 400010
+    second: Wall030
+  - first:
+      4: 400012
+    second: Wall032
+  - first:
+      4: 400014
+    second: Wall034
+  - first:
+      4: 400016
+    second: Wall036
+  - first:
+      4: 400018
+    second: Wall037
+  - first:
+      4: 400020
+    second: Wall039
+  - first:
+      4: 400022
+    second: Wall041
+  - first:
+      4: 400024
+    second: Wall050
+  - first:
+      4: 400026
+    second: Wall051
+  - first:
+      4: 400028
+    second: Wall052
+  - first:
+      4: 400030
+    second: Wall053
+  - first:
+      4: 400032
+    second: Wall054
+  - first:
+      4: 400034
+    second: Wall055
+  - first:
+      21: 2100000
+    second: Xargon-Textures
+  - first:
+      21: 2100002
+    second: Glass
+  - first:
+      23: 2300000
+    second: Wall048
+  - first:
+      23: 2300002
+    second: Wall049
+  - first:
+      23: 2300004
+    second: Wall022
+  - first:
+      23: 2300006
+    second: Wall029
+  - first:
+      23: 2300008
+    second: Wall030
+  - first:
+      23: 2300010
+    second: Wall032
+  - first:
+      23: 2300012
+    second: Wall034
+  - first:
+      23: 2300014
+    second: Wall036
+  - first:
+      23: 2300016
+    second: Wall037
+  - first:
+      23: 2300018
+    second: Wall039
+  - first:
+      23: 2300020
+    second: Wall041
+  - first:
+      23: 2300022
+    second: Wall050
+  - first:
+      23: 2300024
+    second: Wall051
+  - first:
+      23: 2300026
+    second: Wall052
+  - first:
+      23: 2300028
+    second: Wall053
+  - first:
+      23: 2300030
+    second: Wall054
+  - first:
+      23: 2300032
+    second: Wall055
+  - first:
+      33: 3300000
+    second: Wall048
+  - first:
+      33: 3300002
+    second: Wall049
+  - first:
+      33: 3300004
+    second: Wall022
+  - first:
+      33: 3300006
+    second: Wall029
+  - first:
+      33: 3300008
+    second: Wall030
+  - first:
+      33: 3300010
+    second: Wall032
+  - first:
+      33: 3300012
+    second: Wall034
+  - first:
+      33: 3300014
+    second: Wall036
+  - first:
+      33: 3300016
+    second: Wall037
+  - first:
+      33: 3300018
+    second: Wall039
+  - first:
+      33: 3300020
+    second: Wall041
+  - first:
+      33: 3300022
+    second: Wall050
+  - first:
+      33: 3300024
+    second: Wall051
+  - first:
+      33: 3300026
+    second: Wall052
+  - first:
+      33: 3300028
+    second: Wall053
+  - first:
+      33: 3300030
+    second: Wall054
+  - first:
+      33: 3300032
+    second: Wall055
+  - first:
+      43: 4300000
+    second: Wall048
+  - first:
+      43: 4300002
+    second: Wall049
+  - first:
+      43: 4300004
+    second: Wall022
+  - first:
+      43: 4300006
+    second: Wall029
+  - first:
+      43: 4300008
+    second: Wall030
+  - first:
+      43: 4300010
+    second: Wall032
+  - first:
+      43: 4300012
+    second: Wall034
+  - first:
+      43: 4300014
+    second: Wall036
+  - first:
+      43: 4300016
+    second: Wall037
+  - first:
+      43: 4300018
+    second: Wall039
+  - first:
+      43: 4300020
+    second: Wall041
+  - first:
+      43: 4300022
+    second: Wall050
+  - first:
+      43: 4300024
+    second: Wall051
+  - first:
+      43: 4300026
+    second: Wall052
+  - first:
+      43: 4300028
+    second: Wall053
+  - first:
+      43: 4300030
+    second: Wall054
+  - first:
+      43: 4300032
+    second: Wall055
+  - first:
+      95: 9500000
+    second: //RootNode
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -114,6 +292,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -128,17 +307,23 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -150,10 +335,13 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
-  copyAvatar: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -163,14 +351,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

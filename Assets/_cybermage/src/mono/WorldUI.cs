@@ -62,7 +62,7 @@ namespace Cybermage.Common
                 TextMeshProUGUI text = go.GetComponent<TextMeshProUGUI>();
                 text.text = feature;
                 text.alignment = TextAlignmentOptions.Right;
-                text.color = CM_Styles.Header;
+                text.color = CM_Theme.H3;
             }
         }
         
@@ -78,7 +78,7 @@ namespace Cybermage.Common
                 .GetComponent<TextMeshProUGUI>();
             headerText.text = bio.name;
             headerText.alignment = TextAlignmentOptions.Left;
-            headerText.color = CM_Styles.Header;
+            headerText.color = CM_Theme.H1;
 
             TextMeshProUGUI bodyText = Instantiate(
                 CM_Resources.prefabs.ui.worldSpaceText.Load(), 
@@ -86,7 +86,7 @@ namespace Cybermage.Common
                 .GetComponent<TextMeshProUGUI>();
             bodyText.text = bio.content;
             bodyText.alignment = TextAlignmentOptions.Left;
-            bodyText.color = CM_Styles.Text;
+            bodyText.color = CM_Theme.Text;
             
             TextMeshProUGUI linkText_1 = Instantiate(
                 CM_Resources.prefabs.ui.worldSpaceLink.Load(), 
@@ -95,7 +95,7 @@ namespace Cybermage.Common
             linkText_1.text = bio.email;
             linkText_1.alignment = TextAlignmentOptions.Left;
             linkText_1.gameObject.AddComponent<WebLink>().SetURL(bio.email, linkText_1);
-            linkText_1.color = CM_Styles.Link;
+            linkText_1.color = CM_Theme.Link;
 
             TextMeshProUGUI linkText_2 = Instantiate(
                 CM_Resources.prefabs.ui.worldSpaceLink.Load(), 
@@ -104,7 +104,7 @@ namespace Cybermage.Common
             linkText_2.text = bio.linkedin;
             linkText_2.alignment = TextAlignmentOptions.Left;
             linkText_2.gameObject.AddComponent<WebLink>().SetURL(bio.linkedin, linkText_2);
-            linkText_2.color = CM_Styles.Link;
+            linkText_2.color = CM_Theme.Link;
 
             TextMeshProUGUI linkText_3 = Instantiate(
                 CM_Resources.prefabs.ui.worldSpaceLink.Load(), 
@@ -113,7 +113,7 @@ namespace Cybermage.Common
             linkText_3.text = bio.imdb;
             linkText_3.alignment = TextAlignmentOptions.Left;
             linkText_3.gameObject.AddComponent<WebLink>().SetURL(bio.imdb, linkText_3);
-            linkText_3.color = CM_Styles.Link;
+            linkText_3.color = CM_Theme.Link;
 
             //Set UI for rebuilding.
             UpdateUI(detailsContentTransform.GetComponent<VerticalLayoutGroup>());
@@ -152,12 +152,12 @@ namespace Cybermage.Common
 
         public void OnPointerEnter(PointerEventData eventData)
         {
-            _textComponent.color = CM_Styles.Link;
+            _textComponent.color = CM_Theme.Link;
         }
 
         public void OnPointerExit(PointerEventData eventData)
         {
-            _textComponent.color = CM_Styles.LinkVisited;
+            _textComponent.color = CM_Theme.LinkVisited;
         }
     }
 }

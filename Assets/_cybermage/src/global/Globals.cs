@@ -24,10 +24,7 @@ namespace Cybermage
             SceneManager.sceneLoaded += SceneLoaded;
         }
 
-        private static void SceneLoaded(Scene scene, LoadSceneMode mode)
-        {
-            
-        }
+        private static void SceneLoaded(Scene scene, LoadSceneMode mode) { }
 
         public static void Awake()
         {

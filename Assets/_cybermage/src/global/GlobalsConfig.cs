@@ -3,6 +3,7 @@ using System.IO;
 using System.Threading.Tasks;
 using Cysharp.Threading.Tasks;
 using Newtonsoft.Json;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -30,7 +31,7 @@ namespace Cybermage
         {
             Player = player;
         }
-    }
+     }
 
     public static class ResourceController
     {
@@ -57,15 +58,50 @@ namespace Cybermage
         }
     }
     
-    public static class CM_Styles
+    public static class CM_Theme
     {
         public static readonly Color Default = Color.magenta;
-        public static readonly Color Header = Color.green;
+        public static readonly Color H1 = Color.green;
+        public static readonly Color H3 = Color.green;
         public static readonly Color Text = Color.red;
         public static readonly Color Link = Color.yellow;
         public static readonly Color LinkVisited = Color.white;
+
+        public static void SetColor(TextMeshProUGUI text, CM_Style style)
+        {
+            text.color = ColorMap(style);
+        }
+
+        private static Color ColorMap(CM_Style style)
+        {
+            switch (style)
+            {
+                case CM_Style.H1:
+                    return H1;
+                case CM_Style.H3:
+                    return H3;
+                case CM_Style.Text:
+                    return Text;
+                case CM_Style.Link:
+                    return Link;
+                case CM_Style.LinkVisited:
+                    return LinkVisited;
+                default:
+                    return Default;
+            }
+        }
     }
 
+    public enum CM_Style
+    {
+        Default,
+        H1,
+        H3,
+        Text,
+        Link,
+        LinkVisited
+    }
+    
     public class CM_Information
     {
         public Biography biography;

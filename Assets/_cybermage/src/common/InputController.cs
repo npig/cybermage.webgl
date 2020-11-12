@@ -27,7 +27,7 @@ namespace Cybermage.Common
                     MainCamera.Camera.ScreenPointToRay(Input.mousePosition), 
                     out RaycastHit hit, Mathf.Infinity, 1 << 8);
                 {
-                    if(hit.point != null)
+                    if(hit.point != Vector3.zero)
                         EventManager.Instance.Raise(new MouseHitPoint(hit.point, hit.collider));
                 }
             }

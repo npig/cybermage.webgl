@@ -24,17 +24,14 @@ namespace Cybermage.Common
 
         public override void Update()
         {
-            base.Update();
-
-            //Required during path recalculation as remainingDistance will report incorrectly
-            if (_agent.pathPending ||
-                _agent.pathStatus == NavMeshPathStatus.PathInvalid ||
-                _agent.path.corners.Length == 0)
+            if (_isLocked || _isDead) 
                 return;
+            
+            base.Update();
             
             if (_target != null && !_isLocked)
             {
-                if (_agent.remainingDistance < _mobileData.GetData().Range)
+                if (_agent.remainingDistance < _mobileData.GetData().AlertRange)
                 {
                     _agent.ResetPath();
                     _animator.SetBool("Moving", false);
@@ -65,6 +62,8 @@ namespace Cybermage.Common
 
         public override void Shoot()
         {
+            base.Shoot();
+            
             Transform transform = Instantiate(CM_Resources.prefabs.vfx.superCyberFire.Load(), _target.GetTransform()).transform;
             transform.position = _target.GetPosition();
         }

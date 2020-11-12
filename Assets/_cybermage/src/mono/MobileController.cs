@@ -1,4 +1,5 @@
 ﻿using System;
+using Cybermage.Events;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AI;
@@ -9,28 +10,28 @@ public class MobileController : MonoBehaviour
     internal NavMeshAgent _agent;
     internal Mobile _mobileData;
     internal Animator _animator;
-    internal const float _rotationSpeed = 10f;
     internal Mobile _target;
+    internal bool _isDead;
     internal bool _isLocked;
+    internal bool _isAgro;
+    
+    private const float _rotationSpeed = 10f;
+    private Vector2 _smoothDeltaPosition = Vector2.zero;
+    private Vector2 _velocity = Vector2.zero;
 
+    
     #region Lifecycle
-
     public virtual void Awake() 
     {
         _animator = GetComponent<Animator>();
         _agent = GetComponent<NavMeshAgent>();
         _agent.updateRotation = false;
         _agent.updatePosition = false;
+        EventManager.Instance.AddListener<DeathEvent>(MobileDeath);
     }
 
-    private Vector2 _smoothDeltaPosition = Vector2.zero;
-    private Vector2 _velocity = Vector2.zero;
-    
     public virtual void Update() 
     {
-        if (_agent == null) 
-            return;
-
         Vector3 worldDeltaPosition = _agent.nextPosition - transform.position;
 
         // Map 'worldDeltaPosition' to local space
@@ -45,7 +46,7 @@ public class MobileController : MonoBehaviour
         // Update velocity if time advances
         if (Time.deltaTime > 1e-5f)
             _velocity = _smoothDeltaPosition / Time.deltaTime;
-
+        
         bool shouldMove = _velocity.magnitude > 0.1f && _agent.remainingDistance > 0.1f;
 
         // Update animation parameters
@@ -57,15 +58,22 @@ public class MobileController : MonoBehaviour
         transform.position = _agent.nextPosition - 0.9f * worldDeltaPosition;
         
         TurnAgent(_agent.steeringTarget);
+        
+        if (_agent.pathPending ||
+            _agent.pathStatus == NavMeshPathStatus.PathInvalid ||
+            _agent.path.corners.Length == 0)
+            return;
     }
     #endregion
 
+    //We're using root motion to smooth out mobile speed, this will help prevent floating animation cycles
     private void OnAnimatorMove()
     {
         float speed = (_animator.deltaPosition / Time.deltaTime).magnitude;
         _agent.speed = Mathf.Clamp(speed, 1f, 4f);
     }
 
+    //Manual rotation control of navmesh agent
     private void TurnAgent(Vector3 destination) 
     {
         //Todo: refactor
@@ -76,27 +84,8 @@ public class MobileController : MonoBehaviour
         Quaternion qDir = Quaternion.LookRotation(direction);
         transform.rotation = Quaternion.Slerp(transform.rotation, qDir, Time.deltaTime * _rotationSpeed);
     }
-    
-    public Mobile GetMobile()
-    {
-        return _mobileData;
-    }
-    
-    public void SetMobileData(Mobile mobileData)
-    {
-        _mobileData = mobileData;
-    }
-    
-    public Mobile GetTarget()
-    {
-        return _target;
-    }
 
-    public void ClearTarget()
-    {
-        _target = null;
-    }
-    
+    //Await UniTask to freeze mobile during animation or actions
     internal async UniTaskVoid Lock(int delayTime, int lockTime, Action unlockAction)
     {
         _isLocked = true;
@@ -108,39 +97,54 @@ public class MobileController : MonoBehaviour
         _isLocked = false;
     }
 
-    internal bool HasReachedDestination()
+    //Mobile Death Event
+    private void MobileDeath(DeathEvent e)
     {
-        if (!_agent.pathPending)
-        {
-            if (_agent.remainingDistance <= _agent.stoppingDistance)
-            {
-                if (!_agent.hasPath || _agent.velocity.sqrMagnitude == 0f)
-                {
-                    return true;
-                }
-            }
-        }
+        if (e.MobileData != _mobileData)
+            return;
         
-        return false;
+        _isDead = true;
+        _animator.SetTrigger("Death");
+    }
+    
+    // Data Getters and Setters
+    public void SetMobileData(Mobile mobileData)
+    {
+        _mobileData = mobileData;
+    }
+
+    public Mobile GetMobile()
+    {
+        return _mobileData;
+    }
+    // ^    
+    public void TakeDamage(int i)
+    {
+        _mobileData.TakeDamage(i);
+        _animator.SetTrigger("GetHit");
+    }
+
+    public Mobile GetTarget()
+    {
+        return _target;
+    }
+
+    public void ClearTarget()
+    {
+        _target = null;
     }
 
     #region Animation Events
-    public void Hit()
-    {
-    }
+    public void Hit() { }
+
     public virtual void Shoot()
     {
-        Debug.Log("ATTACK!@#!#");
+        Debug.Log($"{this.gameObject.name} is ATTACKING!@#!#");
+        _target.TakeDamage(_mobileData.GetData().AttackDamage);
     }
-    public void FootR()
-    {
-    }
-    public void FootL()
-    {
-    }
-    public void Land()
-    {
-    }
+    public void FootR() { }
+    public void FootL() { }
+    public void Land() { }
     #endregion
 
 }

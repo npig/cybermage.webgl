@@ -12,25 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e3ac75b9f6508144852c9023eb1e4a5, type: 3}
   m_Name: Cache
   m_EditorClassIdentifier: 
-  Contents:
-  - Path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
-    Type: TMPro.TMP_SpriteAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  - Path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
-    Type: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  - Path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
-    Type: TMPro.TMP_StyleSheet, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  - Path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
-    Type: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-    Type: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  - Path: Assets/TextMesh Pro/Resources/TMP Settings.asset
-    Type: TMPro.TMP_Settings, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-    Type: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
+  Contents: []

@@ -60,11 +60,6 @@ public class UI_MainScreen : MonoBehaviour
 
     private async void OnCLickButton()
     {
-        /*if (!_regex.IsMatch(_inputText.text)) {
-            DisplayError("illegal characters");
-            return;
-        }*/
-
         if (GlobalsConfig.Dev)
         {
             GlobalsConfig.SetUsername("Developer");
@@ -72,6 +67,11 @@ public class UI_MainScreen : MonoBehaviour
             return;
         }
         
+        if (!_regex.IsMatch(_inputText.text)) {
+            DisplayError("illegal characters");
+            return;
+        }
+
         //GlobalsConfig.SetUsername(_inputText.text);
         AddUserResult result = await AddUser.Query(_inputText.text);
         

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Cybermage;
 using Cybermage.Entities;
+using Cybermage.Events;
 using UnityEngine.AI;
 
 public static class EntityFactory
@@ -10,7 +11,8 @@ public static class EntityFactory
     private static Entity ZombieType;
     private static Entity ZombieWizardType;
 
-    private static List<Mobile> MobileCollection = new List<Mobile>();
+    public static List<Mobile> MobileCollection = new List<Mobile>();
+    public static Mobile Player;
 
     public static void Awake()
     {
@@ -21,23 +23,25 @@ public static class EntityFactory
                 50,
                 10,
                 2,
-                false));
+                4,
+                10));
         
         ZombieType = new Entity(null, 
             new EntityData(EntityType.MOB,
                 Resources.Load<MobileController>(CM_Resources.prefabs.entities.Zombie.Path),
                 10,
                 10,
-                1,
+                8,
                 2,
-                true));
+                1,
+                2));
     }
 
     public static Mobile SpawnPlayer(Vector3 spawnPosition)
     {
         Mobile playerMobile = PlayerType.SpawnMobile(spawnPosition);
         GlobalsConfig.SetPlayer(playerMobile);
-        MobileCollection.Add(playerMobile);
+        Player = playerMobile;
         return playerMobile;
     }
     
@@ -103,7 +107,7 @@ public class Mobile
     private Entity _entityType;
     private EntityData _mobileData;
     private MobileController _mobileController;
-    private bool _isDead;
+    public bool _isDead { get; private set; }
 
     public Mobile(Entity entityType, MobileController mobileController)
     {
@@ -112,12 +116,33 @@ public class Mobile
         _mobileController = mobileController;
     }
 
+    public void TakeDamage(int dmg)
+    {
+        _mobileData.Health -= dmg;
+
+        if (_mobileData.Health <= 0)
+        {
+            _isDead = true;
+            EventManager.Instance.Raise(new DeathEvent(this));
+        }
+    }
+    
     public Mobile GetTarget() => _mobileController.GetTarget();
     public EntityData GetData() => _mobileData;
     public MobileController GetController() => _mobileController;
     public Vector3 GetPosition() => _mobileController.transform.position;
     public Transform GetTransform() => _mobileController.transform;
 
+}
+
+public class DeathEvent : IEvent
+{
+    public Mobile MobileData { get; private set; }
+
+    public DeathEvent(Mobile mobile)
+    {
+        MobileData = mobile;
+    }
 }
 
 

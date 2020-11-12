@@ -57,7 +57,7 @@ namespace Cybermage.Common
 
             foreach (string feature in GlobalsConfig.Information.features)
             {
-                GameObject go = Instantiate(CM_Resources.prefabs.ui.worldSpaceHeader.Load(),
+                GameObject go = Instantiate(CM_Resources.prefabs.ui.worldSpaceSubHeader.Load(),
                     featureContentTransform);
                 TextMeshProUGUI text = go.GetComponent<TextMeshProUGUI>();
                 text.text = feature;

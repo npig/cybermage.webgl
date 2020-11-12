@@ -1,5 +1,6 @@
 ﻿
 using UnityEngine;
+using UnityEngine.AI;
 
 namespace Cybermage.Common
 {
@@ -16,7 +17,39 @@ namespace Cybermage.Common
 
         public override void Update()
         {
+            if (_isLocked || _isDead) 
+                return;
+            
             base.Update();
+            ProximityCheck();
+            
+            if (_target != null && _agent.remainingDistance < _mobileData.GetData().AttackRange)
+            {
+                _animator.SetBool("Moving", false);
+                _animator.SetTrigger("Attack");
+                
+                Lock(0, 10, () =>
+                {
+                    _target = null;
+                });
+            }
+        }
+
+        private void ProximityCheck()
+        {
+            Vector3 playerPosition = EntityFactory.Player.GetPosition();
+            float playerDistance = (transform.position - playerPosition).magnitude;
+            
+            if (playerDistance <= _mobileData.GetData().AlertRange)
+            {
+                _target = EntityFactory.Player;
+                _agent.destination = playerPosition;
+            }
+            else
+            {
+                _target = null;
+                _agent.ResetPath();
+            }
         }
     }
 }

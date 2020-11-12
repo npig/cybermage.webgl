@@ -31,7 +31,7 @@ namespace Cybermage
 
         public static void Awake()
         {
-            MainCamera.Awake(5);
+            MainCamera.Awake(6);
             UIManager.Awake();
             EntityFactory.Awake();
             StateMachine.QueueState(new MainMenu());
@@ -43,7 +43,6 @@ namespace Cybermage
             StateMachine.Update();
             InputController.Update();
         }
-        
     }
 
     public static class SceneLoader

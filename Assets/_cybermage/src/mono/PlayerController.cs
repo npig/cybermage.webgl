@@ -49,11 +49,13 @@ namespace Cybermage.Common
             //_agent.ResetPath();
             _target = null;
             ColliderComponent colliderComponent = e.Collider.GetComponent<ColliderComponent>();
-            if (colliderComponent != null)
+            
+            if (colliderComponent != null )
             {
-                _target = colliderComponent.GetMobile();
-                _agent.destination = _target.GetPosition();
-                return;
+                if (!colliderComponent.GetMobile()._isDead)
+                {
+                    _target = colliderComponent.GetMobile();
+                }
             }
             
             _agent.destination = e.HitPoint;

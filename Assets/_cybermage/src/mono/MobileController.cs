@@ -98,6 +98,7 @@ public class MobileController : MonoBehaviour
             return;
         
         _isDead = true;
+        _agent.enabled = false;
         _animator.SetTrigger("Death");
     }
     

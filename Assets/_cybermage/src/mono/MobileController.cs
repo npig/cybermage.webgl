@@ -58,11 +58,6 @@ public class MobileController : MonoBehaviour
         transform.position = _agent.nextPosition - 0.9f * worldDeltaPosition;
         
         TurnAgent(_agent.steeringTarget);
-        
-        if (_agent.pathPending ||
-            _agent.pathStatus == NavMeshPathStatus.PathInvalid ||
-            _agent.path.corners.Length == 0)
-            return;
     }
     #endregion
 

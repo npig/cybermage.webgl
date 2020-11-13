@@ -1,9 +1,9 @@
 {
   "Clips": [
     {
-      "Name": "TC_BoyGaspingFXTransition",
-      "Resource": "Audio/Library/SFX/Transitions/TC_BoyGaspingFXTransition",
-      "MixerGroup": "MUSIC",
+      "Name": "00MusicLoop",
+      "Resource": "Audio/00MusicLoop",
+      "MixerGroup": "Music",
       "Volume": ".5",
       "Pitch": "1",
       "Loop": true
@@ -11,7 +11,7 @@
     {
       "Name": "EndTransition2",
       "Resource": "Audio/Library/SFX/Transitions/Asy_T4_Transition2",
-      "MixerGroup": "SFX",
+      "MixerGroup": "Sfx",
       "Volume": ".33",
       "Pitch": "1",
       "Loop": true

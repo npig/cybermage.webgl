@@ -5,28 +5,44 @@ using System.Threading.Tasks;
 using Cysharp.Threading.Tasks;
 using Newtonsoft.Json;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.Networking;
 
 namespace Cybermage.Common
 {
     public static class AudioManager
     {
-        private static Dictionary<string, Clips> _audioCollection = new Dictionary<string, Clips>();
+        private static Dictionary<string, Clips> _audioCollection;
+        private static AudioMixer _mixer;
         
         public static void Awake()
         {
-            Task<CM_Audio> audioJson = ResourceController.LoadFile<CM_Audio>("cm_audio.json");
+            _mixer = CM_Resources.Mixer;
+            _audioCollection = new Dictionary<string, Clips>();
+            CM_Audio audioCollection = ResourceController.LoadFile<CM_Audio>("cm_audio.json").Result;
             
-            foreach (Clips clip in audioJson.Result.Clips)
+            foreach (Clips clip in audioCollection.Clips)
             {
-                Debug.Log(clip.Resource);
                 _audioCollection.Add(clip.Resource, clip);
             }
         }
         
-        public static void PlaySample(Vector3 position)
+        public static void PlaySample(string name)
         {
+            _audioCollection.TryGetValue(name, out Clips clipData);
             
+            if (clipData == null)
+                return;
+            
+            GameObject go = new GameObject();
+            go.transform.position = MainCamera.Camera.transform.position;
+            AudioSource source = go.AddComponent<AudioSource>();
+            AudioClip clip = Resources.Load<AudioClip>(clipData.Resource);
+            source.outputAudioMixerGroup = _mixer.FindMatchingGroups(clipData.MixerGroup)[0];
+            source.clip = clip;
+            source.volume = clipData.Volume;
+            source.pitch = clipData.Pitch;
+            source.loop = clipData.Loop;
         }
     }
 

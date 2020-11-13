@@ -16,25 +16,24 @@ namespace Cybermage.Common
                 gameObject.AddComponent<NavPathDebug>();
         }
 
-        public void Start()
-        {
-            //_animator.SetInteger("Weapon", -1);
-            //_animator.SetInteger("Weapon", 0);
-        }
-
         public override void Update()
         {
             if (_isLocked || _isDead) 
                 return;
             
+            if (_agent.pathPending ||
+                _agent.pathStatus == NavMeshPathStatus.PathInvalid ||
+                _agent.path.corners.Length == 0)
+                return;
+            
             base.Update();
             
-            if (_target != null && !_isLocked)
+            if (_target != null)
             {
-                if (_agent.remainingDistance < _mobileData.GetData().AlertRange)
+                float distance = (_target.GetPosition() - transform.position).magnitude;
+                if (distance < _mobileData.GetData().AlertRange)
                 {
                     _agent.ResetPath();
-                    _animator.SetBool("Moving", false);
                     _animator.SetTrigger("Attack");
 
                     Lock(0, 10, () =>

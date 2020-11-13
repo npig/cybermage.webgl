@@ -20,71 +20,110 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a2f826-1a78-4d13-8474-c429d4a59124" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/cm_audio.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/cm_audio.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/ReflectionProbe-1.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/ReflectionProbe-1.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/AudioManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/AudioManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/cubeBox.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/cubeBox.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/pickup.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/pickup.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pebble_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pebble_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pebble_02.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pebble_02.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pebble_03.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rock_Pebble_03.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rubble_Pebbles_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rubble_Pebbles_01.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rubble_Pebbles_03.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Env_Rubble_Pebbles_03.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Prop_Brazier_01.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PolygonDungeon/Models/SM_Prop_Brazier_01.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cm_audio.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/cm_audio.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/Mixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/Mixer.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog08.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog08.wav.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/data.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/skybox.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Plane_Beam.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/Old/Plane_Beam.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/prop objects.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/prop objects.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/screens.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/models/screens.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/isometricAlignment.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/isometricAlignment.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/background.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/background.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/prefabs/CubeBox.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/prefabs/CubeBox.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/prefabs/Pickup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/prefabs/Pickup.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/Key.prefab" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/Key.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-10_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-10_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-10_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-10_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-11_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-11_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-11_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-11_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-12_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-12_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-12_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-12_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-13_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-13_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-13_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-13_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-14_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-14_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-14_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-14_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-15_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-15_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-15_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-15_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-16_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-16_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-16_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-16_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-3_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-3_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-3_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-3_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-4_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-4_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-4_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-4_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-5_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-5_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-5_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-5_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-6_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-6_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-6_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-6_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-7_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-7_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-7_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-7_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-8_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-8_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-8_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-8_comp_shadowmask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-9_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-9_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-9_comp_shadowmask.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-9_comp_shadowmask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-10_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-10_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-10_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-10_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-11_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-11_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-11_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-11_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-12_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-12_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-12_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-12_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-13_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-13_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-13_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-13_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-14_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-14_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-14_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-14_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-15_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-15_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-15_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-15_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-16_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-16_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-16_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-16_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-3_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-3_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-3_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-3_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-4_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-4_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-4_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-4_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-5_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-5_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-5_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-5_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-6_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-6_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-6_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-6_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-7_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-7_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-7_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-7_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-8_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-8_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-8_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-8_comp_shadowmask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-9_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-9_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-9_comp_shadowmask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-9_comp_shadowmask.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/NavMesh.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/ReflectionProbe-0.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/ReflectionProbe-0.exr.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/main.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/main/NavMesh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/main/NavMesh.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/commands.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/common/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/AudioManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,16 +181,16 @@
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/data/EntityData.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/WorldUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/InputController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/WorldUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/InputController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" />
       </list>
     </option>
   </component>
@@ -367,24 +406,5 @@
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604840875806" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605165454287" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_cybermage/src/common/AudioManager.cs</url>
-          <line>19</line>
-          <properties documentPath="C:\_dev\cybermage.webgl\Assets\_cybermage\src\common\AudioManager.cs" initialLine="19">
-            <startOffsets>
-              <option value="546" />
-            </startOffsets>
-            <endOffsets>
-              <option value="592" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

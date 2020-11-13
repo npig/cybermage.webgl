@@ -27,6 +27,7 @@ namespace Cybermage
             MonoBehaviour.Instantiate(Resources.Load("prefabs/ui/background"), UIManager.Canvas.transform);
             _mainScreen = MonoBehaviour.Instantiate(Resources.Load<UI_MainScreen>("prefabs/ui/mainScreen"), UIManager.Canvas.transform);
             _mainScreen.SetData(new UIMainScreenData("Cybermage","USERNAME"));
+            AudioManager.PlaySample("00MusicLoop");
         }
 
         public override void Load()

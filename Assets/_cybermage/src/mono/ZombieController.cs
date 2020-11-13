@@ -20,6 +20,11 @@ namespace Cybermage.Common
             if (_isLocked || _isDead) 
                 return;
             
+            if (_agent.pathPending ||
+                _agent.pathStatus == NavMeshPathStatus.PathInvalid ||
+                _agent.path.corners.Length == 0)
+                return;
+            
             base.Update();
             ProximityCheck();
             

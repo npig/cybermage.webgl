@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\_dev\cybermage.webgl" t="IncludeRecursive">
+    <e p="C:\Users\CyberDreams\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\CyberDreams\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_cybermage.webgl.1711859044.00" t="ExcludeRecursive" />
+    <e p="D:\_dev\cybermage.webgl" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -26,9 +28,11 @@
           <e p="src" t="Include">
             <e p="common" t="Include">
               <e p="AudioManager.cs" t="Include" />
+              <e p="FadeManager.cs" t="Include" />
               <e p="InputController.cs" t="Include" />
               <e p="MainCamera.cs" t="Include" />
               <e p="ObjectSpawner.cs" t="Include" />
+              <e p="Timer.cs" t="Include" />
             </e>
             <e p="Data" t="Include">
               <e p="EntityData.cs" t="Include" />
@@ -237,7 +241,5 @@
       <e p="TypeSafe.Editor.csproj" t="IncludeRecursive" />
       <e p="TypeSafe.Runtime.csproj" t="IncludeRecursive" />
     </e>
-    <e p="C:\Users\cybermage\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\cybermage\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_cybermage.webgl.-2134411613.00" t="ExcludeRecursive" />
   </component>
 </project>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using Cybermage.Common;
+using Cybermage.Core;
 using Cysharp.Threading.Tasks;
 using Cysharp.Threading.Tasks.Triggers;
 using UnityEngine;
@@ -32,6 +33,7 @@ namespace Cybermage
             AudioManager.Awake();
             UIManager.Awake();
             EntityFactory.Awake();
+            FadeManager.Awake();
             StateMachine.QueueState(new MainMenu());
         }
         

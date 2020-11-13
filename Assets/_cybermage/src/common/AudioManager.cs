@@ -23,7 +23,7 @@ namespace Cybermage.Common
             
             foreach (Clips clip in audioCollection.Clips)
             {
-                _audioCollection.Add(clip.Resource, clip);
+                _audioCollection.Add(clip.Name, clip);
             }
         }
         
@@ -34,7 +34,7 @@ namespace Cybermage.Common
             if (clipData == null)
                 return;
             
-            GameObject go = new GameObject();
+            GameObject go = new GameObject($"cm_audio: {name}");
             go.transform.position = MainCamera.Camera.transform.position;
             AudioSource source = go.AddComponent<AudioSource>();
             AudioClip clip = Resources.Load<AudioClip>(clipData.Resource);
@@ -43,6 +43,7 @@ namespace Cybermage.Common
             source.volume = clipData.Volume;
             source.pitch = clipData.Pitch;
             source.loop = clipData.Loop;
+            source.Play();
         }
     }
 
@@ -53,6 +54,7 @@ namespace Cybermage.Common
 
     public class Clips
     {
+        public string Name;
         public string Resource;
         public string MixerGroup;
         public float Volume;

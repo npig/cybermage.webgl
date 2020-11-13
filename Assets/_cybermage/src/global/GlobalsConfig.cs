@@ -19,7 +19,7 @@ namespace Cybermage
         public static void Initialise(bool devMode)
         {
             Dev = devMode;
-            Information = ResourceController.LoadInformation().Result;
+            Information = ResourceController.LoadFile<CM_Information>("cm_info.json").Result;
         }
         
         public static void SetUsername(string userName)
@@ -40,15 +40,15 @@ namespace Cybermage
             return $"file://{Path.Combine(Application.streamingAssetsPath, fileName)}";
         }
 
-        public static async Task<CM_Information> LoadInformation()
+        public static async Task<T> LoadFile<T>(string s)
         {
-            UnityWebRequest request = UnityWebRequest.Get(GetLocalLocation("cm_info.json"));
+            UnityWebRequest request = UnityWebRequest.Get(GetLocalLocation(s));
             try
             {
                 await request.SendWebRequest();
                 string responseString = request.downloadHandler.text;
-                CM_Information information = JsonConvert.DeserializeObject<CM_Information>(responseString);
-                return information;
+                T response = JsonConvert.DeserializeObject<T>(responseString);
+                return response;
             }
             catch (Exception e)
             {

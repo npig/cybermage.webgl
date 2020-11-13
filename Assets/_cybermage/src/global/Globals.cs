@@ -29,6 +29,7 @@ namespace Cybermage
         public static void Awake()
         {
             MainCamera.Awake(6);
+            AudioManager.Awake();
             UIManager.Awake();
             EntityFactory.Awake();
             StateMachine.QueueState(new MainMenu());

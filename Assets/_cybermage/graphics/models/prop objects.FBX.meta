@@ -1,93 +1,251 @@
 fileFormatVersion: 2
 guid: fc83918145eba7a4294e755f658ddd8b
-timeCreated: 1525868423
-licenseType: Free
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: CableSmallA_mesh001
-    100002: CableSmallA_mesh002
-    100004: LabSampleTrays_mesh
-    100006: PipesMedium_mesh001
-    100008: PowerGenerator_mesh
-    100010: //RootNode
-    100012: ServerBigC_mesh
-    100014: ServerBigC_mesh001
-    100016: ServerBigC_mesh002
-    100018: ServerBigC_mesh003
-    100020: ServerBigC_mesh004
-    100022: ServerBigC_mesh005
-    100024: ServerBigC_mesh006
-    100026: ServerBigC_mesh007
-    100028: SpecimenContainerB_mesh001
-    100030: SpecimenContainerD_mesh
-    400000: CableSmallA_mesh001
-    400002: CableSmallA_mesh002
-    400004: LabSampleTrays_mesh
-    400006: PipesMedium_mesh001
-    400008: PowerGenerator_mesh
-    400010: //RootNode
-    400012: ServerBigC_mesh
-    400014: ServerBigC_mesh001
-    400016: ServerBigC_mesh002
-    400018: ServerBigC_mesh003
-    400020: ServerBigC_mesh004
-    400022: ServerBigC_mesh005
-    400024: ServerBigC_mesh006
-    400026: ServerBigC_mesh007
-    400028: SpecimenContainerB_mesh001
-    400030: SpecimenContainerD_mesh
-    2100000: Xargon-Textures
-    2300000: CableSmallA_mesh001
-    2300002: CableSmallA_mesh002
-    2300004: LabSampleTrays_mesh
-    2300006: PipesMedium_mesh001
-    2300008: PowerGenerator_mesh
-    2300010: ServerBigC_mesh
-    2300012: ServerBigC_mesh001
-    2300014: ServerBigC_mesh002
-    2300016: ServerBigC_mesh003
-    2300018: ServerBigC_mesh004
-    2300020: ServerBigC_mesh005
-    2300022: ServerBigC_mesh006
-    2300024: ServerBigC_mesh007
-    2300026: SpecimenContainerB_mesh001
-    2300028: SpecimenContainerD_mesh
-    3300000: CableSmallA_mesh001
-    3300002: CableSmallA_mesh002
-    3300004: LabSampleTrays_mesh
-    3300006: PipesMedium_mesh001
-    3300008: PowerGenerator_mesh
-    3300010: ServerBigC_mesh
-    3300012: ServerBigC_mesh001
-    3300014: ServerBigC_mesh002
-    3300016: ServerBigC_mesh003
-    3300018: ServerBigC_mesh004
-    3300020: ServerBigC_mesh005
-    3300022: ServerBigC_mesh006
-    3300024: ServerBigC_mesh007
-    3300026: SpecimenContainerB_mesh001
-    3300028: SpecimenContainerD_mesh
-    4300000: CableSmallA_mesh001
-    4300002: ServerBigC_mesh001
-    4300004: SpecimenContainerB_mesh001
-    4300006: PipesMedium_mesh001
-    4300008: ServerBigC_mesh
-    4300010: PowerGenerator_mesh
-    4300012: SpecimenContainerD_mesh
-    4300014: LabSampleTrays_mesh
-    4300016: ServerBigC_mesh002
-    4300018: ServerBigC_mesh003
-    4300020: ServerBigC_mesh004
-    4300022: ServerBigC_mesh005
-    4300024: ServerBigC_mesh006
-    4300026: ServerBigC_mesh007
-    4300028: CableSmallA_mesh002
-    7400000: Take 001
-    9500000: //RootNode
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: CableSmallA_mesh001
+  - first:
+      1: 100002
+    second: CableSmallA_mesh002
+  - first:
+      1: 100004
+    second: LabSampleTrays_mesh
+  - first:
+      1: 100006
+    second: PipesMedium_mesh001
+  - first:
+      1: 100008
+    second: PowerGenerator_mesh
+  - first:
+      1: 100010
+    second: //RootNode
+  - first:
+      1: 100012
+    second: ServerBigC_mesh
+  - first:
+      1: 100014
+    second: ServerBigC_mesh001
+  - first:
+      1: 100016
+    second: ServerBigC_mesh002
+  - first:
+      1: 100018
+    second: ServerBigC_mesh003
+  - first:
+      1: 100020
+    second: ServerBigC_mesh004
+  - first:
+      1: 100022
+    second: ServerBigC_mesh005
+  - first:
+      1: 100024
+    second: ServerBigC_mesh006
+  - first:
+      1: 100026
+    second: ServerBigC_mesh007
+  - first:
+      1: 100028
+    second: SpecimenContainerB_mesh001
+  - first:
+      1: 100030
+    second: SpecimenContainerD_mesh
+  - first:
+      4: 400000
+    second: CableSmallA_mesh001
+  - first:
+      4: 400002
+    second: CableSmallA_mesh002
+  - first:
+      4: 400004
+    second: LabSampleTrays_mesh
+  - first:
+      4: 400006
+    second: PipesMedium_mesh001
+  - first:
+      4: 400008
+    second: PowerGenerator_mesh
+  - first:
+      4: 400010
+    second: //RootNode
+  - first:
+      4: 400012
+    second: ServerBigC_mesh
+  - first:
+      4: 400014
+    second: ServerBigC_mesh001
+  - first:
+      4: 400016
+    second: ServerBigC_mesh002
+  - first:
+      4: 400018
+    second: ServerBigC_mesh003
+  - first:
+      4: 400020
+    second: ServerBigC_mesh004
+  - first:
+      4: 400022
+    second: ServerBigC_mesh005
+  - first:
+      4: 400024
+    second: ServerBigC_mesh006
+  - first:
+      4: 400026
+    second: ServerBigC_mesh007
+  - first:
+      4: 400028
+    second: SpecimenContainerB_mesh001
+  - first:
+      4: 400030
+    second: SpecimenContainerD_mesh
+  - first:
+      21: 2100000
+    second: Xargon-Textures
+  - first:
+      23: 2300000
+    second: CableSmallA_mesh001
+  - first:
+      23: 2300002
+    second: CableSmallA_mesh002
+  - first:
+      23: 2300004
+    second: LabSampleTrays_mesh
+  - first:
+      23: 2300006
+    second: PipesMedium_mesh001
+  - first:
+      23: 2300008
+    second: PowerGenerator_mesh
+  - first:
+      23: 2300010
+    second: ServerBigC_mesh
+  - first:
+      23: 2300012
+    second: ServerBigC_mesh001
+  - first:
+      23: 2300014
+    second: ServerBigC_mesh002
+  - first:
+      23: 2300016
+    second: ServerBigC_mesh003
+  - first:
+      23: 2300018
+    second: ServerBigC_mesh004
+  - first:
+      23: 2300020
+    second: ServerBigC_mesh005
+  - first:
+      23: 2300022
+    second: ServerBigC_mesh006
+  - first:
+      23: 2300024
+    second: ServerBigC_mesh007
+  - first:
+      23: 2300026
+    second: SpecimenContainerB_mesh001
+  - first:
+      23: 2300028
+    second: SpecimenContainerD_mesh
+  - first:
+      33: 3300000
+    second: CableSmallA_mesh001
+  - first:
+      33: 3300002
+    second: CableSmallA_mesh002
+  - first:
+      33: 3300004
+    second: LabSampleTrays_mesh
+  - first:
+      33: 3300006
+    second: PipesMedium_mesh001
+  - first:
+      33: 3300008
+    second: PowerGenerator_mesh
+  - first:
+      33: 3300010
+    second: ServerBigC_mesh
+  - first:
+      33: 3300012
+    second: ServerBigC_mesh001
+  - first:
+      33: 3300014
+    second: ServerBigC_mesh002
+  - first:
+      33: 3300016
+    second: ServerBigC_mesh003
+  - first:
+      33: 3300018
+    second: ServerBigC_mesh004
+  - first:
+      33: 3300020
+    second: ServerBigC_mesh005
+  - first:
+      33: 3300022
+    second: ServerBigC_mesh006
+  - first:
+      33: 3300024
+    second: ServerBigC_mesh007
+  - first:
+      33: 3300026
+    second: SpecimenContainerB_mesh001
+  - first:
+      33: 3300028
+    second: SpecimenContainerD_mesh
+  - first:
+      43: 4300000
+    second: CableSmallA_mesh001
+  - first:
+      43: 4300002
+    second: ServerBigC_mesh001
+  - first:
+      43: 4300004
+    second: SpecimenContainerB_mesh001
+  - first:
+      43: 4300006
+    second: PipesMedium_mesh001
+  - first:
+      43: 4300008
+    second: ServerBigC_mesh
+  - first:
+      43: 4300010
+    second: PowerGenerator_mesh
+  - first:
+      43: 4300012
+    second: SpecimenContainerD_mesh
+  - first:
+      43: 4300014
+    second: LabSampleTrays_mesh
+  - first:
+      43: 4300016
+    second: ServerBigC_mesh002
+  - first:
+      43: 4300018
+    second: ServerBigC_mesh003
+  - first:
+      43: 4300020
+    second: ServerBigC_mesh004
+  - first:
+      43: 4300022
+    second: ServerBigC_mesh005
+  - first:
+      43: 4300024
+    second: ServerBigC_mesh006
+  - first:
+      43: 4300026
+    second: ServerBigC_mesh007
+  - first:
+      43: 4300028
+    second: CableSmallA_mesh002
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -104,6 +262,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -118,17 +277,23 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -140,10 +305,13 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
-  copyAvatar: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -153,14 +321,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

@@ -25,6 +25,7 @@
           </e>
           <e p="src" t="Include">
             <e p="common" t="Include">
+              <e p="AudioManager.cs" t="Include" />
               <e p="InputController.cs" t="Include" />
               <e p="MainCamera.cs" t="Include" />
               <e p="ObjectSpawner.cs" t="Include" />

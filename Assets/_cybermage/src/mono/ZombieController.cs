@@ -17,7 +17,7 @@ namespace Cybermage.Common
 
         public override void Update()
         {
-            if (_isLocked || _isDead) 
+            if (_isLocked || _isDead || EntityFactory.Player._isDead) 
                 return;
             
             if (_agent.pathPending ||
@@ -26,26 +26,27 @@ namespace Cybermage.Common
                 return;
             
             base.Update();
-            ProximityCheck();
             
-            if (_target != null && _agent.remainingDistance < _mobileData.GetData().AttackRange)
+            Vector3 playerPosition = EntityFactory.Player.GetPosition();
+            float playerDistance = (transform.position - playerPosition).magnitude;
+            ProximityCheck(playerDistance, playerPosition);
+            
+            if (_target != null && playerDistance <= _mobileData.GetData().AttackRange)
             {
                 _animator.SetBool("Moving", false);
                 _animator.SetTrigger("Attack");
                 
-                Lock(0, 10, () =>
+                Lock(20, () =>
                 {
                     _target = null;
+                    _agent.ResetPath();
                 });
             }
         }
 
-        private void ProximityCheck()
+        private void ProximityCheck(float distance, Vector3 playerPosition)
         {
-            Vector3 playerPosition = EntityFactory.Player.GetPosition();
-            float playerDistance = (transform.position - playerPosition).magnitude;
-            
-            if (playerDistance <= _mobileData.GetData().AlertRange)
+            if (distance <= _mobileData.GetData().AlertRange)
             {
                 _target = EntityFactory.Player;
                 _agent.destination = playerPosition;
@@ -55,6 +56,12 @@ namespace Cybermage.Common
                 _target = null;
                 _agent.ResetPath();
             }
+        }
+        
+        public override void Shoot()
+        {
+            base.Shoot();
+            
         }
     }
 }

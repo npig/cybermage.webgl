@@ -3,6 +3,7 @@ using Cybermage;
 using Cysharp.Threading.Tasks;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UI_Stats : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class UI_Stats : MonoBehaviour
     private TextMeshProUGUI _usernameText;
     private TextMeshProUGUI _playerHealthText;
     private TextMeshProUGUI _playerTargetText;
+    private Image _leftHealth;
+    private Image _rightHealth;
 
     private void Awake()
     {
@@ -18,6 +21,8 @@ public class UI_Stats : MonoBehaviour
         _usernameText = Utilities.FindDeepChild<TextMeshProUGUI>(this.transform, "userName");
         _playerHealthText = Utilities.FindDeepChild<TextMeshProUGUI>(this.transform, "playerHealth");
         _playerTargetText = Utilities.FindDeepChild<TextMeshProUGUI>(this.transform, "playerTarget");
+        _leftHealth = Utilities.FindDeepChild<Image>(this.transform, "leftHealth");
+        _rightHealth = Utilities.FindDeepChild<Image>(this.transform, "rightHealth");
     }
 
     private void Start()
@@ -36,7 +41,15 @@ public class UI_Stats : MonoBehaviour
             
             _data.Update();
             UpdateText(_data);
+            UpdateHealth(_data.PlayerHealth);
         }
+    }
+
+    private void UpdateHealth(float dataPlayerHealth)
+    {
+        float f = dataPlayerHealth / 50;
+        _leftHealth.fillAmount = f;
+        _rightHealth.fillAmount = f;
     }
 
     public void SetData(UIStatsData data)

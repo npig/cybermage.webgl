@@ -81,14 +81,13 @@ public class MobileController : MonoBehaviour
     }
 
     //Await UniTask to freeze mobile during animation or actions
-    internal async UniTaskVoid Lock(int delayTime, int lockTime, Action unlockAction)
+    internal async UniTaskVoid Lock(int lockTime, Action unlockAction)
     {
         _isLocked = true;
-        if (delayTime > 0)
-            await UniTask.Delay(delayTime *  60);
-        
+        _agent.isStopped = true;
         await UniTask.Delay(lockTime * 60);
         unlockAction?.Invoke();
+        _agent.isStopped = false;
         _isLocked = false;
     }
 
@@ -134,7 +133,6 @@ public class MobileController : MonoBehaviour
 
     public virtual void Shoot()
     {
-        Debug.Log($"{this.gameObject.name} is ATTACKING!@#!#");
         _target.TakeDamage(_mobileData.GetData().AttackDamage);
     }
     public void FootR() { }

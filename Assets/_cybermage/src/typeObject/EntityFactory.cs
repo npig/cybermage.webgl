@@ -33,8 +33,8 @@ public static class EntityFactory
                 10,
                 8,
                 2,
-                1,
-                2));
+                2,
+                5));
     }
 
     public static Mobile SpawnPlayer(Vector3 spawnPosition)

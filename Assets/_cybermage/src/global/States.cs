@@ -65,6 +65,7 @@ namespace Cybermage
                 EntityFactory.SpawnPlayer(GameObject.Find("_playerSpawn").transform.position);
                 EntityFactory.SpawnZombie(ObjectSpawner.GetSpawnPosition());
                 EntityFactory.SpawnZombie(ObjectSpawner.GetSpawnPosition());
+                ObjectSpawner.SpawnPickup();
             });
 
             await SceneLoader.LoadAdditive("_world_ui");

@@ -127,6 +127,13 @@ public class Mobile
         }
     }
     
+    public void Heal(int healAmount)
+    {
+        _mobileData.Health += healAmount;
+        _mobileData.Health = Mathf.Clamp(_mobileData.Health, 0, 50);
+    }
+
+    
     public Mobile GetTarget() => _mobileController.GetTarget();
     public EntityData GetData() => _mobileData;
     public MobileController GetController() => _mobileController;

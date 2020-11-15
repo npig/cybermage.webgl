@@ -20,25 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4a2f826-1a78-4d13-8474-c429d4a59124" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_DeathScreen.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/LeonBot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Cache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Cache.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Resources.Generated.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Resources.Generated.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/animations/PlayerAnimationController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/PlayerAnimationController.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/common/FadeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/FadeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/common/ObjectSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/ObjectSpawner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/StateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/StateMachine.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/CameraController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/WorldUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/WorldUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +46,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMP_InputField.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_DeathScreen.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_cybermage/src/mono/LeonBot.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/User/AddUser.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Utilities.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphql/User/AddUser.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/events/EventManager.cs" />
@@ -93,20 +87,21 @@
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/Timer.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/FadeManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/ObjectSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/Pickup.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/WorldUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_DeathScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/StateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/StateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/LeonBot.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/ObjectSpawner.cs" />
       </list>
     </option>
   </component>
@@ -302,11 +297,11 @@
     </state>
     <state x="491" y="165" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1605278451666" />
     <state x="491" y="165" width="1117" height="710" key="SettingsEditor/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605348207487" />
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1605407006584">
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1605443955576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604885259009" />
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605407006584" />
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605443955576" />
     <state x="646" y="177" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603799592722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

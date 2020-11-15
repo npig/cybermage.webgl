@@ -67,7 +67,10 @@ namespace Cybermage
         public override void Load()
         {
             LoadScene();
-            FadeManager.FadeFromBlack(5f, null);
+            FadeManager.FadeFromBlack(5f, () =>
+            {
+                GlobalsConfig.GameState = GameState.Active;
+            });
         }
         
         private async UniTaskVoid LoadScene()
@@ -81,8 +84,6 @@ namespace Cybermage
             await SceneLoader.LoadAdditive("_level", () =>
             {
                 EntityFactory.SpawnPlayer(GameObject.Find("_playerSpawn").transform.position);
-                EntityFactory.SpawnZombie(ObjectSpawner.GetSpawnPosition());
-                EntityFactory.SpawnZombie(ObjectSpawner.GetSpawnPosition());
                 ObjectSpawner.SpawnPickup();
             });
 

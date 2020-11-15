@@ -46,20 +46,24 @@ namespace Cybermage
             FadeManager.Update();
             StateMachine.Update();
             InputController.Update();
+            ObjectSpawner.Update();
         }
         
         private static void DeathEvent(DeathEvent e)
         {
-            if (e.MobileData.GetData().EntityType == EntityType.PLAYER)
+            if (e.Mobile.GetData().EntityType == EntityType.PLAYER)
             {
+                GlobalsConfig.GameState = GameState.Standby;
                 StateMachine.QueueState(new DeathMenu());
                 GlobalsConfig.Player = null;
+                GlobalsConfig.Score = 0;
+                //Post to backend
             }
             else
             {
                 GlobalsConfig.Score += 1;
+                GlobalsConfig.MobileCollection.Remove(e.Mobile);
                 Debug.Log(GlobalsConfig.Score);
-                //Post to backend
             }
         }
 

@@ -58,6 +58,7 @@
             <e p="mono" t="Include">
               <e p="CameraController.cs" t="Include" />
               <e p="ColliderComponent.cs" t="Include" />
+              <e p="LeonBot.cs" t="Include" />
               <e p="MobileController.cs" t="Include" />
               <e p="NavPathDebug.cs" t="Include" />
               <e p="Pickup.cs" t="Include" />

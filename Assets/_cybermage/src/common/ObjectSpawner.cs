@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Random = System.Random;
 
 namespace Cybermage.Common
@@ -23,6 +24,28 @@ namespace Cybermage.Common
             }
 
             Reset();
+        }
+
+        public static void Update()
+        {
+            if(GlobalsConfig.GameState != GameState.Active)
+                return;
+
+            int j = GlobalsConfig.Difficulty - GlobalsConfig.MobileCollection.Count;
+
+            if (j > 0)
+            {
+                Scene mainScene = SceneManager.GetSceneByName("_main");
+                
+                if(SceneManager.GetActiveScene() != mainScene)
+                    SceneManager.SetActiveScene(mainScene);
+                
+                for (int i = 0; i < j; i++)
+                {
+                    EntityFactory.SpawnZombie(GetSpawnPosition());
+                }
+            }
+
         }
 
         private static void Reset()

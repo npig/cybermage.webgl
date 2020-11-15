@@ -84,19 +84,22 @@ public class MobileController : MonoBehaviour
     //Await UniTask to freeze mobile during animation or actions
     internal async UniTaskVoid Lock(int lockTime, Action unlockAction)
     {
-        var cts = new CancellationTokenSource();
         _isLocked = true;
-        _agent.isStopped = true;
-        await UniTask.Delay(lockTime * 60, DelayType.DeltaTime, PlayerLoopTiming.Update, this.GetCancellationTokenOnDestroy());
+
+        await UniTask.Delay(
+            lockTime * 60, 
+            DelayType.DeltaTime, 
+            PlayerLoopTiming.Update, 
+            this.GetCancellationTokenOnDestroy());
+        
         unlockAction?.Invoke();
-        _agent.isStopped = false;
         _isLocked = false;
     }
     
     //Mobile Death Event
     private void MobileDeath(DeathEvent e)
     {
-        if (e.MobileData != _mobileData)
+        if (e.Mobile != _mobileData)
             return;
         
         _isDead = true;

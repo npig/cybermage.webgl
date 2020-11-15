@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 namespace Cybermage
@@ -61,6 +62,11 @@ namespace Cybermage
         public static State CurrentState()
         {
             return _stateQueue.Peek();
+        }
+
+        public static bool PeekCurrentState<T>()
+        {
+            return _stateQueue.Peek() is T;
         }
 
         public static T CurrentState<T>()

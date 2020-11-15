@@ -11,8 +11,7 @@ public static class EntityFactory
     private static Entity ZombieType;
     private static Entity ZombieWizardType;
 
-    public static List<Mobile> MobileCollection = new List<Mobile>();
-    public static Mobile Player;
+
 
     public static void Awake()
     {
@@ -41,22 +40,14 @@ public static class EntityFactory
     {
         Mobile playerMobile = PlayerType.SpawnMobile(spawnPosition);
         GlobalsConfig.Player = playerMobile;
-        Player = playerMobile;
         return playerMobile;
     }
     
     public static Mobile SpawnZombie(Vector3 spawnPosition)
     {
         Mobile zombieMobile = ZombieType.SpawnMobile(spawnPosition);
-        MobileCollection.Add(zombieMobile);
+        GlobalsConfig.MobileCollection.Add(zombieMobile);
         return zombieMobile;
-    }
-    
-    public static Mobile SpawnZombieWizard(Vector3 spawnPosition)
-    {
-        Mobile zombieWizardMobile = ZombieWizardType.SpawnMobile(spawnPosition);
-        MobileCollection.Add(zombieWizardMobile);
-        return zombieWizardMobile;
     }
 }
 
@@ -90,8 +81,6 @@ public class Entity
         mc.transform.position = hit.position;
         Mobile mobile = new Mobile(this, mc);
         mc.SetMobileData(mobile);
-
-        
         return mobile;
     }
 
@@ -143,11 +132,11 @@ public class Mobile
 
 public class DeathEvent : IEvent
 {
-    public Mobile MobileData { get; private set; }
+    public Mobile Mobile { get; private set; }
 
     public DeathEvent(Mobile mobile)
     {
-        MobileData = mobile;
+        Mobile = mobile;
     }
 }
 

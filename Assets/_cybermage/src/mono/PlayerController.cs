@@ -34,8 +34,8 @@ namespace Cybermage.Common
                 if (distance < _mobileData.GetData().AlertRange)
                 {
                     _agent.ResetPath();
+                    _agent.nextPosition = transform.position;
                     _animator.SetTrigger("Attack");
-                    _agent.speed = 0;
 
                     Lock(10, () =>
                     {

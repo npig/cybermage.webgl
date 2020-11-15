@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
 using Cysharp.Threading.Tasks;
@@ -9,14 +10,25 @@ using UnityEngine.Networking;
 
 namespace Cybermage
 {
+    public enum GameState
+    {
+        Active,
+        Standby,
+    }
+    
     public static class GlobalsConfig
     {
         public static bool Dev;
-        public static string Username { get; private set; }
-        public static Mobile Player { get; set; }
         public static CM_Information Information { get; private set; }
+        
+        public static string Username { get; private set; }
+        public static GameState GameState = GameState.Standby;
         public static int Score = 0;
+        public static int Difficulty = 3;
 
+        public static Mobile Player { get; set; }
+        public static List<Mobile> MobileCollection { get; } = new List<Mobile>();
+        
         public static void Initialise(bool devMode)
         {
             Dev = devMode;

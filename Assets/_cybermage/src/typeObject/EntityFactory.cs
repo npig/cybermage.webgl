@@ -40,7 +40,7 @@ public static class EntityFactory
     public static Mobile SpawnPlayer(Vector3 spawnPosition)
     {
         Mobile playerMobile = PlayerType.SpawnMobile(spawnPosition);
-        GlobalsConfig.SetPlayer(playerMobile);
+        GlobalsConfig.Player = playerMobile;
         Player = playerMobile;
         return playerMobile;
     }
@@ -104,15 +104,15 @@ public class Entity
 
 public class Mobile
 {
-    private Entity _entityType;
+    private Entity _entity;
     private EntityData _mobileData;
     private MobileController _mobileController;
     public bool _isDead { get; private set; }
 
-    public Mobile(Entity entityType, MobileController mobileController)
+    public Mobile(Entity entity, MobileController mobileController)
     {
-        _mobileData = entityType.GetData();
-        _entityType = entityType;
+        _mobileData = entity.GetData();
+        _entity = entity;
         _mobileController = mobileController;
     }
 
@@ -132,7 +132,6 @@ public class Mobile
         _mobileData.Health += healAmount;
         _mobileData.Health = Mathf.Clamp(_mobileData.Health, 0, 50);
     }
-
     
     public Mobile GetTarget() => _mobileController.GetTarget();
     public EntityData GetData() => _mobileData;

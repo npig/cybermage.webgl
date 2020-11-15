@@ -122,9 +122,9 @@ namespace Cybermage.Common
         //work around for content size fitter components
         private async UniTaskVoid UpdateUI<T>(T t) where T : MonoBehaviour
         {
-            t.enabled = false;
-            await UniTask.Delay(1);
-            t.enabled = true;
+            t.gameObject.SetActive(false);
+            await UniTask.DelayFrame(1);
+            t.gameObject.SetActive(true);
             LayoutRebuilder.ForceRebuildLayoutImmediate(t.transform as RectTransform);
         }
     }

@@ -35,6 +35,7 @@ namespace Cybermage.Common
                 {
                     _agent.ResetPath();
                     _animator.SetTrigger("Attack");
+                    _agent.speed = 0;
 
                     Lock(10, () =>
                     {

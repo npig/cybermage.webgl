@@ -13,8 +13,9 @@ namespace Cybermage
     {
         public static bool Dev;
         public static string Username { get; private set; }
-        public static Mobile Player { get; private set; }
+        public static Mobile Player { get; set; }
         public static CM_Information Information { get; private set; }
+        public static int Score = 0;
 
         public static void Initialise(bool devMode)
         {
@@ -26,12 +27,7 @@ namespace Cybermage
         {
             Username = userName;
         }
-        
-        public static void SetPlayer(Mobile player)
-        {
-            Player = player;
-        }
-     }
+    }
 
     public static class ResourceController
     {

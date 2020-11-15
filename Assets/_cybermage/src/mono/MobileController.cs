@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using Cybermage.Events;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
@@ -83,14 +84,15 @@ public class MobileController : MonoBehaviour
     //Await UniTask to freeze mobile during animation or actions
     internal async UniTaskVoid Lock(int lockTime, Action unlockAction)
     {
+        var cts = new CancellationTokenSource();
         _isLocked = true;
         _agent.isStopped = true;
-        await UniTask.Delay(lockTime * 60);
+        await UniTask.Delay(lockTime * 60, DelayType.DeltaTime, PlayerLoopTiming.Update, this.GetCancellationTokenOnDestroy());
         unlockAction?.Invoke();
         _agent.isStopped = false;
         _isLocked = false;
     }
-
+    
     //Mobile Death Event
     private void MobileDeath(DeathEvent e)
     {
@@ -134,7 +136,7 @@ public class MobileController : MonoBehaviour
 
     public virtual void Shoot()
     {
-        _target.TakeDamage(_mobileData.GetData().AttackDamage);
+        _target?.TakeDamage(_mobileData.GetData().AttackDamage);
     }
     public void FootR() { }
     public void FootL() { }

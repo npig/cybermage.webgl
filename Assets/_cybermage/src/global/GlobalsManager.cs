@@ -15,5 +15,10 @@ namespace Cybermage
         {
             Globals.Update();
         }
+
+        public void OnDestroy()
+        {
+            Globals.Sleep();
+        }
     }
 }

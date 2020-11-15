@@ -7,7 +7,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UI_MainScreen : MonoBehaviour
+public class UI_DeathScreen : MonoBehaviour
 {
     private TextMeshProUGUI _title;
     private TextMeshProUGUI _placeHolderText;
@@ -84,18 +84,6 @@ public class UI_MainScreen : MonoBehaviour
         {
             DisplayError(result.error);
         }
-    }
-}
-
-public class UIMainScreenData
-{
-    public string Title { get; private set; }
-    public string InputPlaceHolderText { get; private set; }
-
-    public UIMainScreenData(string title, string inputPlaceHolderText)
-    {
-        Title = title;
-        InputPlaceHolderText = inputPlaceHolderText;
     }
 }
 

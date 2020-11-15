@@ -4,6 +4,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using Cybermage.Common;
 using Cybermage.Core;
+using Cybermage.Entities;
+using Cybermage.Events;
 using Cysharp.Threading.Tasks;
 using Cysharp.Threading.Tasks.Triggers;
 using UnityEngine;
@@ -23,6 +25,7 @@ namespace Cybermage
             _globalsManager = new GameObject("GlobalsManager").AddComponent<GlobalsManager>();
             GlobalsConfig.Initialise(true);
             SceneManager.sceneLoaded += SceneLoaded;
+            EventManager.Instance.AddListener<DeathEvent>(DeathEvent);
         }
 
         private static void SceneLoaded(Scene scene, LoadSceneMode mode) { }
@@ -40,9 +43,30 @@ namespace Cybermage
         public static void Update()
         {
             CommandInvoker.Update();
+            FadeManager.Update();
             StateMachine.Update();
             InputController.Update();
         }
+        
+        private static void DeathEvent(DeathEvent e)
+        {
+            if (e.MobileData.GetData().EntityType == EntityType.PLAYER)
+            {
+                StateMachine.QueueState(new DeathMenu());
+                GlobalsConfig.Player = null;
+            }
+            else
+            {
+                GlobalsConfig.Score += 1;
+                Debug.Log(GlobalsConfig.Score);
+                //Post to backend
+            }
+        }
+
+        public static void Sleep()
+        {
+            SceneManager.sceneLoaded -= SceneLoaded;
+            EventManager.Instance.RemoveListener<DeathEvent>(DeathEvent);        }
     }
 
     public static class SceneLoader

@@ -9,14 +9,12 @@ namespace Cybermage.Common
 
         private Vector3 PlayerPosition()
         {
+            if (GlobalsConfig.Player == null)
+                return Vector3.zero;
+            
             if (_playerTransform == null)
-            {
-                if (GlobalsConfig.Player == null)
-                    return Vector3.zero;
-                
-                _playerTransform = GlobalsConfig.Player.GetController().transform;
-            }
-
+                _playerTransform = GlobalsConfig.Player.GetController().transform; 
+            
             return _playerTransform.position;
         }
         

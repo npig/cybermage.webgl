@@ -69,6 +69,7 @@
               <e p="EntityFactory.cs" t="Include" />
             </e>
             <e p="UI" t="Include">
+              <e p="UI_DeathScreen.cs" t="Include" />
               <e p="UI_MainScreen.cs" t="Include" />
               <e p="UI_Stats.cs" t="Include" />
             </e>

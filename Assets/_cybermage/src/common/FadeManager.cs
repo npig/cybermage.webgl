@@ -128,7 +128,7 @@ namespace Cybermage.Core
             FadeObjectQueue.Enqueue(CreateUIFadeObject(fadeState, duration, fadeCompleteDelegate));
         }
         
-        public static void UpdateFades()
+        public static void Update()
         {
             List<FadeObject> objectsToUpdate = FadeObjectQueue.ToList();
 
@@ -146,16 +146,6 @@ namespace Cybermage.Core
         public static void FadeFromBlack(float duration, Action fadeCompleteDelegate)
         {
             CreateFadeObject(FadeState.FromBlack, duration, fadeCompleteDelegate);
-        }
-        
-        public static void SetAlpha(float alpha)
-        {
-            _color.a = alpha;
-        }
-
-        public static void SetColor(Color color)
-        {
-            _color = color;
         }
     }
 }

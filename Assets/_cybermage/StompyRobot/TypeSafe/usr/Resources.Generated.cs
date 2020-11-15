@@ -214,15 +214,21 @@ public sealed class CM_Resources {
                 }
             }
             
-            public static global::TypeSafe.PrefabResource uiCanvas {
+            public static global::TypeSafe.PrefabResource deathScreen {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[8]));
                 }
             }
             
-            public static global::TypeSafe.PrefabResource worldSpaceSubHeader {
+            public static global::TypeSafe.PrefabResource uiCanvas {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[9]));
+                }
+            }
+            
+            public static global::TypeSafe.PrefabResource worldSpaceSubHeader {
+                get {
+                    return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[10]));
                 }
             }
             
@@ -235,6 +241,7 @@ public sealed class CM_Resources {
                         new global::TypeSafe.PrefabResource("worldSpaceLink", "prefabs/ui/worldSpaceLink"),
                         new global::TypeSafe.PrefabResource("background", "prefabs/ui/background"),
                         new global::TypeSafe.PrefabResource("mainScreen", "prefabs/ui/mainScreen"),
+                        new global::TypeSafe.PrefabResource("deathScreen", "prefabs/ui/deathScreen"),
                         new global::TypeSafe.PrefabResource("uiCanvas", "prefabs/ui/uiCanvas"),
                         new global::TypeSafe.PrefabResource("worldSpaceSubHeader", "prefabs/ui/worldSpaceSubHeader")});
             

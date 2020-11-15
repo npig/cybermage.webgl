@@ -1,4 +1,8 @@
-﻿using Cybermage.Common;
+﻿using System;
+using Cybermage.Common;
+using Cybermage.Core;
+using Cybermage.Entities;
+using Cybermage.Events;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -8,31 +12,47 @@ namespace Cybermage
     public class MainMenu : State
     {
         private readonly string SCENE = "_ui";
-        private readonly AsyncOperation _asyncOperation;
-        private Scene _uiScene;
         private UI_MainScreen _mainScreen;
-
-        public MainMenu()
+        
+        public override void Load()
         {
-            _asyncOperation = SceneManager.LoadSceneAsync(SCENE, LoadSceneMode.Additive);
-            _asyncOperation.allowSceneActivation = false;
-            _asyncOperation.completed += SceneLoaded;
+            LoadScene();
+        }
+        
+        private async UniTaskVoid LoadScene()
+        {
+            await SceneLoader.LoadAdditive("_ui", () =>
+            {
+                MonoBehaviour.Instantiate(Resources.Load("prefabs/ui/background"), UIManager.Canvas.transform);
+                _mainScreen = MonoBehaviour.Instantiate(Resources.Load<UI_MainScreen>("prefabs/ui/mainScreen"), UIManager.Canvas.transform);
+                _mainScreen.SetData(new UIMainScreenData("Cybermage","USERNAME"));
+                AudioManager.PlaySample("00MusicLoop");
+            });
         }
 
-        private void SceneLoaded(AsyncOperation obj)
+        public override void Unload()
         {
-            _uiScene = SceneManager.GetSceneByName(SCENE);
-            _asyncOperation.allowSceneActivation = true;
-            SceneManager.SetActiveScene(_uiScene);
-            MonoBehaviour.Instantiate(Resources.Load("prefabs/ui/background"), UIManager.Canvas.transform);
-            _mainScreen = MonoBehaviour.Instantiate(Resources.Load<UI_MainScreen>("prefabs/ui/mainScreen"), UIManager.Canvas.transform);
-            _mainScreen.SetData(new UIMainScreenData("Cybermage","USERNAME"));
-            AudioManager.PlaySample("00MusicLoop");
+            SceneLoader.UnloadScene("_ui");
         }
+    }
+    
+    public class DeathMenu : State
+    {
+        private UI_DeathScreen _deathScreen;
 
         public override void Load()
         {
+            LoadScene();
+        }
 
+        private async UniTaskVoid LoadScene()
+        {
+            await SceneLoader.LoadAdditive("_ui", () =>
+            {
+                MonoBehaviour.Instantiate(Resources.Load("prefabs/ui/background"), UIManager.Canvas.transform);
+                _deathScreen = MonoBehaviour.Instantiate(Resources.Load<UI_DeathScreen>("prefabs/ui/deathScreen"), UIManager.Canvas.transform);
+                AudioManager.PlaySample("00MusicLoop");
+            });
         }
 
         public override void Unload()
@@ -43,16 +63,14 @@ namespace Cybermage
     
     public class Game : State
     {
-        public Game()
-        {
-        }
-        
+
         public override void Load()
         {
-            LoadScenes();
+            LoadScene();
+            FadeManager.FadeFromBlack(5f, null);
         }
-
-        private async UniTaskVoid LoadScenes()
+        
+        private async UniTaskVoid LoadScene()
         {
             await SceneLoader.LoadAdditive("_ui", () =>
             {
@@ -73,8 +91,24 @@ namespace Cybermage
 
         public override void Unload()
         {
-            
+            SceneLoader.UnloadScene("_world_ui");
+            SceneLoader.UnloadScene("_level");
+            SceneLoader.UnloadScene("_ui");
         }
     }
 
+    public class Transition<T> : State
+    {
+        public override void Load()
+        {
+            FadeManager.FadeToBlack(1f, () =>
+            {
+                StateMachine.QueueState((State)Activator.CreateInstance(typeof(T)));
+            });
+        }
+
+        public override void Unload()
+        {
+        }
+    }
 }

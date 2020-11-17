@@ -5,22 +5,33 @@ using UnityEngine;
 
 public class LeonBot : MonoBehaviour
 {
-    [SerializeField] private float _range = 5;
-    // Update is called once per frame
-    private void Update()
+    public float _speed = 5f;
+
+    void Update()
     {
         if(GlobalsConfig.GameState != GameState.Active)
             return;
-        
-        Vector3 deltaPosition = transform.position - GlobalsConfig.Player.GetPosition();
 
-        if (deltaPosition.magnitude > _range)
-        {
-            Debug.Log(transform.InverseTransformDirection(Vector3.forward));
-            transform.position = transform.InverseTransformDirection(Vector3.forward) * 1f;
-        }
+        Vector3 playerPosition = GlobalsConfig.Player.GetPosition();
+        Vector3 worldDeltaPosition = (transform.position - playerPosition).normalized;
+        float dx = Vector3.Dot (transform.right, worldDeltaPosition);
+        float dy = Vector3.Dot (transform.up, worldDeltaPosition);
+        float dz = Vector3.Dot (transform.forward, worldDeltaPosition);
+        Vector3 delta = new Vector3(dx, dy, dz);
+        Vector3 move = transform.position - delta * (Time.deltaTime * _speed);
+        transform.position = new Vector3(move.x, playerPosition.y + 2, move.z );
         
-        Quaternion faceDirection = Quaternion.LookRotation(deltaPosition.normalized);
-        transform.rotation = Quaternion.Slerp(transform.rotation, faceDirection, Time.deltaTime * 1);
+        Vector3 newDirection = Vector3.RotateTowards(transform.forward, delta, Time.deltaTime * _speed, 0.0f);
+        transform.rotation = Quaternion.LookRotation(newDirection);
+
+        Debug.DrawLine(transform.position, transform.position - delta, Color.red);
+        
+        Hover();
+    }
+    
+    private void Hover()
+    {
+        float f = Mathf.Sin(Time.deltaTime * .01f);
+        transform.position += new Vector3(0, 0 + f, 0);
     }
 }

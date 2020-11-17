@@ -63,6 +63,8 @@ namespace Cybermage.Common
                 text.text = feature;
                 text.alignment = TextAlignmentOptions.Right;
                 text.color = CM_Theme.H3;
+                text.enableWordWrapping = true;
+                text.fontSize = .35f;
             }
         }
         
@@ -79,14 +81,25 @@ namespace Cybermage.Common
             headerText.text = bio.name;
             headerText.alignment = TextAlignmentOptions.Left;
             headerText.color = CM_Theme.H1;
+            
+            //BR
+            Instantiate(
+                CM_Resources.prefabs.ui.worldSpaceBR.Load(),
+                detailsContentTransform);
 
+            //Text Details
             TextMeshProUGUI bodyText = Instantiate(
                 CM_Resources.prefabs.ui.worldSpaceText.Load(), 
                 detailsContentTransform)
                 .GetComponent<TextMeshProUGUI>();
             bodyText.text = bio.content;
-            bodyText.alignment = TextAlignmentOptions.Left;
+            bodyText.alignment = TextAlignmentOptions.Justified;
             bodyText.color = CM_Theme.Text;
+
+            //BR
+            Instantiate(
+                CM_Resources.prefabs.ui.worldSpaceBR.Load(),
+                detailsContentTransform);
             
             TextMeshProUGUI linkText_1 = Instantiate(
                 CM_Resources.prefabs.ui.worldSpaceLink.Load(), 
@@ -150,14 +163,14 @@ namespace Cybermage.Common
 
         }
 
-        public void OnPointerEnter(PointerEventData eventData)
+        public void OnPointerExit(PointerEventData eventData)
         {
             _textComponent.color = CM_Theme.Link;
         }
-
-        public void OnPointerExit(PointerEventData eventData)
+        
+        public void OnPointerEnter(PointerEventData eventData)
         {
-            _textComponent.color = CM_Theme.LinkVisited;
+            _textComponent.color = CM_Theme.LinkHighlight;
         }
     }
 }

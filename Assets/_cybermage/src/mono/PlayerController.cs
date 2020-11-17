@@ -47,8 +47,11 @@ namespace Cybermage.Common
 
         private void MouseHitPoint(MouseHitPoint e)
         {
-            //_agent.ResetPath();
+            if (_isLocked || _isDead) 
+                return;
+            
             _target = null;
+
             ColliderComponent colliderComponent = e.Collider.GetComponent<ColliderComponent>();
             
             if (colliderComponent != null )

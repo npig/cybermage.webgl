@@ -35,7 +35,7 @@ namespace Cybermage.Common
 
             if (j > 0)
             {
-                Scene mainScene = SceneManager.GetSceneByName("_main");
+                Scene mainScene = SceneManager.GetSceneByName("_level");
                 
                 if(SceneManager.GetActiveScene() != mainScene)
                     SceneManager.SetActiveScene(mainScene);

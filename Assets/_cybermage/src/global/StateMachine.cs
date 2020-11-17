@@ -54,17 +54,7 @@ namespace Cybermage
             }
         }
 
-        public static int QueueSize()
-        {
-            return _stateQueue.Count;
-        }
-
-        public static State CurrentState()
-        {
-            return _stateQueue.Peek();
-        }
-
-        public static bool PeekCurrentState<T>()
+        public static bool CurrentStateTypeCheck<T>()
         {
             return _stateQueue.Peek() is T;
         }

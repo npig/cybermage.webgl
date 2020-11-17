@@ -11,7 +11,6 @@ using Cysharp.Threading.Tasks.Triggers;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
-using CharacterController = UnityEngine.CharacterController;
 
 namespace Cybermage
 {

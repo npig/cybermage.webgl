@@ -68,12 +68,13 @@ namespace Cybermage
     
     public static class CM_Theme
     {
-        public static readonly Color Default = Color.magenta;
-        public static readonly Color H1 = Color.green;
-        public static readonly Color H3 = Color.green;
-        public static readonly Color Text = Color.red;
-        public static readonly Color Link = Color.yellow;
-        public static readonly Color LinkVisited = Color.white;
+        public static readonly Color H1 = new Color32(246,1,157, 255);
+        public static readonly Color H3 = new Color32(84,19,136, 255);
+        public static readonly Color Text = new Color32(244,244,244, 255);
+        public static readonly Color Link = new Color32(84,19,136, 255);
+        public static readonly Color LinkHighlight = new Color32(246,1,157, 255);
+        public static readonly Color Background = new Color32(36,23,52, 255);
+
 
         public static void SetColor(TextMeshProUGUI text, CM_Style style)
         {
@@ -93,9 +94,9 @@ namespace Cybermage
                 case CM_Style.Link:
                     return Link;
                 case CM_Style.LinkVisited:
-                    return LinkVisited;
+                    return LinkHighlight;
                 default:
-                    return Default;
+                    return Color.white;
             }
         }
     }

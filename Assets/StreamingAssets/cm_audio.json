@@ -20,6 +20,55 @@
       "Volume": ".75",
       "Pitch": "0",
       "Loop": false 
+    },
+    {
+      "Name": "07Pickup",
+      "MixGroup": "Effect",
+      "Volume": ".75",
+      "Pitch": "0",
+      "Loop": false 
+    },
+    {
+      "Name": "07_MAHURT1",
+      "MixGroup": "Effect",
+      "Volume": ".2",
+      "Pitch": "0",
+      "Loop": false 
+    },
+    {
+      "Name": "07_xxtur006",
+      "MixGroup": "Effect",
+      "Volume": ".4",
+      "Pitch": "0",
+      "Loop": false 
+    },
+    {
+      "Name": "08_expcryo",
+      "MixGroup": "Effect",
+      "Volume": ".75",
+      "Pitch": "0",
+      "Loop": false 
+    },
+    {
+      "Name": "09_manylpS",
+      "MixGroup": "Ambient",
+      "Volume": ".1",
+      "Pitch": "0",
+      "Loop": true 
+    },
+    {
+      "Name": "29_HWREFLE7",
+      "MixGroup": "Effect",
+      "Volume": ".3",
+      "Pitch": "0",
+      "Loop": false 
+    },
+    {
+      "Name": "33_RM1HHI1",
+      "MixGroup": "Effect",
+      "Volume": ".25",
+      "Pitch": "0",
+      "Loop": false 
     }
   ]
 }

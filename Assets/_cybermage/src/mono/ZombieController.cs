@@ -59,8 +59,8 @@ namespace Cybermage.Common
                 _agent.ResetPath();
             }
         }
-        
-        internal override void MobileDeath(DeathEvent e)
+
+        protected override void MobileDeath(DeathEvent e)
         {
             if (e.Mobile != _mobileData)
                 return;
@@ -68,7 +68,7 @@ namespace Cybermage.Common
             _isDead = true;
             _agent.enabled = false;
             _animator.SetTrigger("Death");
-            
+            AudioManager.PlaySampleAtPosition("07_MAHURT1", transform.position);
             UnspawnZombie();
         }
 
@@ -89,8 +89,16 @@ namespace Cybermage.Common
 
         public override void Shoot()
         {
-            base.Shoot();
+            float distance = (transform.position - _target.GetPosition()).magnitude;
+
+            if (_target == null || distance > _mobileData.GetData().AttackRange)
+            {
+                AudioManager.PlaySample("33_RM1HHI1");
+                return;
+            }
             
+            AudioManager.PlaySample("29_HWREFLE7");
+            base.Shoot();
         }
     }
 }

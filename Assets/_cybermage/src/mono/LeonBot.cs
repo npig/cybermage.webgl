@@ -13,8 +13,9 @@ public class LeonBot : MonoBehaviour
             return;
 
         Vector3 playerPosition = GlobalsConfig.Player.GetPosition();
+        float f = (transform.position - playerPosition).magnitude;
         
-        if((transform.position - playerPosition).magnitude < 1f)
+        if (f < 2.5f)
             return;
         
         Vector3 worldDeltaPosition = (transform.position - playerPosition).normalized;
@@ -25,10 +26,9 @@ public class LeonBot : MonoBehaviour
         Vector3 move = transform.position - delta * (Time.deltaTime * _speed);
         transform.position = new Vector3(move.x, playerPosition.y + 2, move.z );
         
-        if(delta.magnitude > .1f)
-            transform.rotation = Quaternion.LookRotation(new Vector3(delta.x,0,delta.z));
-
-        Debug.DrawLine(transform.position, transform.position - delta, Color.red);
+        Quaternion q = Quaternion.LookRotation(new Vector3(delta.x, 0, delta.z));
+        if(q.normalized != Quaternion.identity)
+            transform.rotation = q;
         
         Hover();
     }

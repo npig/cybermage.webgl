@@ -28,8 +28,10 @@ namespace Cybermage.Common
             skillTransform.position = new Vector3(skillTransform.position.x, skillTransform.position.y, d);
             TextMeshProUGUI title = Utilities.FindDeepChild<TextMeshProUGUI>(skillTransform, "title");
             title.text = informationSkill.header;
+            title.color = CM_Theme.H1;
             TextMeshProUGUI content = Utilities.FindDeepChild<TextMeshProUGUI>(skillTransform, "text");
             content.text = informationSkill.content;
+            content.fontSize = .35f;
         }
 
         private void SetFolio(Folio informationFeature, float p1)
@@ -38,6 +40,7 @@ namespace Cybermage.Common
             folioTransform.position = new Vector3(folioTransform.position.x, folioTransform.position.y, p1);
             TextMeshProUGUI title = Utilities.FindDeepChild<TextMeshProUGUI>(folioTransform, "title");
             title.text = informationFeature.header;
+            title.color = CM_Theme.H1;
             Transform tagTransform = Utilities.FindDeepChild(folioTransform, "tagsContainer");
             
             foreach (string tag in informationFeature.tags)

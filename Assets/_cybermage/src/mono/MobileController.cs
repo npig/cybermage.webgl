@@ -31,8 +31,10 @@ public class MobileController : MonoBehaviour
         EventManager.Instance.AddListener<DeathEvent>(MobileDeath);
     }
 
+    //Mono.Update. Root Animation drives agent position
     public virtual void Update() 
     {
+        //Delta between agents position and character
         Vector3 worldDeltaPosition = _agent.nextPosition - transform.position;
 
         // Map 'worldDeltaPosition' to local space
@@ -57,7 +59,7 @@ public class MobileController : MonoBehaviour
         
         // Pull character towards agent
         transform.position = _agent.nextPosition - 0.9f * worldDeltaPosition;
-        
+        //Look at the next waypoint.
         TurnAgent(_agent.steeringTarget);
     }
     #endregion
@@ -65,6 +67,7 @@ public class MobileController : MonoBehaviour
     //We're using root motion to smooth out mobile speed, this will help prevent floating animation cycles
     private void OnAnimatorMove()
     {
+        //Match agent speed to root position.
         float speed = (_animator.deltaPosition / Time.deltaTime).magnitude;
         _agent.speed = Mathf.Clamp(speed, 1f, 4f);
     }
@@ -72,7 +75,6 @@ public class MobileController : MonoBehaviour
     //Manual rotation control of navmesh agent
     private void TurnAgent(Vector3 destination) 
     {
-        //Todo: refactor
         if ((destination - transform.position).magnitude < 0.1f) 
             return; 
      
@@ -97,7 +99,7 @@ public class MobileController : MonoBehaviour
     }
     
     //Mobile Death Event
-    internal virtual void MobileDeath(DeathEvent e)
+    protected virtual void MobileDeath(DeathEvent e)
     {
         if (e.Mobile != _mobileData)
             return;

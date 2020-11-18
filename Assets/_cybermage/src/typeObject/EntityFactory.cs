@@ -17,7 +17,7 @@ public static class EntityFactory
             new EntityData(EntityType.PLAYER,
                 Resources.Load<MobileController>(CM_Resources.prefabs.entities.Cybermage.Path),
                 10,
-                50,
+                30,
                 10,
                 2,
                 4,

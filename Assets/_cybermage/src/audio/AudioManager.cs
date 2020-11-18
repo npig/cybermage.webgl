@@ -75,9 +75,12 @@ namespace Cybermage
         public static void PlaySample(string sampleName)
         {
             _audioCollection.TryGetValue(sampleName, out AudioSample sample);
-            
-            if(sample == null)
+
+            if (sample == null)
+            {
+                Debug.Log($"{sampleName} invalid");
                 return;
+            }
 
             CreateAudioObject(sample);
         }

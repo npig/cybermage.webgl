@@ -21,6 +21,7 @@ namespace Cybermage.Common
             if (_isLocked || _isDead) 
                 return;
             
+            //Required as during agent recalculation delta calculations can return inf
             if (_agent.pathPending ||
                 _agent.pathStatus == NavMeshPathStatus.PathInvalid ||
                 _agent.path.corners.Length == 0)
@@ -28,17 +29,18 @@ namespace Cybermage.Common
             
             base.Update();
             
+            //if we've selected a target move towards target and cast spell
             if (_target != null)
             {
                 float distance = (_target.GetPosition() - transform.position).magnitude;
                 if (distance < _mobileData.GetData().AlertRange)
                 {
                     _agent.ResetPath();
-                    _agent.nextPosition = transform.position;
                     _animator.SetTrigger("Attack");
 
                     Lock(10, () =>
                     {
+                        _agent.nextPosition = transform.position;
                         _target = null;
                     });
                 }

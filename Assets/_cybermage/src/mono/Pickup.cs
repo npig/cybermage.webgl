@@ -18,7 +18,8 @@ namespace Cybermage.Common
             if (pc == null) 
                 return;
             
-            pc._mobileData.Heal(15);
+            AudioManager.PlaySample("07Pickup");
+            pc._mobileData.Heal(5);
             Destroy(gameObject);
         }
     }

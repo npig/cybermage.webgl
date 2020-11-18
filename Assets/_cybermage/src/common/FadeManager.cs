@@ -39,20 +39,12 @@ namespace Cybermage.Core
         private void TimerCompleted()
         {
             _fadeCompleted?.Invoke();
-            
-            //Every FadeToBlack is followed by a FadeFromBlack
+
             if (FadeState == FadeState.ToBlack)
             {
-                FadeGameObject.SetActive(false);
                 return;
             }
-
-            while (FadeManager.FadeObjectQueue.Peek() != this)
-            {
-                FadeObject objectFade = FadeManager.FadeObjectQueue.Dequeue();
-                Object.Destroy(objectFade.FadeGameObject);
-            }
-          
+            
             FadeManager.FadeObjectQueue.Dequeue();
             Object.Destroy(FadeGameObject);
         }
@@ -119,13 +111,16 @@ namespace Cybermage.Core
             rectTransform.offsetMin = new Vector2(0, 0);
             rectTransform.offsetMax = new Vector2(0, 0);
             Image screenObject = blackRectangle.AddComponent<Image>();
-            screenObject.color = Color.black;
+            int i = fadeState == FadeState.ToBlack ? 0 : 1;
+            screenObject.color = new Color(0,0,0, i);
             return new ScreenFadeObject(fadeState, screenGameObject, screenObject, duration, fadeCompleteDelegate);
         }
         
-        private static void CreateFadeObject(FadeState fadeState, float duration, Action fadeCompleteDelegate)
+        private static FadeObject CreateFadeObject(FadeState fadeState, float duration, Action fadeCompleteDelegate)
         {
-            FadeObjectQueue.Enqueue(CreateUIFadeObject(fadeState, duration, fadeCompleteDelegate));
+            FadeObject fadeObject = CreateUIFadeObject(fadeState, duration, fadeCompleteDelegate);
+            FadeObjectQueue.Enqueue(fadeObject);
+            return fadeObject;
         }
         
         public static void Update()
@@ -145,7 +140,13 @@ namespace Cybermage.Core
 
         public static void FadeFromBlack(float duration, Action fadeCompleteDelegate)
         {
-            CreateFadeObject(FadeState.FromBlack, duration, fadeCompleteDelegate);
+            FadeObject fromBlackFade = CreateFadeObject(FadeState.FromBlack, duration, fadeCompleteDelegate);
+            
+            while (FadeObjectQueue.Peek() != fromBlackFade)
+            {
+                FadeObject objectFade = FadeObjectQueue.Dequeue();
+                Object.Destroy(objectFade.FadeGameObject);
+            }
         }
     }
 }

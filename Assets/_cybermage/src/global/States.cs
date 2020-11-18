@@ -67,12 +67,9 @@ namespace Cybermage
 
         public override void Load()
         {
+            AudioManager.PlaySample("09_manylpS");
+            AudioManager.PlaySample("07_xxtur006");
             LoadScene();
-            AudioManager.PlaySample("04Modem");
-            FadeManager.FadeFromBlack(5f, () =>
-            {
-                GlobalsConfig.GameState = GameState.Active;
-            });
         }
         
         private async UniTaskVoid LoadScene()
@@ -90,6 +87,13 @@ namespace Cybermage
             });
 
             await SceneLoader.LoadAdditive("_world_ui");
+            
+            GlobalsConfig.GameState = GameState.Active;
+
+            FadeManager.FadeFromBlack(5f, () =>
+            {
+                AudioManager.PlaySample("04Modem");
+            });
         }
 
         public override void Unload()

@@ -14,31 +14,36 @@
   ],
   "skills": [
     {
-      "header": "Development",
-      "content": "Full Stack developer with 5 years experience. 12+ released titles. "
+      "header": "Narrative",
+      "content": "I'm a multi-skilled creative with a solid understanding of design principles and film techniques."
     },
     {
       "header": "Creative",
-      "content": "Credited with producing detailed content during post-production. Routinely achieved industry broadcast specifications and passed QA requirements."
+      "content": "I've successfully deployed interactive products on different platforms for museums, tourism spaces, and public installations."
     },
     {
-      "header": "Design",
-      "content": "Developed audio solutions for projects using different technologies. Proven ability to develop, maintain and manage long-term objectives."
+      "header": "Developer",
+      "content": "Developed data-driven white label frameworks, consumer analytical models, audio systems, and user-friendly UI systems."
     }
   ],
   "folio": [
     {
-      "header": "Virtual Production",
-      "tags": [        "tag02",        "tag01"      ],
-      "content": "A real-time interactive VR story based on a man who was lost and forgotten for twelve years in a mental asylum and how the search to find his true identity brought hope to a nation in mourning."
+      "header": "Narrative",
+      "tags": [        
+        "Film Production",
+        "Spatial Development",
+        "Music, Sound Design"      
+      ],
+      "content": "I believe the consumer's journey is a narrative experience. To create memorable products – we need to create a story, an experience, a dramatic arc."
     },
     {
-      "header": "Design",
+      "header": "Creative",
       "tags": [
-        "dtag02",
-        "dtag01"
+        "AR, VR, 360,",
+        "Projections, Kinect",
+        "Prototyping, Shaders, MaxMSP"
       ],
-      "content": "50+ sound department credits for involvement with commercial, television and film productions of known brands, several received global broadcast and awards.\n"
+      "content": "I'm passionate about consumer-focused design principles and evidence-based development. I'm a multi-skilled creative with a solid understanding of design principles and film techniques."
     },
     {
       "header": "Developer",
@@ -47,12 +52,12 @@
         "React, React Native",
         "REST, GraphQL, MongoDB"
       ],
-      "content": "Full-stack developer with a passion for immersive technology. Responsible for releasing 14+ cross-platform consumer titles (iOS/Android/Oculus/Web). Developed data-driven white label frameworks, consumer analytical models, audio systems, and user-friendly UI systems. My back-end experience includes developing and deploying in-house APIs, analytics, and query servers to manage user authentication and content delivery."
+      "content": "Full-stack developer with a passion for immersive technology. Responsible for releasing 14+ cross-platform consumer titles (iOS/Android/Oculus/Web)."
     }
   ],
   "biography": {
     "name": "Leon East",
-    "content": "I'm a gamer at heart, software developer, designer, and an award-winning audio engineer. I'm responsible for the development and deployment of 14+ cross-platform consumer titles. I embrace data-driven design principles, empowered collaborative teams, and human-centered design processes to create products that improve lives and help the planet.",
+    "content": "For me it began with a trusty railgun — my weekends were spent editing quake scripts, creating levels and mods. I am a gamer at heart, developer, designer, and an award-winning audio engineer.",
     "email": "mail@cybermage.live",
     "linkedin": "linkedin.com/in/leon-east-096a2788/",
     "imdb": "imdb.com/name/nm3864209"

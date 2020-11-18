@@ -20,33 +20,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3ff4c3b-00e4-40a2-a300-5c02907227f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/01SpawnA.wav.asd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/01SpawnA.wav.asd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/audio.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/audio/FadeAudioSource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/audio/FadeAudioSource.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/TimerManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PBR_Customized_Soldier/Textures/Body/Body_Adjustment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PBR_Customized_Soldier/Textures/Body/Body_Adjustment.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/07_MAHURT1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/07_MAHURT1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/07_xxtur006.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/07_xxtur006.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/08_expcryo.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/08_expcryo.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/09_manylpS.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/09_manylpS.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/29_HWREFLE7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/29_HWREFLE7.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/33_RM1HHI1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/33_RM1HHI1.wav.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PBR_Customized_Soldier/Materials/Body02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PBR_Customized_Soldier/Materials/Body02.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cm_audio.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/cm_audio.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog01.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog01.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog02.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog02.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog04.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog04.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog05.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog05.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog06.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog06.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog07.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog07.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/common/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/common/AudioManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cm_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/cm_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/Mixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/Mixer.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/01SpawnA.wav.asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/01SpawnA.wav.asd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/folioContainer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/folioContainer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/mainScreen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/mainScreen.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/statsContainer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/statsContainer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/fonts/Mont-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Mont-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/fonts/OpenSans-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/OpenSans-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_dir.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_light.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_dir.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_light.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_dir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_dir.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_light.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_light.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/common/FadeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/FadeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/LeonBot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/LeonBot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/Pickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/Pickup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/ui/WorldUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/WorldUI.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,27 +88,31 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9674024A-B0E7-4D27-BBE9-EAA30DAB34D1/4b/f6e46238/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_cybermage/src/mono/Spell.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_cybermage/src/mono/LCDMonitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EF151B6A-BB5D-474C-B2C1-CB8906A8B5A4/c6/32ef9173/Queue`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_cybermage/src/common/TimerManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_DeathScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/WorldUI.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/LCDMonitor.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/Spell.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/audio/FadeAudioSource.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/TimerManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager2.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/FadeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/LeonBot.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/Pickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/WorldUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/StreamingAssets/cm_info.json" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" />
       </list>
     </option>
   </component>
@@ -100,7 +131,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -113,10 +144,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="21748">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19836">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="21748" />
+      <option name="pid" value="19836" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -131,7 +162,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605607132095</updated>
-      <workItem from="1605607141297" duration="22600000" />
+      <workItem from="1605607141297" duration="22917000" />
+      <workItem from="1605681192138" duration="14446000" />
     </task>
     <servers />
   </component>
@@ -150,78 +182,96 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="512" height="466" key="DebuggerActiveHint" timestamp="1605673344276">
+    <state width="766" height="466" key="DebuggerActiveHint" timestamp="1605690500731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="512" height="466" key="DebuggerActiveHint/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605673344276" />
-    <state width="1879" height="375" key="GridCell.Tab.0.bottom" timestamp="1605673313120">
+    <state width="766" height="466" key="DebuggerActiveHint/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605690500731" />
+    <state width="1879" height="142" key="GridCell.Tab.0.bottom" timestamp="1605690468703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605673313120" />
-    <state width="1879" height="375" key="GridCell.Tab.0.center" timestamp="1605673313120">
+    <state width="1879" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605690468703" />
+    <state width="1879" height="142" key="GridCell.Tab.0.center" timestamp="1605690468703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="375" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605673313120" />
-    <state width="1879" height="375" key="GridCell.Tab.0.left" timestamp="1605673313120">
+    <state width="1879" height="142" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605690468703" />
+    <state width="1879" height="142" key="GridCell.Tab.0.left" timestamp="1605690468702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="375" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605673313120" />
-    <state width="1879" height="375" key="GridCell.Tab.0.right" timestamp="1605673313120">
+    <state width="1879" height="142" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605690468702" />
+    <state width="1879" height="142" key="GridCell.Tab.0.right" timestamp="1605690468703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="375" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605673313120" />
-    <state width="1879" height="375" key="GridCell.Tab.1.bottom" timestamp="1605673317528">
+    <state width="1879" height="142" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605690468703" />
+    <state width="1879" height="142" key="GridCell.Tab.1.bottom" timestamp="1605690473305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605673317528" />
-    <state width="1879" height="375" key="GridCell.Tab.1.center" timestamp="1605673317528">
+    <state width="1879" height="142" key="GridCell.Tab.1.bottom/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605690473305" />
+    <state width="1879" height="142" key="GridCell.Tab.1.center" timestamp="1605690473305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="375" key="GridCell.Tab.1.center/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605673317528" />
-    <state width="1879" height="375" key="GridCell.Tab.1.left" timestamp="1605673317528">
+    <state width="1879" height="142" key="GridCell.Tab.1.center/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605690473305" />
+    <state width="1879" height="142" key="GridCell.Tab.1.left" timestamp="1605690473305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="375" key="GridCell.Tab.1.left/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605673317528" />
-    <state width="1879" height="375" key="GridCell.Tab.1.right" timestamp="1605673317528">
+    <state width="1879" height="142" key="GridCell.Tab.1.left/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605690473305" />
+    <state width="1879" height="142" key="GridCell.Tab.1.right" timestamp="1605690473305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="375" key="GridCell.Tab.1.right/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605673317528" />
-    <state x="491" y="165" key="SettingsEditor" timestamp="1605673182101">
+    <state width="1879" height="142" key="GridCell.Tab.1.right/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605690473305" />
+    <state width="1879" height="142" key="GridCell.Tab.2.bottom" timestamp="1605690468644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="491" y="165" key="SettingsEditor/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605673182101" />
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1605655802614">
+    <state width="1879" height="142" key="GridCell.Tab.2.bottom/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605690468644" />
+    <state width="1879" height="142" key="GridCell.Tab.2.center" timestamp="1605690468644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605655802614" />
+    <state width="1879" height="142" key="GridCell.Tab.2.center/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605690468644" />
+    <state width="1879" height="142" key="GridCell.Tab.2.left" timestamp="1605690468644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="142" key="GridCell.Tab.2.left/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605690468644" />
+    <state width="1879" height="142" key="GridCell.Tab.2.right" timestamp="1605690468644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="142" key="GridCell.Tab.2.right/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605690468644" />
+    <state width="1879" height="142" key="GridCell.Tab.3.bottom" timestamp="1605690468644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="142" key="GridCell.Tab.3.bottom/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605690468644" />
+    <state width="1879" height="142" key="GridCell.Tab.3.center" timestamp="1605690468644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="142" key="GridCell.Tab.3.center/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605690468644" />
+    <state width="1879" height="142" key="GridCell.Tab.3.left" timestamp="1605690468644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="142" key="GridCell.Tab.3.left/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605690468644" />
+    <state width="1879" height="142" key="GridCell.Tab.3.right" timestamp="1605690468644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="142" key="GridCell.Tab.3.right/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605690468644" />
+    <state x="491" y="165" key="SettingsEditor" timestamp="1605683056811">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="491" y="165" key="SettingsEditor/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605683056811" />
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1605685081168">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605685081168" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1605690491933">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605690491933" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1605659073346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605659073346" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager.cs</url>
-          <line>48</line>
-          <properties documentPath="A:\_dev\cybermage.webgl\Assets\_cybermage\src\audio\AudioManager.cs" initialLine="48">
-            <startOffsets>
-              <option value="1470" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1527" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

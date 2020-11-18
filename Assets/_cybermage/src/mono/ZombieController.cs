@@ -81,7 +81,6 @@ namespace Cybermage.Common
             {
                 await UniTask.Delay(1);
                 time++;
-                Debug.Log(time);
                 transform.position += Vector3.down * .0005f; 
             }
             

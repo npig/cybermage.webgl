@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Xargon_LightBeamFucked 1
   m_Shader: {fileID: 4800000, guid: 866dc1479ab0a6b43bcbf8c41bb79252, type: 3}
   m_ShaderKeywords: 
@@ -28,9 +29,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _1Value: 1.01
-    - _2Value: 1.25
+    - _2Value: 1.64
     - _Cutoff: 0.5
-    - _Power: 0.3
+    - _Power: 0.93
     - _node_9863: 1
     m_Colors:
     - _Color: {r: 0.039215695, g: 0.3575395, b: 0.8784314, a: 1}

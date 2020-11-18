@@ -97,7 +97,7 @@ public class MobileController : MonoBehaviour
     }
     
     //Mobile Death Event
-    private void MobileDeath(DeathEvent e)
+    internal virtual void MobileDeath(DeathEvent e)
     {
         if (e.Mobile != _mobileData)
             return;

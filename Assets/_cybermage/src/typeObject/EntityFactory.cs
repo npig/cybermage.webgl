@@ -10,9 +10,7 @@ public static class EntityFactory
     private static Entity PlayerType;
     private static Entity ZombieType;
     private static Entity ZombieWizardType;
-
-
-
+    
     public static void Awake()
     {
         PlayerType = new Entity(null, 

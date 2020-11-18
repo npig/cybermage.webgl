@@ -14,15 +14,13 @@ public class LeonBot : MonoBehaviour
 
         Vector3 playerPosition = GlobalsConfig.Player.GetPosition();
         Vector3 worldDeltaPosition = (transform.position - playerPosition).normalized;
-        float dx = Vector3.Dot (transform.right, worldDeltaPosition);
-        float dy = Vector3.Dot (transform.up, worldDeltaPosition);
-        float dz = Vector3.Dot (transform.forward, worldDeltaPosition);
+        float dx = Vector3.Dot (Vector3.right, worldDeltaPosition);
+        float dy = Vector3.Dot (Vector3.up, worldDeltaPosition);
+        float dz = Vector3.Dot (Vector3.forward, worldDeltaPosition);
         Vector3 delta = new Vector3(dx, dy, dz);
         Vector3 move = transform.position - delta * (Time.deltaTime * _speed);
         transform.position = new Vector3(move.x, playerPosition.y + 2, move.z );
-        
-        Vector3 newDirection = Vector3.RotateTowards(transform.forward, delta, Time.deltaTime * _speed, 0.0f);
-        transform.rotation = Quaternion.LookRotation(newDirection);
+        //transform.rotation = Quaternion.LookRotation(new Vector3(delta.x,0,delta.z));
 
         Debug.DrawLine(transform.position, transform.position - delta, Color.red);
         

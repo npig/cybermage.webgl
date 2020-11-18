@@ -1,4 +1,6 @@
 ﻿
+using Cybermage.Core;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -58,6 +60,34 @@ namespace Cybermage.Common
             }
         }
         
+        internal override void MobileDeath(DeathEvent e)
+        {
+            if (e.Mobile != _mobileData)
+                return;
+            
+            _isDead = true;
+            _agent.enabled = false;
+            _animator.SetTrigger("Death");
+            
+            UnspawnZombie();
+        }
+
+        private async UniTaskVoid UnspawnZombie()
+        {
+            await UniTask.Delay(GlobalsConfig.CorpseRemoval);
+            float time = 0;
+            
+            while (time < 720)
+            {
+                await UniTask.Delay(1);
+                time++;
+                Debug.Log(time);
+                transform.position += Vector3.down * .0005f; 
+            }
+            
+            Destroy(gameObject);
+        }
+
         public override void Shoot()
         {
             base.Shoot();

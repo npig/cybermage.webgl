@@ -25,6 +25,7 @@ namespace Cybermage
         public static GameState GameState = GameState.Standby;
         public static int Score = 0;
         public static int Difficulty = 3;
+        public static int CorpseRemoval = 720;
 
         public static Mobile Player { get; set; }
         public static List<Mobile> MobileCollection { get; } = new List<Mobile>();

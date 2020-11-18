@@ -20,45 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3ff4c3b-00e4-40a2-a300-5c02907227f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/worldSpaceBR.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/worldSpaceBR.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/LCDMonitor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/Spell.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SFN_FogColor/brick stand.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SFN_FogColor/brick stand.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cm_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/cm_info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/deathScreen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/deathScreen.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/folioContainer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/folioContainer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/skillsContainer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/skillsContainer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/worldSpaceText.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/worldSpaceText.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Resources.Generated.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Resources.Generated.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-Dual-Attack3.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/animations/unarmed/RPG-Character@Unarmed-Cast-Dual-Attack3.FBX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/fonts/Mont-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Mont-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Roboto-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/ground_int-alb.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/ground_int-alb.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/side_int-alb.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/side_int-alb.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/Lcd 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/supports/Lcd 2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/wall_int-alb.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/wall_int-alb.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/xargon-Textures.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/materials/xargon-Textures.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_world_ui.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_world_ui.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/common/ObjectSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/ObjectSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/vfx/superCyberFire.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/vfx/superCyberFire.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamFucked 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/shaders/Xargon_LightBeamFucked 1.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/StateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/StateMachine.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/LeonBot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/LeonBot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/WorldUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/WorldUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/WorldUI.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/WorldUI.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_DeathScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_DeathScreen.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,17 +42,22 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TextMeshProUGUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9674024A-B0E7-4D27-BBE9-EAA30DAB34D1/4b/f6e46238/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_cybermage/src/mono/Spell.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_cybermage/src/mono/LCDMonitor.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_DeathScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/WorldUI.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/LCDMonitor.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/Spell.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/LeonBot.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" />
       </list>
     </option>
   </component>
@@ -128,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605607132095</updated>
-      <workItem from="1605607141297" duration="10075000" />
+      <workItem from="1605607141297" duration="16547000" />
     </task>
     <servers />
   </component>
@@ -153,9 +129,13 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1605622250428">
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1605655802614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605622250428" />
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605655802614" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1605657147409">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605657147409" />
   </component>
 </project>

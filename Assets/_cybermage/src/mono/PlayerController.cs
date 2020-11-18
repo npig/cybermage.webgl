@@ -68,7 +68,7 @@ namespace Cybermage.Common
         public override void Shoot()
         {
             base.Shoot();
-            
+            AudioManager.PlaySample("01SpawnC");
             Transform transform = Instantiate(CM_Resources.prefabs.vfx.superCyberFire.Load(), _target.GetTransform()).transform;
             transform.position = _target.GetPosition();
         }

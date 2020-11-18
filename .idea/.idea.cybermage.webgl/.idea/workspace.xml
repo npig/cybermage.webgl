@@ -20,7 +20,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3ff4c3b-00e4-40a2-a300-5c02907227f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/01SpawnA.wav.asd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/01SpawnA.wav.asd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/audio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/audio/FadeAudioSource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/audio/FadeAudioSource.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/TimerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cm_audio.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/cm_audio.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog02.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog02.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog04.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog04.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog05.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog05.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog06.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog06.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog07.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/05Dlog07.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/common/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/common/AudioManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/LeonBot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/LeonBot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,20 +61,27 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9674024A-B0E7-4D27-BBE9-EAA30DAB34D1/4b/f6e46238/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_cybermage/src/mono/Spell.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_cybermage/src/mono/LCDMonitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_cybermage/src/common/TimerManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_DeathScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/WorldUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/LCDMonitor.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/Spell.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/audio/FadeAudioSource.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/TimerManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager2.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/LeonBot.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -62,9 +95,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35010824" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29978356" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -77,10 +113,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="21748">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="21748" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -95,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605607132095</updated>
-      <workItem from="1605607141297" duration="16885000" />
+      <workItem from="1605607141297" duration="22600000" />
     </task>
     <servers />
   </component>
@@ -120,6 +156,46 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="512" height="466" key="DebuggerActiveHint" timestamp="1605673344276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="512" height="466" key="DebuggerActiveHint/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605673344276" />
+    <state width="1879" height="375" key="GridCell.Tab.0.bottom" timestamp="1605673313120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605673313120" />
+    <state width="1879" height="375" key="GridCell.Tab.0.center" timestamp="1605673313120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="375" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605673313120" />
+    <state width="1879" height="375" key="GridCell.Tab.0.left" timestamp="1605673313120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="375" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605673313120" />
+    <state width="1879" height="375" key="GridCell.Tab.0.right" timestamp="1605673313120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="375" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605673313120" />
+    <state width="1879" height="375" key="GridCell.Tab.1.bottom" timestamp="1605673317528">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605673317528" />
+    <state width="1879" height="375" key="GridCell.Tab.1.center" timestamp="1605673317528">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="375" key="GridCell.Tab.1.center/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605673317528" />
+    <state width="1879" height="375" key="GridCell.Tab.1.left" timestamp="1605673317528">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="375" key="GridCell.Tab.1.left/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605673317528" />
+    <state width="1879" height="375" key="GridCell.Tab.1.right" timestamp="1605673317528">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="375" key="GridCell.Tab.1.right/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605673317528" />
+    <state x="491" y="165" key="SettingsEditor" timestamp="1605673182101">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="491" y="165" key="SettingsEditor/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605673182101" />
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1605655802614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -128,5 +204,24 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1605659073346" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager.cs</url>
+          <line>48</line>
+          <properties documentPath="A:\_dev\cybermage.webgl\Assets\_cybermage\src\audio\AudioManager.cs" initialLine="48">
+            <startOffsets>
+              <option value="1470" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1527" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

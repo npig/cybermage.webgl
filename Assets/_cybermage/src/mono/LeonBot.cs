@@ -25,7 +25,7 @@ public class LeonBot : MonoBehaviour
         Vector3 move = transform.position - delta * (Time.deltaTime * _speed);
         transform.position = new Vector3(move.x, playerPosition.y + 2, move.z );
         
-        if(delta.magnitude > .01f)
+        if(delta.magnitude > .1f)
             transform.rotation = Quaternion.LookRotation(new Vector3(delta.x,0,delta.z));
 
         Debug.DrawLine(transform.position, transform.position - delta, Color.red);

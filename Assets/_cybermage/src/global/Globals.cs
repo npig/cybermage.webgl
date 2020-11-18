@@ -46,6 +46,7 @@ namespace Cybermage
             StateMachine.Update();
             InputController.Update();
             ObjectSpawner.Update();
+            TimerManager.Update();
         }
         
         private static void DeathEvent(DeathEvent e)

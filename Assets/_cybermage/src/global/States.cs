@@ -32,6 +32,7 @@ namespace Cybermage
 
         public override void Unload()
         {
+            AudioManager.StopAudio(1);
             SceneLoader.UnloadScene("_ui");
         }
     }
@@ -67,6 +68,7 @@ namespace Cybermage
         public override void Load()
         {
             LoadScene();
+            AudioManager.PlaySample("04Modem");
             FadeManager.FadeFromBlack(5f, () =>
             {
                 GlobalsConfig.GameState = GameState.Active;

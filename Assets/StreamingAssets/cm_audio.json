@@ -1,20 +1,25 @@
 {
-  "Clips": [
+  "AudioSample": [
     {
       "Name": "00MusicLoop",
-      "Resource": "Audio/00MusicLoop",
-      "MixerGroup": "Music",
-      "Volume": ".5",
-      "Pitch": "1",
+      "MixGroup": "Music",
+      "Volume": ".75",
+      "Pitch": "0",
       "Loop": true
     },
     {
-      "Name": "EndTransition2",
-      "Resource": "Audio/Library/SFX/Transitions/Asy_T4_Transition2",
-      "MixerGroup": "Sfx",
-      "Volume": ".33",
-      "Pitch": "1",
-      "Loop": true
+      "Name": "04Modem",
+      "MixGroup": "Effect",
+      "Volume": ".75",
+      "Pitch": "0",
+      "Loop": false
+    },
+    {
+      "Name": "01SpawnC",
+      "MixGroup": "Effect",
+      "Volume": ".75",
+      "Pitch": "0",
+      "Loop": false 
     }
   ]
 }

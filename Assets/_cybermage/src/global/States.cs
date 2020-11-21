@@ -13,7 +13,7 @@ namespace Cybermage
     {
         private readonly string SCENE = "_ui";
         private UI_MainScreen _mainScreen;
-        
+
         public override void Load()
         {
             LoadScene();
@@ -25,7 +25,7 @@ namespace Cybermage
             {
                 MonoBehaviour.Instantiate(Resources.Load("prefabs/ui/background"), UIManager.Canvas.transform);
                 _mainScreen = MonoBehaviour.Instantiate(Resources.Load<UI_MainScreen>("prefabs/ui/mainScreen"), UIManager.Canvas.transform);
-                _mainScreen.SetData(new UIMainScreenData("Cybermage","USERNAME"));
+                MonoBehaviour.Instantiate(Resources.Load("prefabs/ui/guideScreen"), UIManager.Canvas.transform);
                 AudioManager.PlaySample("00MusicLoop");
             });
         }

@@ -12,7 +12,9 @@ namespace Cybermage.GraphQL
     public static class GraphQLClient
     {
         private const string ApiURL = "https://slipgate.live/api/graphql";
-        private const string Token = "";
+        //private const string ApiURL = "http://localhost:3000/api/graphql";
+
+        public static string Token { get; set; } = "";
 
         public static async UniTask<T> Request<T>(GraphQLQuery query)
         {

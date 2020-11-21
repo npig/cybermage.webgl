@@ -7,33 +7,35 @@ namespace Cybermage.GraphQL.Mutations
 {
     public class AddUserResult
     {
-       public string userName;
+       public string token;
        public string error;
     }
     
     public class AddUserInput
     {
-        public string input;
+        public string userName { get; private set; }
+        public string password{ get; private set; }
 
-        public AddUserInput(string userName)
+        public AddUserInput(string userName, string password)
         {
-            this.input = userName;
+            this.userName = userName;
+            this.password = password;
         }
     }
     
     public static class AddUser 
     {
         private static string _query = @"
-            mutation ($input: String!) {
-                result: addUser (userName: $input) {
-                    userName
+            mutation ($userName: String!, $password: String!) {
+                result: addUser (userName: $userName, password: $password) {
+                    token
                     error
                   }
               }";
         
-        public static async Task<AddUserResult> Query(string userName)
+        public static async Task<AddUserResult> Query(string userName, string password)
         {
-            AddUserInput variables = new AddUserInput(userName);
+            AddUserInput variables = new AddUserInput(userName, password);
             GraphQLQuery graphQLQuery = new GraphQLQuery(_query, variables);
 
             try

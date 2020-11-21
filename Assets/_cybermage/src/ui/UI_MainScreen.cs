@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text.RegularExpressions;
+using System.Threading;
 using Cybermage;
 using Cybermage.GraphQL.Mutations;
 using Cysharp.Threading.Tasks;
@@ -9,56 +10,59 @@ using UnityEngine.UI;
 
 public class UI_MainScreen : MonoBehaviour
 {
-    private TextMeshProUGUI _title;
-    private TextMeshProUGUI _placeHolderText;
-    private TMP_InputField _inputField;
-    private TextMeshProUGUI _inputText;
+    private TMP_InputField _userNameField;
+    private TMP_InputField _passwordField;
     private TextMeshProUGUI _errorLabel;
-    private Transform _errorTransform;
-    private Button _button;
+    private Button _goButton;
+    private Button _eyeButton;
+    
     private Regex _regex = new Regex(@"^(?=.{4,20}$)(?:[a-zA-Z\d]+(?:(?:\.|-|_)[a-zA-Z\d])*)+$", RegexOptions.IgnoreCase);
+    
+    private static CancellationTokenSource _displayCancellationTokenSource;
+
     
     public void Awake()
     {
-        _title = Utilities.FindDeepChild<TextMeshProUGUI>(this.transform, "title");
-        _placeHolderText = Utilities.FindDeepChild<TextMeshProUGUI>(this.transform, "inputPlaceholder");
-        _inputText = Utilities.FindDeepChild<TextMeshProUGUI>(this.transform, "inputText");
-        _errorLabel = Utilities.FindDeepChild<TextMeshProUGUI>(this.transform, "errorLabel");
-        _button = Utilities.FindDeepChild<Button>(this.transform, "button");
-        _inputField = Utilities.FindDeepChild<TMP_InputField>(this.transform, "inputField");
-        _errorTransform = _errorLabel.transform.parent;
-        _errorTransform.gameObject.SetActive(false);
-    }
-
-    // Start is called before the first frame update
-    public void SetData(UIMainScreenData data)
-    {
-        _title.text = data.Title;
-        _placeHolderText.text = data.InputPlaceHolderText;
-        _button.onClick.AddListener(OnCLickButton);
+        _errorLabel = Utilities.FindDeepChild<TextMeshProUGUI>(transform, "errorLabel");
+        _userNameField = Utilities.FindDeepChild<TMP_InputField>(transform, "userNameInput");
+        _passwordField = Utilities.FindDeepChild<TMP_InputField>(transform, "passwordInput");
+        _goButton = Utilities.FindDeepChild<Button>(transform, "goButton");
+        _goButton.onClick.AddListener(OnGoButton);
+        _eyeButton = Utilities.FindDeepChild<Button>(transform, "eyeButton");
+        _eyeButton.onClick.AddListener(OnEyeButton);
+        _errorLabel.text = "";
     }
 
     private async UniTaskVoid DisplayError(string errorMessage)
     {
-        if (_errorTransform.gameObject.activeSelf)
-            return;
-
-        string currentText = _inputText.text;
-        
-        _errorLabel.text = $"{errorMessage}";
-        _errorTransform.gameObject.SetActive(true);
-        
-        while (String.Equals(_inputText.text, currentText))
+        if (_displayCancellationTokenSource != null)
         {
-            await UniTask.Delay(30);  
+            _displayCancellationTokenSource.Cancel();
+            _displayCancellationTokenSource = null;
+            return;
         }
         
-        _errorTransform.gameObject.SetActive(false);
-        _errorLabel.text = "";
+        _displayCancellationTokenSource = new CancellationTokenSource();
+        
+        string currentText = _userNameField.text;
+        _errorLabel.text = $"{errorMessage}";
 
+        while (String.Equals(_userNameField.text, currentText))
+        {
+            await UniTask.Delay(60, DelayType.Realtime, PlayerLoopTiming.Update, _displayCancellationTokenSource.Token);
+        }
+        
+        _displayCancellationTokenSource.Cancel();
+        _displayCancellationTokenSource = null;
+        _errorLabel.text = "";
     }
 
-    private async void OnCLickButton()
+    private void OnEyeButton()
+    {
+        _passwordField.contentType = _passwordField.contentType == TMP_InputField.ContentType.Password ? TMP_InputField.ContentType.Alphanumeric : TMP_InputField.ContentType.Password;
+    }
+
+    private void OnGoButton()
     {
         if (GlobalsConfig.Dev)
         {
@@ -67,35 +71,28 @@ public class UI_MainScreen : MonoBehaviour
             return;
         }
         
-        /*if (!_regex.IsMatch(_inputText.text)) {
+        if (!_regex.IsMatch(_userNameField.text)) {
             DisplayError("illegal characters");
             return;
-        }*/
-
-        //GlobalsConfig.SetUsername(_inputText.text);
-        AddUserResult result = await AddUser.Query(_inputText.text);
-        
-        if (result.userName != null)
-        {
-            GlobalsConfig.SetUsername(result.userName);
-            StateMachine.QueueState(new TransitionTo<Game>());
         }
-        else
+
+        CreateUser();
+    }
+    
+    private async UniTaskVoid CreateUser()
+    {
+        AddUserResult result = await AddUser.Query(_userNameField.text, _passwordField.text);
+
+        if (result.token == null)
         {
             DisplayError(result.error);
         }
-    }
-}
-
-public class UIMainScreenData
-{
-    public string Title { get; private set; }
-    public string InputPlaceHolderText { get; private set; }
-
-    public UIMainScreenData(string title, string inputPlaceHolderText)
-    {
-        Title = title;
-        InputPlaceHolderText = inputPlaceHolderText;
+        else
+        {
+            Debug.Log(result.token);
+            GlobalsConfig.SetUsername(_userNameField.text);
+            StateMachine.QueueState(new TransitionTo<Game>());
+        }
     }
 }
 

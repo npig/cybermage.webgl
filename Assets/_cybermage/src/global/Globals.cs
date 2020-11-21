@@ -23,7 +23,7 @@ namespace Cybermage
         private static void Main()
         {
             _globalsManager = new GameObject("GlobalsManager").AddComponent<GlobalsManager>();
-            GlobalsConfig.Initialise(true);
+            GlobalsConfig.Initialise(false);
             EventManager.Instance.AddListener<DeathEvent>(DeathEvent);
         }
 

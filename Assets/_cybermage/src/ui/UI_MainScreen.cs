@@ -50,7 +50,7 @@ public class UI_MainScreen : MonoBehaviour
         
         while (String.Equals(_inputText.text, currentText))
         {
-            await UniTask.Delay(1);  
+            await UniTask.Delay(30);  
         }
         
         _errorTransform.gameObject.SetActive(false);
@@ -63,14 +63,14 @@ public class UI_MainScreen : MonoBehaviour
         if (GlobalsConfig.Dev)
         {
             GlobalsConfig.SetUsername("Developer");
-            StateMachine.QueueState(new Transition<Game>());
+            StateMachine.QueueState(new TransitionTo<Game>());
             return;
         }
         
-        if (!_regex.IsMatch(_inputText.text)) {
+        /*if (!_regex.IsMatch(_inputText.text)) {
             DisplayError("illegal characters");
             return;
-        }
+        }*/
 
         //GlobalsConfig.SetUsername(_inputText.text);
         AddUserResult result = await AddUser.Query(_inputText.text);
@@ -78,7 +78,7 @@ public class UI_MainScreen : MonoBehaviour
         if (result.userName != null)
         {
             GlobalsConfig.SetUsername(result.userName);
-            StateMachine.QueueState(new Transition<Game>());
+            StateMachine.QueueState(new TransitionTo<Game>());
         }
         else
         {

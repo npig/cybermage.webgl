@@ -20,60 +20,398 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3ff4c3b-00e4-40a2-a300-5c02907227f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/PBR_Customized_Soldier/Textures/Body/Body_Adjustment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/PBR_Customized_Soldier/Textures/Body/Body_Adjustment.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/07_MAHURT1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/07_MAHURT1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/07_xxtur006.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/07_xxtur006.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/08_expcryo.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/08_expcryo.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/09_manylpS.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/09_manylpS.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/29_HWREFLE7.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/29_HWREFLE7.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/33_RM1HHI1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/33_RM1HHI1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/CHANGELOG.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/CHANGELOG.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Cache.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Cache.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/CompileController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/CompileController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Compiler.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Compiler/CompilerUtil.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Compiler/CompilerUtil.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Compiler/DataUnitCompiler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Compiler/DataUnitCompiler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Compiler/ResourceCompiler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Compiler/ResourceCompiler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Compiler/ResourceCompilerUtil.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Compiler/ResourceCompilerUtil.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Data.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Data/ResourceDatabase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Data/ResourceDatabase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Data/ResourceDefinition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Data/ResourceDefinition.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Data/ResourceFolder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Data/ResourceFolder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/DataSources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/DataSources/AnimatorControllerDataSource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/DataSources/AnimatorControllerDataSource.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/DataSources/AudioMixerDataSource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/DataSources/AudioMixerDataSource.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/DataSources/InputDataSource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/DataSources/InputDataSource.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/DataSources/LayerDataSource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/DataSources/LayerDataSource.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/DataSources/LayerMaskDataSource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/DataSources/LayerMaskDataSource.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/DataSources/ResourceScanner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/DataSources/ResourceScanner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/DataSources/SceneDataSource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/DataSources/SceneDataSource.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/DataSources/SortingLayerDataSource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/DataSources/SortingLayerDataSource.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/DataSources/TagsDataSource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/DataSources/TagsDataSource.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Embedded.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Embedded.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/ITypeSafeDataSource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/ITypeSafeDataSource.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/PathUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/PathUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Properties.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Properties/AssemblyInfo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/ScanController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/ScanController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Settings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Settings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Settings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Settings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Strings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Strings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/TSLog.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/TSLog.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/TypeCache.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/TypeCache.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/TypeCache.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/TypeCache.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/TypeSafe.Editor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/TypeSafe.Editor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/TypeSafeApi.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/TypeSafeApi.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/TypeSafeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/TypeSafeController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/TypeSafeDataEntry.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/TypeSafeDataEntry.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/TypeSafeDataUnit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/TypeSafeDataUnit.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/TypeSafeUtil.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/TypeSafeUtil.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/UI/BG_Dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/UI/BG_Dark.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/UI/BG_Light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/UI/BG_Light.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/UI/ResourcesDemo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/UI/ResourcesDemo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/UI/Settings_DarkBG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/UI/Settings_DarkBG.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/UI/Settings_LightBG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/UI/Settings_LightBG.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/UI/UsageDemo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/UI/UsageDemo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/UI/Welcome_DarkBG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/UI/Welcome_DarkBG.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/UI/Welcome_LightBG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/UI/Welcome_LightBG.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/AssetTypeCache.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/AssetTypeCache.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/ITab.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/ITab.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/InternalEditorUtilityWrapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/InternalEditorUtilityWrapper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/MenuItems.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/MenuItems.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/ProgressIndicationController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/ProgressIndicationController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/ResourceChangeListener.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/ResourceChangeListener.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/SRProgressBar.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/SRProgressBar.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/SettingsEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/SettingsEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/AdvancedTab.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/AdvancedTab.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/AssetsTab.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/AssetsTab.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/BlacklistTab.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/BlacklistTab.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/GeneralTab.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/GeneralTab.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/NamingSchemeTab.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/NamingSchemeTab.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/SettingsWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/SettingsWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/Styles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/Styles.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/TabWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/TabWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/TypeCacheEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/TypeCacheEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/TypeSafeGUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/TypeSafeGUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/UI/AssetTable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/UI/AssetTable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/UnityUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/UnityUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/UserInteraction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/UserInteraction.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/WelcomeTabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/WelcomeTabs/ChangelogTab.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/WelcomeTabs/ChangelogTab.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/WelcomeTabs/GuideTab.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/WelcomeTabs/GuideTab.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/WelcomeWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Editor/Unity/WelcomeWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/README.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Runtime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Runtime/InputAxis.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Runtime/InputAxis.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Runtime/Layer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Runtime/Layer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Runtime/PrefabResource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Runtime/PrefabResource.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Runtime/Resource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Runtime/Resource.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Runtime/Scene.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Runtime/Scene.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Runtime/SortingLayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Runtime/SortingLayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Runtime/TypeSafe.Runtime.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Runtime/TypeSafe.Runtime.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Runtime/TypeSafeUtil.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/Runtime/TypeSafeUtil.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/usr.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/usr/Animators.Generated.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/usr/Animators.Generated.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/usr/AudioMixers.Generated.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/usr/AudioMixers.Generated.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/usr/Input.Generated.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/usr/Input.Generated.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/usr/LayerMask.Generated.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/usr/LayerMask.Generated.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/usr/Layers.Generated.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/usr/Layers.Generated.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/usr/Resources.Generated.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/usr/Resources.Generated.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/usr/Scenes.Generated.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/usr/Scenes.Generated.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/usr/SortingLayers.Generated.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/usr/SortingLayers.Generated.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/usr/Tags.Generated.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StompyRobot/TypeSafe/usr/Tags.Generated.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/scoreItem.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/scoreItem.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PBR_Customized_Soldier/Materials/Body02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PBR_Customized_Soldier/Materials/Body02.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cm_audio.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/cm_audio.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/cm_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/cm_info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/Mixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/Mixer.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/01SpawnA.wav.asd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/audio/01SpawnA.wav.asd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/folioContainer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/folioContainer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/mainScreen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/mainScreen.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/deathScreen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/deathScreen.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/statsContainer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/statsContainer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/fonts/Mont-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/Mont-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/CHANGELOG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/CHANGELOG.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Cache.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Cache.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/CompileController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/CompileController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Compiler.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Compiler/CompilerUtil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Compiler/CompilerUtil.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Compiler/DataUnitCompiler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Compiler/DataUnitCompiler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Compiler/ResourceCompiler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Compiler/ResourceCompiler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Compiler/ResourceCompilerUtil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Compiler/ResourceCompilerUtil.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Data/ResourceDatabase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Data/ResourceDatabase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Data/ResourceDefinition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Data/ResourceDefinition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Data/ResourceFolder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Data/ResourceFolder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/AnimatorControllerDataSource.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/AnimatorControllerDataSource.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/AudioMixerDataSource.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/AudioMixerDataSource.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/InputDataSource.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/InputDataSource.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/LayerDataSource.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/LayerDataSource.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/LayerMaskDataSource.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/LayerMaskDataSource.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/ResourceScanner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/ResourceScanner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/SceneDataSource.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/SceneDataSource.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/SortingLayerDataSource.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/SortingLayerDataSource.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/TagsDataSource.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/DataSources/TagsDataSource.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Embedded.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Embedded.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/ITypeSafeDataSource.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/ITypeSafeDataSource.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/PathUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/PathUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Properties.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Properties/AssemblyInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/ScanController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/ScanController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Settings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Settings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Settings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Settings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Strings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Strings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TSLog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TSLog.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeCache.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeCache.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeCache.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeCache.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafe.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafe.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafeApi.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafeApi.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafeController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafeDataEntry.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafeDataEntry.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafeDataUnit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafeDataUnit.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafeUtil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/TypeSafeUtil.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/BG_Dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/BG_Dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/BG_Light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/BG_Light.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/ResourcesDemo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/ResourcesDemo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/Settings_DarkBG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/Settings_DarkBG.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/Settings_LightBG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/Settings_LightBG.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/UsageDemo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/UsageDemo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/Welcome_DarkBG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/Welcome_DarkBG.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/Welcome_LightBG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/UI/Welcome_LightBG.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/AssetTypeCache.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/AssetTypeCache.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/ITab.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/ITab.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/InternalEditorUtilityWrapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/InternalEditorUtilityWrapper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/MenuItems.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/MenuItems.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/ProgressIndicationController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/ProgressIndicationController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/ResourceChangeListener.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/ResourceChangeListener.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SRProgressBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SRProgressBar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/AdvancedTab.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/AdvancedTab.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/AssetsTab.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/AssetsTab.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/BlacklistTab.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/BlacklistTab.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/GeneralTab.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/GeneralTab.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/NamingSchemeTab.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsTabs/NamingSchemeTab.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/SettingsWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/Styles.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/Styles.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/TabWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/TabWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/TypeCacheEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/TypeCacheEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/TypeSafeGUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/TypeSafeGUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/UI/AssetTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/UI/AssetTable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/UnityUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/UnityUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/UserInteraction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/UserInteraction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/WelcomeTabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/WelcomeTabs/ChangelogTab.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/WelcomeTabs/ChangelogTab.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/WelcomeTabs/GuideTab.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/WelcomeTabs/GuideTab.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/WelcomeWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Editor/Unity/WelcomeWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/README.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/InputAxis.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/InputAxis.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/Layer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/Layer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/PrefabResource.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/PrefabResource.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/Resource.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/Resource.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/Scene.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/Scene.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/SortingLayer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/SortingLayer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/TypeSafe.Runtime.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/TypeSafe.Runtime.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/TypeSafeUtil.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/Runtime/TypeSafeUtil.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Animators.Generated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Animators.Generated.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/AudioMixers.Generated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/AudioMixers.Generated.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Input.Generated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Input.Generated.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/LayerMask.Generated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/LayerMask.Generated.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Layers.Generated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Layers.Generated.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Resources.Generated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Resources.Generated.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Scenes.Generated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Scenes.Generated.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/SortingLayers.Generated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/SortingLayers.Generated.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Tags.Generated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/StompyRobot/TypeSafe/usr/Tags.Generated.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/fonts/OpenSans-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/OpenSans-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/graphics/textures/Supports/video4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/fonts/visitor2 SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/fonts/visitor2 SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-0_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-1_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_dir.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_dir.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_dir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_dir.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_light.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_light.exr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_light.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_level/Lightmap-2_comp_light.exr.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/common/FadeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/common/FadeManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/LeonBot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/LeonBot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/MobileController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/Pickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/Pickup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/GraphQLClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/GraphQLClient.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/ui/WorldUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/WorldUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_DeathScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_DeathScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,16 +432,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_DeathScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/LCDMonitor.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/Spell.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/audio/FadeAudioSource.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/TimerManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager2.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/FadeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/LeonBot.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/Pickup.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/ZombieController.cs" />
@@ -112,7 +447,14 @@
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/WorldUI.cs" />
         <option value="$PROJECT_DIR$/Assets/StreamingAssets/cm_info.json" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/Pickup.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/typeObject/EntityFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/User/AddUser.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/GraphQLClient.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/User/GetTopScores.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_DeathScreen.cs" />
       </list>
     </option>
   </component>
@@ -144,10 +486,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19836">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="19836" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -163,7 +505,11 @@
       <option name="presentableId" value="Default" />
       <updated>1605607132095</updated>
       <workItem from="1605607141297" duration="22917000" />
-      <workItem from="1605681192138" duration="14446000" />
+      <workItem from="1605681192138" duration="17263000" />
+      <workItem from="1605748723758" duration="1828000" />
+      <workItem from="1605912821039" duration="1660000" />
+      <workItem from="1605914628119" duration="67000" />
+      <workItem from="1605915053452" duration="3969000" />
     </task>
     <servers />
   </component>

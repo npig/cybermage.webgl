@@ -214,27 +214,33 @@ public sealed class CM_Resources {
                 }
             }
             
-            public static global::TypeSafe.PrefabResource mainScreen {
+            public static global::TypeSafe.PrefabResource scoreItem {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[8]));
                 }
             }
             
-            public static global::TypeSafe.PrefabResource deathScreen {
+            public static global::TypeSafe.PrefabResource mainScreen {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[9]));
                 }
             }
             
-            public static global::TypeSafe.PrefabResource uiCanvas {
+            public static global::TypeSafe.PrefabResource deathScreen {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[10]));
                 }
             }
             
-            public static global::TypeSafe.PrefabResource worldSpaceSubHeader {
+            public static global::TypeSafe.PrefabResource uiCanvas {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[11]));
+                }
+            }
+            
+            public static global::TypeSafe.PrefabResource worldSpaceSubHeader {
+                get {
+                    return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[12]));
                 }
             }
             
@@ -247,6 +253,7 @@ public sealed class CM_Resources {
                         new global::TypeSafe.PrefabResource("worldSpaceText", "prefabs/ui/worldSpaceText"),
                         new global::TypeSafe.PrefabResource("worldSpaceLink", "prefabs/ui/worldSpaceLink"),
                         new global::TypeSafe.PrefabResource("background", "prefabs/ui/background"),
+                        new global::TypeSafe.PrefabResource("scoreItem", "prefabs/ui/scoreItem"),
                         new global::TypeSafe.PrefabResource("mainScreen", "prefabs/ui/mainScreen"),
                         new global::TypeSafe.PrefabResource("deathScreen", "prefabs/ui/deathScreen"),
                         new global::TypeSafe.PrefabResource("uiCanvas", "prefabs/ui/uiCanvas"),
@@ -469,19 +476,19 @@ public sealed class CM_Resources {
             }
         }
         
-        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _05Dlog02 {
+        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _07_MAHURT1 {
             get {
                 return ((global::TypeSafe.Resource<global::UnityEngine.AudioClip>)(@__ts_internal_resources[2]));
             }
         }
         
-        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _05Dlog05 {
+        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _01SpawnB {
             get {
                 return ((global::TypeSafe.Resource<global::UnityEngine.AudioClip>)(@__ts_internal_resources[3]));
             }
         }
         
-        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _01SpawnB {
+        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _33_RM1HHI1 {
             get {
                 return ((global::TypeSafe.Resource<global::UnityEngine.AudioClip>)(@__ts_internal_resources[4]));
             }
@@ -499,49 +506,49 @@ public sealed class CM_Resources {
             }
         }
         
-        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _00MusicLoop {
+        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _09_manylpS {
             get {
                 return ((global::TypeSafe.Resource<global::UnityEngine.AudioClip>)(@__ts_internal_resources[7]));
             }
         }
         
-        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _06ProximB {
+        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _07_xxtur006 {
             get {
                 return ((global::TypeSafe.Resource<global::UnityEngine.AudioClip>)(@__ts_internal_resources[8]));
             }
         }
         
-        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _05Dlog03 {
+        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _00MusicLoop {
             get {
                 return ((global::TypeSafe.Resource<global::UnityEngine.AudioClip>)(@__ts_internal_resources[9]));
             }
         }
         
-        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _05Dlog01 {
+        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _06ProximB {
             get {
                 return ((global::TypeSafe.Resource<global::UnityEngine.AudioClip>)(@__ts_internal_resources[10]));
             }
         }
         
-        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _02LeadLoop {
+        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _05Dlog03 {
             get {
                 return ((global::TypeSafe.Resource<global::UnityEngine.AudioClip>)(@__ts_internal_resources[11]));
             }
         }
         
-        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _05Dlog07 {
+        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _02LeadLoop {
             get {
                 return ((global::TypeSafe.Resource<global::UnityEngine.AudioClip>)(@__ts_internal_resources[12]));
             }
         }
         
-        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _05Dlog04 {
+        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _04Modem {
             get {
                 return ((global::TypeSafe.Resource<global::UnityEngine.AudioClip>)(@__ts_internal_resources[13]));
             }
         }
         
-        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _04Modem {
+        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _08_expcryo {
             get {
                 return ((global::TypeSafe.Resource<global::UnityEngine.AudioClip>)(@__ts_internal_resources[14]));
             }
@@ -565,19 +572,19 @@ public sealed class CM_Resources {
             }
         }
         
-        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _03AtmosLoopA {
+        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _29_HWREFLE7 {
             get {
                 return ((global::TypeSafe.Resource<global::UnityEngine.AudioClip>)(@__ts_internal_resources[18]));
             }
         }
         
-        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _01SpawnA {
+        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _03AtmosLoopA {
             get {
                 return ((global::TypeSafe.Resource<global::UnityEngine.AudioClip>)(@__ts_internal_resources[19]));
             }
         }
         
-        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _05Dlog06 {
+        public static global::TypeSafe.Resource<global::UnityEngine.AudioClip> _01SpawnA {
             get {
                 return ((global::TypeSafe.Resource<global::UnityEngine.AudioClip>)(@__ts_internal_resources[20]));
             }
@@ -598,25 +605,25 @@ public sealed class CM_Resources {
         private static global::System.Collections.Generic.IList<global::TypeSafe.IResource> @__ts_internal_resources = new global::System.Collections.ObjectModel.ReadOnlyCollection<global::TypeSafe.IResource>(new global::TypeSafe.IResource[] {
                     new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("06Prox", "audio/06Prox"),
                     new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("03AtmosLoopB", "audio/03AtmosLoopB"),
-                    new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("05Dlog02", "audio/05Dlog02"),
-                    new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("05Dlog05", "audio/05Dlog05"),
+                    new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("07_MAHURT1", "audio/07_MAHURT1"),
                     new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("01SpawnB", "audio/01SpawnB"),
+                    new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("33_RM1HHI1", "audio/33_RM1HHI1"),
                     new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("01SpawnD", "audio/01SpawnD"),
                     new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("00MusicLoopB", "audio/00MusicLoopB"),
+                    new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("09_manylpS", "audio/09_manylpS"),
+                    new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("07_xxtur006", "audio/07_xxtur006"),
                     new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("00MusicLoop", "audio/00MusicLoop"),
                     new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("06ProximB", "audio/06ProximB"),
                     new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("05Dlog03", "audio/05Dlog03"),
-                    new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("05Dlog01", "audio/05Dlog01"),
                     new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("02LeadLoop", "audio/02LeadLoop"),
-                    new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("05Dlog07", "audio/05Dlog07"),
-                    new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("05Dlog04", "audio/05Dlog04"),
                     new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("04Modem", "audio/04Modem"),
+                    new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("08_expcryo", "audio/08_expcryo"),
                     new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("04Dialtone", "audio/04Dialtone"),
                     new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("08PickupSpawn", "audio/08PickupSpawn"),
                     new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("03AtmosLoopC", "audio/03AtmosLoopC"),
+                    new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("29_HWREFLE7", "audio/29_HWREFLE7"),
                     new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("03AtmosLoopA", "audio/03AtmosLoopA"),
                     new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("01SpawnA", "audio/01SpawnA"),
-                    new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("05Dlog06", "audio/05Dlog06"),
                     new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("01SpawnC", "audio/01SpawnC"),
                     new global::TypeSafe.Resource<global::UnityEngine.AudioClip>("07Pickup", "audio/07Pickup")});
         

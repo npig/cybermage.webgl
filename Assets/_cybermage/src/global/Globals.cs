@@ -6,6 +6,7 @@ using Cybermage.Common;
 using Cybermage.Core;
 using Cybermage.Entities;
 using Cybermage.Events;
+using Cybermage.GraphQL.Mutations;
 using Cysharp.Threading.Tasks;
 using Cysharp.Threading.Tasks.Triggers;
 using UnityEngine;
@@ -18,12 +19,11 @@ namespace Cybermage
     {
         private static GlobalsManager _globalsManager;
 
-        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
         private static void Main()
         {
             _globalsManager = new GameObject("GlobalsManager").AddComponent<GlobalsManager>();
             GlobalsConfig.Initialise(true);
-            SceneManager.sceneLoaded += SceneLoaded;
             EventManager.Instance.AddListener<DeathEvent>(DeathEvent);
         }
 

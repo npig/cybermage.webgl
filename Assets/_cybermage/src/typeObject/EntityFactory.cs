@@ -77,6 +77,7 @@ public class Entity
         NavMesh.SamplePosition(spawnPosition, out NavMeshHit hit, Mathf.Infinity, NavMesh.AllAreas);
         mc.GetComponent<NavMeshAgent>().Warp(hit.position);
         mc.transform.position = hit.position;
+        mc.transform.rotation = Quaternion.LookRotation(Vector3.up * 90);
         Mobile mobile = new Mobile(this, mc);
         mc.SetMobileData(mobile);
         return mobile;

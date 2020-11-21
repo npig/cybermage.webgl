@@ -11,7 +11,7 @@ namespace Cybermage.GraphQL
 {
     public static class GraphQLClient
     {
-        private const string ApiURL = "https://slipgate.vercel.app/api/graphql";
+        private const string ApiURL = "https://slipgate.live/api/graphql";
         private const string Token = "";
 
         public static async UniTask<T> Request<T>(GraphQLQuery query)

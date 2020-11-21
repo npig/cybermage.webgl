@@ -104,7 +104,7 @@ namespace Cybermage
         }
     }
 
-    public class Transition<T> : State
+    public class TransitionTo<T> : State
     {
         public override void Load()
         {

@@ -19,9 +19,6 @@ MonoBehaviour:
   - Path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
     Type: TMPro.TMP_SpriteAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
-  - Path: Assets/Resources/ASMaterialIcon/Fonts/MaterialIcons-Regular.ttf
-    Type: UnityEngine.Font, UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
   - Path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
     Type: UnityEngine.TextAsset, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null

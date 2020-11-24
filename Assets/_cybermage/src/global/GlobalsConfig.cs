@@ -55,7 +55,10 @@ namespace Cybermage
     {
         private static string GetLocalLocation(string fileName)
         {
-            return $"file://{Path.Combine(Application.streamingAssetsPath, fileName)}";
+            if(Application.isEditor)
+                return $"http://localhost:8000/StreamingAssets/{fileName}";
+            
+            return $"https://cybermage.live/StreamingAssets/{fileName}";
         }
 
         public static async Task<T> LoadFile<T>(string s)

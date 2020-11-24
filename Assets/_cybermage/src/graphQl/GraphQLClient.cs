@@ -28,7 +28,7 @@ namespace Cybermage.GraphQL
             request.SetRequestHeader("Content-Type", "application/json");
             
             if (!string.IsNullOrEmpty(Token))
-                request.SetRequestHeader("Authorization", "Bearer " + Token);
+                request.SetRequestHeader("Authorization", Token);
 
             try
             {

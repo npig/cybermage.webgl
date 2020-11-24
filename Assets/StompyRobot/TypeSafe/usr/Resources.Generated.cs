@@ -232,15 +232,27 @@ public sealed class CM_Resources {
                 }
             }
             
-            public static global::TypeSafe.PrefabResource uiCanvas {
+            public static global::TypeSafe.PrefabResource loading {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[11]));
                 }
             }
             
-            public static global::TypeSafe.PrefabResource worldSpaceSubHeader {
+            public static global::TypeSafe.PrefabResource uiCanvas {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[12]));
+                }
+            }
+            
+            public static global::TypeSafe.PrefabResource worldSpaceSubHeader {
+                get {
+                    return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[13]));
+                }
+            }
+            
+            public static global::TypeSafe.PrefabResource guideScreen {
+                get {
+                    return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[14]));
                 }
             }
             
@@ -256,8 +268,10 @@ public sealed class CM_Resources {
                         new global::TypeSafe.PrefabResource("scoreItem", "prefabs/ui/scoreItem"),
                         new global::TypeSafe.PrefabResource("mainScreen", "prefabs/ui/mainScreen"),
                         new global::TypeSafe.PrefabResource("deathScreen", "prefabs/ui/deathScreen"),
+                        new global::TypeSafe.PrefabResource("loading", "prefabs/ui/loading"),
                         new global::TypeSafe.PrefabResource("uiCanvas", "prefabs/ui/uiCanvas"),
-                        new global::TypeSafe.PrefabResource("worldSpaceSubHeader", "prefabs/ui/worldSpaceSubHeader")});
+                        new global::TypeSafe.PrefabResource("worldSpaceSubHeader", "prefabs/ui/worldSpaceSubHeader"),
+                        new global::TypeSafe.PrefabResource("guideScreen", "prefabs/ui/guideScreen")});
             
             /// <summary>
             /// Return a list of all resources in this folder.

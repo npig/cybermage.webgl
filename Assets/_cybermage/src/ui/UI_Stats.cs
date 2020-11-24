@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using Cybermage;
 using Cysharp.Threading.Tasks;
 using TMPro;
@@ -8,10 +9,16 @@ using UnityEngine.UI;
 public class UI_Stats : MonoBehaviour
 {
     private UIStatsData _data;
+    
+    //Developer Console
     private TextMeshProUGUI _versionText;
     private TextMeshProUGUI _usernameText;
     private TextMeshProUGUI _playerHealthText;
     private TextMeshProUGUI _playerTargetText;
+    
+    //Player HUD
+    private TextMeshProUGUI _scoreText;
+    private TextMeshProUGUI _healthText;
     private Image _leftHealth;
     private Image _rightHealth;
 
@@ -21,8 +28,14 @@ public class UI_Stats : MonoBehaviour
         _usernameText = Utilities.FindDeepChild<TextMeshProUGUI>(this.transform, "userName");
         _playerHealthText = Utilities.FindDeepChild<TextMeshProUGUI>(this.transform, "playerHealth");
         _playerTargetText = Utilities.FindDeepChild<TextMeshProUGUI>(this.transform, "playerTarget");
+        
         _leftHealth = Utilities.FindDeepChild<Image>(this.transform, "leftHealth");
         _rightHealth = Utilities.FindDeepChild<Image>(this.transform, "rightHealth");
+        _healthText = Utilities.FindDeepChild<TextMeshProUGUI>(this.transform, "healthText");
+        _scoreText = Utilities.FindDeepChild<TextMeshProUGUI>(this.transform, "scoreText");
+        
+        if (!GlobalsConfig.Dev)
+            Utilities.FindDeepChild(transform, "consoleWrapper").gameObject.SetActive(false);
     }
 
     private void Start()
@@ -30,26 +43,34 @@ public class UI_Stats : MonoBehaviour
         UpdateData();
     }
 
+    private static CancellationTokenSource _cancellationTokenSource;
+
     public async UniTaskVoid UpdateData()
     {
         while (true)
         {
-            await UniTask.Delay(240);
+            await UniTask.Delay(120, DelayType.DeltaTime, PlayerLoopTiming.Update, this.GetCancellationTokenOnDestroy());
             
             if(_data == null)
-                return;
+                continue;
             
             _data.Update();
-            UpdateText(_data);
+            _scoreText.text = _data.PlayerScore.ToString();
             UpdateHealth(_data.PlayerHealth);
+            
+            if (!GlobalsConfig.Dev)
+                continue;
+            
+            UpdateText(_data);
         }
     }
 
     private void UpdateHealth(float dataPlayerHealth)
     {
-        float f = dataPlayerHealth / 50;
+        float f = dataPlayerHealth / 30;
         _leftHealth.fillAmount = f;
         _rightHealth.fillAmount = f;
+        _healthText.text = dataPlayerHealth.ToString();
     }
 
     public void SetData(UIStatsData data)
@@ -72,6 +93,7 @@ public class UIStatsData
     public string Version { get; private set; }
     public string PlayerName { get; private set; }
     public int PlayerHealth { get; private set; }
+    public int PlayerScore { get; private set; }
     public string PlayerTarget { get; private set; }
 
 
@@ -81,6 +103,7 @@ public class UIStatsData
         PlayerName = playerName;
         PlayerHealth = 0;
         PlayerTarget = null;
+        PlayerScore = 0;
     }
 
     public void Update()
@@ -91,9 +114,10 @@ public class UIStatsData
         if(GlobalsConfig.Player == null)
             return;
         
-        PlayerHealth = GlobalsConfig.Player.GetData().Health;
+        PlayerHealth = GlobalsConfig.Player.Health;
         Mobile target = GlobalsConfig.Player.GetTarget();     
-        PlayerTarget = target == null ? "null" : target.GetData().EntityType.ToString();
+        PlayerTarget = target == null ? "null" : target.EntityType.ToString();
+        PlayerScore = GlobalsConfig.Score;
     }
 }
 

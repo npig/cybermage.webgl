@@ -33,7 +33,7 @@ namespace Cybermage.Common
             float playerDistance = (transform.position - playerPosition).magnitude;
             ProximityCheck(playerDistance, playerPosition);
             
-            if (_target != null && playerDistance <= _mobileData.GetData().AttackRange)
+            if (_target != null && playerDistance <= _mobileData.AttackRange)
             {
                 _agent.ResetPath();
                 _agent.nextPosition = transform.position;
@@ -48,7 +48,7 @@ namespace Cybermage.Common
 
         private void ProximityCheck(float distance, Vector3 playerPosition)
         {
-            if (distance <= _mobileData.GetData().AlertRange)
+            if (distance <= _mobileData.AlertRange)
             {
                 _target = GlobalsConfig.Player;
                 _agent.destination = playerPosition;
@@ -91,7 +91,7 @@ namespace Cybermage.Common
         {
             float distance = (transform.position - _target.GetPosition()).magnitude;
 
-            if (_target == null || distance > _mobileData.GetData().AttackRange)
+            if (_target == null || distance > _mobileData.AttackRange)
             {
                 AudioManager.PlaySample("33_RM1HHI1");
                 return;

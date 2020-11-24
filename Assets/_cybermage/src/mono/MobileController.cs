@@ -141,7 +141,7 @@ public class MobileController : MonoBehaviour
 
     public virtual void Shoot()
     {
-        _target?.TakeDamage(_mobileData.GetData().AttackDamage);
+        _target?.TakeDamage(_mobileData.AttackDamage);
     }
     public void FootR() { }
     public void FootL() { }

@@ -68,7 +68,6 @@ public class Entity
         {
             _entityData = parent.GetData();
         }
-        
     }
 
     public Mobile SpawnMobile(Vector3 spawnPosition)
@@ -92,23 +91,36 @@ public class Entity
 
 public class Mobile
 {
-    private Entity _entity;
     private EntityData _mobileData;
     private MobileController _mobileController;
+    public EntityType EntityType { get; private set; }
     public bool _isDead { get; private set; }
+    public float AlertRange { get;  set; }
+    public float AttackRange { get;  set; }
+    public int AttackDamage { get;  set; }
+    public float Cooldown { get;  set; }
+    public float Speed { get; set; }
+    public int Health { get; set; }
 
     public Mobile(Entity entity, MobileController mobileController)
     {
         _mobileData = entity.GetData();
-        _entity = entity;
         _mobileController = mobileController;
+
+        EntityType = _mobileData.EntityType;
+        AlertRange = _mobileData.AlertRange;
+        AttackRange = _mobileData.AttackRange;
+        AttackDamage = _mobileData.AttackDamage;
+        Cooldown = _mobileData.Cooldown;
+        Speed = _mobileData.Speed;
+        Health = _mobileData.Health;
     }
 
     public void TakeDamage(int dmg)
     {
-        _mobileData.Health -= dmg;
+        Health -= dmg;
 
-        if (_mobileData.Health <= 0)
+        if (Health <= 0)
         {
             _isDead = true;
             EventManager.Instance.Raise(new DeathEvent(this));
@@ -117,12 +129,11 @@ public class Mobile
     
     public void Heal(int healAmount)
     {
-        _mobileData.Health += healAmount;
-        _mobileData.Health = Mathf.Clamp(_mobileData.Health, 0, 50);
+        Health += healAmount;
+        Health = Mathf.Clamp(Health, 0, 30);
     }
     
     public Mobile GetTarget() => _mobileController.GetTarget();
-    public EntityData GetData() => _mobileData;
     public MobileController GetController() => _mobileController;
     public Vector3 GetPosition() => _mobileController.transform.position;
     public Transform GetTransform() => _mobileController.transform;

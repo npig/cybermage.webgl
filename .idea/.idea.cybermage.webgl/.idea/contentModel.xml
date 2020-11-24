@@ -54,11 +54,11 @@
               <e p="Utilities.cs" t="Include" />
             </e>
             <e p="graphQl" t="Include">
+              <e p="AddUser.cs" t="Include" />
+              <e p="GetTopScores.cs" t="Include" />
               <e p="GraphQLClient.cs" t="Include" />
-              <e p="User" t="Include">
-                <e p="AddUser.cs" t="Include" />
-                <e p="GetTopScores.cs" t="Include" />
-              </e>
+              <e p="LoginUser.cs" t="Include" />
+              <e p="UpdateScore.cs" t="Include" />
             </e>
             <e p="mono" t="Include">
               <e p="CameraController.cs" t="Include" />

@@ -33,7 +33,7 @@ namespace Cybermage.Common
             if (_target != null)
             {
                 float distance = (_target.GetPosition() - transform.position).magnitude;
-                if (distance < _mobileData.GetData().AlertRange)
+                if (distance < _mobileData.AlertRange)
                 {
                     _agent.ResetPath();
                     _animator.SetTrigger("Attack");

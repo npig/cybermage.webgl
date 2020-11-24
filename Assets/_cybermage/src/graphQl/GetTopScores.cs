@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using UnityEngine;
 
-namespace Cybermage.GraphQL.Mutations
+namespace Cybermage.GraphQL
 {
     public class GetTopScoresResult
     {

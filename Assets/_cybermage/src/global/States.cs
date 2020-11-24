@@ -40,6 +40,17 @@ namespace Cybermage
     public class DeathMenu : State
     {
         private UI_DeathScreen _deathScreen;
+        private int _recordedScore;
+
+        public DeathMenu(int score)
+        {
+            _recordedScore = score;
+        }
+
+        public int GetScore()
+        {
+            return _recordedScore;
+        }
 
         public override void Load()
         {
@@ -64,7 +75,6 @@ namespace Cybermage
     
     public class Game : State
     {
-
         public override void Load()
         {
             AudioManager.PlaySample("09_manylpS");
@@ -101,6 +111,7 @@ namespace Cybermage
             SceneLoader.UnloadScene("_world_ui");
             SceneLoader.UnloadScene("_level");
             SceneLoader.UnloadScene("_ui");
+            AudioManager.StopAudio(1f);
         }
     }
 

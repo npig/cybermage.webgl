@@ -22,18 +22,27 @@ namespace Cybermage
         public static CM_Information Information { get; private set; }
         
         public static string Username { get; private set; }
-        public static GameState GameState = GameState.Standby;
-        public static int Score = 0;
         public static int Difficulty = 3;
-        public static int CorpseRemoval = 1400;
+        public static int CorpseRemoval = 4200;
 
+        public static GameState GameState = GameState.Standby;
         public static Mobile Player { get; set; }
-        public static List<Mobile> MobileCollection { get; } = new List<Mobile>();
+        public static int Score = 0;
+        public static List<Mobile> MobileCollection { get; set; } = new List<Mobile>();
         
         public static void Initialise(bool devMode)
         {
             Dev = devMode;
             Information = ResourceController.LoadFile<CM_Information>("cm_info.json").Result;
+        }
+
+        public static void ResetGame()
+        {
+            MobileCollection.Clear();
+            MobileCollection = new List<Mobile>();
+            Player = null;
+            Score = 0;
+            GameState = GameState.Standby;
         }
         
         public static void SetUsername(string userName)

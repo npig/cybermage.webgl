@@ -1,14 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using Cybermage.Common;
 using Cybermage.Core;
 using Cybermage.Entities;
 using Cybermage.Events;
-using Cybermage.GraphQL.Mutations;
+using Cybermage.GraphQL;
 using Cysharp.Threading.Tasks;
-using Cysharp.Threading.Tasks.Triggers;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
@@ -51,20 +49,23 @@ namespace Cybermage
         
         private static void DeathEvent(DeathEvent e)
         {
-            if (e.Mobile.GetData().EntityType == EntityType.PLAYER)
+            if (e.Mobile.EntityType == EntityType.PLAYER)
             {
-                GlobalsConfig.GameState = GameState.Standby;
-                StateMachine.QueueState(new DeathMenu());
-                GlobalsConfig.Player = null;
-                GlobalsConfig.Score = 0;
-                //Post to backend
+                UpdateScore(GlobalsConfig.Score);
+                GlobalsConfig.ResetGame();
+                StateMachine.QueueState(new DeathMenu(GlobalsConfig.Score));
+                
             }
             else
             {
                 GlobalsConfig.Score += 1;
                 GlobalsConfig.MobileCollection.Remove(e.Mobile);
-                Debug.Log(GlobalsConfig.Score);
             }
+        }
+
+        private static async UniTaskVoid UpdateScore(int score)
+        {
+            UpdateScoreResult result = await Cybermage.GraphQL.UpdateScore.Query(score);
         }
 
         public static void Sleep()

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
@@ -44,9 +42,14 @@ namespace Cybermage
             _audioManager = new GameObject("Audio Manager");
             Object.DontDestroyOnLoad(_audioManager);
             _audioMixer = CM_Resources.Mixer;
-            CM_Audio audioCollection = ResourceController.LoadFile<CM_Audio>("cm_audio.json").Result;
+            GetLibrary();
+        }
 
-            foreach (AudioSample clip in audioCollection.AudioSample)
+        private static async UniTaskVoid GetLibrary()
+        {
+            CM_Audio audioObject = await ResourceController.LoadFile<CM_Audio>("cm_audio.json");
+
+            foreach (AudioSample clip in audioObject.AudioSample)
             {
                 _audioCollection.Add(clip.Name, clip);
             }
@@ -141,7 +144,7 @@ namespace Cybermage
             }
         }
 
-        private static async void ActiveAudioSource(AudioReceiver receiver)
+        private static async UniTaskVoid ActiveAudioSource(AudioReceiver receiver)
         {
             while (receiver.AudioSource.isPlaying)
             {

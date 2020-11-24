@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Threading.Tasks;
 using Cysharp.Threading.Tasks;
 using Newtonsoft.Json;
 using TMPro;
@@ -33,7 +31,12 @@ namespace Cybermage
         public static void Initialise(bool devMode)
         {
             Dev = devMode;
-            Information = ResourceController.LoadFile<CM_Information>("cm_info.json").Result;
+            GetLibrary();
+        }
+        
+        private static async UniTaskVoid GetLibrary()
+        {
+            Information = await ResourceController.LoadFile<CM_Information>("cm_info.json");
         }
 
         public static void ResetGame()
@@ -61,7 +64,7 @@ namespace Cybermage
             return $"https://cybermage.live/StreamingAssets/{fileName}";
         }
 
-        public static async Task<T> LoadFile<T>(string s)
+        public static async UniTask<T> LoadFile<T>(string s)
         {
             UnityWebRequest request = UnityWebRequest.Get(GetLocalLocation(s));
             try

@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Threading.Tasks;
-using Newtonsoft.Json.Linq;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 namespace Cybermage.GraphQL
@@ -33,7 +32,7 @@ namespace Cybermage.GraphQL
                   }
               }";
         
-        public static async Task<AddUserResult> Query(string userName, string password)
+        public static async UniTask<AddUserResult> Query(string userName, string password)
         {
             AddUserInput variables = new AddUserInput(userName, password);
             GraphQLQuery graphQLQuery = new GraphQLQuery(_query, variables);

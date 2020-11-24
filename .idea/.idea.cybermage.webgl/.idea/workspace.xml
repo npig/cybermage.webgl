@@ -20,7 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3ff4c3b-00e4-40a2-a300-5c02907227f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/StateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/StateMachine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/AddUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/AddUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/GetTopScores.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/GetTopScores.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/LoginUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/LoginUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/UpdateScore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/UpdateScore.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,16 +40,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TextMeshProUGUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.15f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/LayoutRebuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.15f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Graphic.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9674024A-B0E7-4D27-BBE9-EAA30DAB34D1/4b/f6e46238/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_cybermage/src/mono/Spell.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.15f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Utility/ListPool.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_cybermage/src/mono/LCDMonitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.15f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Utility/ListPool.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_cybermage/src/mono/Spell.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TextMeshProUGUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EF151B6A-BB5D-474C-B2C1-CB8906A8B5A4/c6/32ef9173/Queue`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_cybermage/src/common/TimerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.15f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/SetPropertyUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9674024A-B0E7-4D27-BBE9-EAA30DAB34D1/4b/f6e46238/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@a2eb75df68/Runtime/UniTaskCompletionSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_cybermage/src/common/TimerManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@a2eb75df68/Runtime/UnityAsyncExtensions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -53,17 +63,12 @@
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager2.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/common/FadeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/LeonBot.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/WorldUI.cs" />
         <option value="$PROJECT_DIR$/Assets/StreamingAssets/cm_info.json" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/User/GetTopScores.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/User/AddUser.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/Login.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/AddUser.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/GetTopScores.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/LoginUser.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_MainScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/UpdateScore.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/GraphQLClient.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/mono/Pickup.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/data/EntityData.cs" />
@@ -75,6 +80,12 @@
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/States.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/ui/UI_DeathScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/StateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/AddUser.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/GetTopScores.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/LoginUser.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/graphQl/UpdateScore.cs" />
+        <option value="$PROJECT_DIR$/Assets/_cybermage/src/audio/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_cybermage/src/global/GlobalsConfig.cs" />
       </list>
     </option>
@@ -232,10 +243,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="491" y="165" key="SettingsEditor/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1606175736601" />
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1606132104047">
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1606204872409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1606132104047" />
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/0.-1080.1280.720@0.0.1920.1040" timestamp="1606204872409" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1605690491933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

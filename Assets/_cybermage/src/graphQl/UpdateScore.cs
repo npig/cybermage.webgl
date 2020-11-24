@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Threading.Tasks;
-using Newtonsoft.Json.Linq;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 namespace Cybermage.GraphQL
@@ -31,7 +30,7 @@ namespace Cybermage.GraphQL
                   }
               }";
         
-        public static async Task<UpdateScoreResult> Query(int score)
+        public static async UniTask<UpdateScoreResult> Query(int score)
         {
             UpdateScoreInput variables = new UpdateScoreInput(score);
             GraphQLQuery graphQLQuery = new GraphQLQuery(_query, variables);

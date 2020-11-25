@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Cybermage;
+﻿using Cybermage;
 using UnityEngine;
 
 public class LeonBot : MonoBehaviour

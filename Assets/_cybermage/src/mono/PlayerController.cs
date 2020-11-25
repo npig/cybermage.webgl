@@ -1,5 +1,4 @@
-﻿using System;
-using Cybermage.Events;
+﻿using Cybermage.Events;
 using UnityEngine;
 using UnityEngine.AI;
 

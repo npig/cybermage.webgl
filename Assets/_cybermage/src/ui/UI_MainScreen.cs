@@ -188,7 +188,8 @@ public class UI_MainScreen : MonoBehaviour
         EnableButton(false);
 
         LoginUserResult result = await Cybermage.GraphQL.LoginUser.Query(_userNameField.text, _passwordField.text);
-
+        Debug.Log($"Token: {result.token}");
+        
         if (String.IsNullOrEmpty(result.token))
         {
             DisplayError(result.error);

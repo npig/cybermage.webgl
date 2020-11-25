@@ -58,9 +58,6 @@ namespace Cybermage
     {
         private static string GetLocalLocation(string fileName)
         {
-            if(Application.isEditor)
-                return $"http://localhost:8000/StreamingAssets/{fileName}";
-            
             return $"https://cybermage.live/StreamingAssets/{fileName}";
         }
 

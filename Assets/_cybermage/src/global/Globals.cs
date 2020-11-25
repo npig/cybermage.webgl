@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Threading;
-using System.Threading.Tasks;
 using Cybermage.Common;
 using Cybermage.Core;
 using Cybermage.Entities;
@@ -78,7 +77,7 @@ namespace Cybermage
     {
         private static CancellationTokenSource _cancellationTokenSource;
 
-        public static async Task LoadAdditive(string sceneName, Action sceneLoadAction = null)
+        public static async UniTask LoadAdditive(string sceneName, Action sceneLoadAction = null)
         {
             if (_cancellationTokenSource != null)
             {
@@ -110,7 +109,7 @@ namespace Cybermage
             }
         }
         
-        private static async Task SceneLoadOperation(CancellationToken token, string sceneName, LoadSceneMode mode)
+        private static async UniTask SceneLoadOperation(CancellationToken token, string sceneName, LoadSceneMode mode)
         {
             token.ThrowIfCancellationRequested();
 

@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Text;
-using System.Threading.Tasks;
 using Cysharp.Threading.Tasks;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using UnityEngine;
 using UnityEngine.Networking;
 
 namespace Cybermage.GraphQL
@@ -26,7 +23,7 @@ namespace Cybermage.GraphQL
 
             //Set Headers
             request.SetRequestHeader("Content-Type", "application/json");
-            
+
             if (!string.IsNullOrEmpty(Token))
                 request.SetRequestHeader("Authorization", Token);
 

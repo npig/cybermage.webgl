@@ -1,11 +1,8 @@
 ﻿using System;
 using Cybermage.Common;
 using Cybermage.Core;
-using Cybermage.Entities;
-using Cybermage.Events;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace Cybermage
 {
@@ -84,19 +81,19 @@ namespace Cybermage
         
         private async UniTaskVoid LoadScene()
         {
-            await SceneLoader.LoadAdditive("_ui", () =>
-            {
-                UI_Stats statsContainer = MonoBehaviour.Instantiate(Resources.Load<UI_Stats>("prefabs/ui/statsContainer"), UIManager.Canvas.transform);
-                statsContainer.SetData(new UIStatsData(Application.version, GlobalsConfig.Username));
-            });
-            
             await SceneLoader.LoadAdditive("_level", () =>
             {
                 EntityFactory.SpawnPlayer(GameObject.Find("_playerSpawn").transform.position);
                 ObjectSpawner.SpawnPickup();
             });
-
+            
             await SceneLoader.LoadAdditive("_world_ui");
+
+            await SceneLoader.LoadAdditive("_ui", () =>
+            {
+                UI_Stats statsContainer = MonoBehaviour.Instantiate(Resources.Load<UI_Stats>("prefabs/ui/statsContainer"), UIManager.Canvas.transform);
+                statsContainer.SetData(new UIStatsData(Application.version, GlobalsConfig.Username));
+            });
             
             GlobalsConfig.GameState = GameState.Active;
 

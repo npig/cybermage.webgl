@@ -75,72 +75,22 @@ namespace Cybermage
 
     public static class SceneLoader
     {
-        private static CancellationTokenSource _cancellationTokenSource;
-
         public static async UniTask LoadAdditive(string sceneName, Action sceneLoadAction = null)
         {
-            if (_cancellationTokenSource != null)
-            {
-                _cancellationTokenSource.Cancel();
-                _cancellationTokenSource = null;
-                return;
-            }
-
-            _cancellationTokenSource = new CancellationTokenSource();
-
             try
             {
-                await SceneLoadOperation(_cancellationTokenSource.Token, sceneName, LoadSceneMode.Additive);
+                await SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
                 Scene scene = SceneManager.GetSceneByName(sceneName);
                 SceneManager.SetActiveScene(scene);
                 sceneLoadAction?.Invoke();
             }
-            catch (OperationCanceledException ex)
+            catch (Exception e)
             {
-                if (ex.CancellationToken == _cancellationTokenSource.Token)
-                {
-                    Debug.Log("Task cancelled");
-                }
-            }
-            finally
-            {
-                _cancellationTokenSource.Cancel();
-                _cancellationTokenSource = null;
+                Console.WriteLine(e);
+                throw;
             }
         }
         
-        private static async UniTask SceneLoadOperation(CancellationToken token, string sceneName, LoadSceneMode mode)
-        {
-            token.ThrowIfCancellationRequested();
-
-            if (token.IsCancellationRequested)
-                return;
-            
-            AsyncOperation asyncOperation = SceneManager.LoadSceneAsync(sceneName, mode);
-            asyncOperation.allowSceneActivation = false;
-
-            while (true)
-            {
-                token.ThrowIfCancellationRequested();
-                
-                if (token.IsCancellationRequested)
-                    return;
-                
-                if (asyncOperation.progress >= 0.9f)
-                    break;            
-            }
-            
-            asyncOperation.allowSceneActivation = true;
-            
-            while (!asyncOperation.isDone)
-            {
-                if (token.IsCancellationRequested)
-                    return;
-                
-                await UniTask.DelayFrame(1, PlayerLoopTiming.Update, token);
-            }
-        }
-
         public static void UnloadScene(string sceneName)
         {
             SceneManager.UnloadSceneAsync(sceneName);

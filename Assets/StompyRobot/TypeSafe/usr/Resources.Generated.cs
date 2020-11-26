@@ -184,55 +184,55 @@ public sealed class CM_Resources {
                 }
             }
             
-            public static global::TypeSafe.PrefabResource worldSpaceBR {
+            public static global::TypeSafe.PrefabResource loaderWrapper {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[3]));
                 }
             }
             
-            public static global::TypeSafe.PrefabResource folioContainer {
+            public static global::TypeSafe.PrefabResource worldSpaceBR {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[4]));
                 }
             }
             
-            public static global::TypeSafe.PrefabResource worldSpaceText {
+            public static global::TypeSafe.PrefabResource folioContainer {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[5]));
                 }
             }
             
-            public static global::TypeSafe.PrefabResource worldSpaceLink {
+            public static global::TypeSafe.PrefabResource worldSpaceText {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[6]));
                 }
             }
             
-            public static global::TypeSafe.PrefabResource background {
+            public static global::TypeSafe.PrefabResource worldSpaceLink {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[7]));
                 }
             }
             
-            public static global::TypeSafe.PrefabResource scoreItem {
+            public static global::TypeSafe.PrefabResource background {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[8]));
                 }
             }
             
-            public static global::TypeSafe.PrefabResource mainScreen {
+            public static global::TypeSafe.PrefabResource scoreItem {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[9]));
                 }
             }
             
-            public static global::TypeSafe.PrefabResource deathScreen {
+            public static global::TypeSafe.PrefabResource mainScreen {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[10]));
                 }
             }
             
-            public static global::TypeSafe.PrefabResource loading {
+            public static global::TypeSafe.PrefabResource deathScreen {
                 get {
                     return ((global::TypeSafe.PrefabResource)(@__ts_internal_resources[11]));
                 }
@@ -260,6 +260,7 @@ public sealed class CM_Resources {
                         new global::TypeSafe.PrefabResource("statsContainer", "prefabs/ui/statsContainer"),
                         new global::TypeSafe.PrefabResource("skillsContainer", "prefabs/ui/skillsContainer"),
                         new global::TypeSafe.PrefabResource("worldSpaceHeader", "prefabs/ui/worldSpaceHeader"),
+                        new global::TypeSafe.PrefabResource("loaderWrapper", "prefabs/ui/loaderWrapper"),
                         new global::TypeSafe.PrefabResource("worldSpaceBR", "prefabs/ui/worldSpaceBR"),
                         new global::TypeSafe.PrefabResource("folioContainer", "prefabs/ui/folioContainer"),
                         new global::TypeSafe.PrefabResource("worldSpaceText", "prefabs/ui/worldSpaceText"),
@@ -268,7 +269,6 @@ public sealed class CM_Resources {
                         new global::TypeSafe.PrefabResource("scoreItem", "prefabs/ui/scoreItem"),
                         new global::TypeSafe.PrefabResource("mainScreen", "prefabs/ui/mainScreen"),
                         new global::TypeSafe.PrefabResource("deathScreen", "prefabs/ui/deathScreen"),
-                        new global::TypeSafe.PrefabResource("loading", "prefabs/ui/loading"),
                         new global::TypeSafe.PrefabResource("uiCanvas", "prefabs/ui/uiCanvas"),
                         new global::TypeSafe.PrefabResource("worldSpaceSubHeader", "prefabs/ui/worldSpaceSubHeader"),
                         new global::TypeSafe.PrefabResource("guideScreen", "prefabs/ui/guideScreen")});

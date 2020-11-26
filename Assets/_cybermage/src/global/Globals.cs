@@ -104,11 +104,12 @@ namespace Cybermage
 
         public static void Awake()
         {
-            GameObject eventSystem = new GameObject("EventSystem");
+            /*GameObject eventSystem = new GameObject("EventSystem");
             eventSystem.AddComponent<EventSystem>();
             eventSystem.AddComponent<StandaloneInputModule>();
-            eventSystem.AddComponent<BaseInput>();
-            MonoBehaviour.DontDestroyOnLoad(eventSystem);
+            eventSystem.AddComponent<BaseInput>();*/
+            GameObject go = GameObject.Find("EventSystem");
+            MonoBehaviour.DontDestroyOnLoad(go);
         }
         
         private static Canvas BuildCanvas()

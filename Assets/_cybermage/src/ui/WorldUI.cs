@@ -110,7 +110,7 @@ namespace Cybermage.Common
                 .GetComponent<TextMeshProUGUI>();
             linkText_1.text = bio.email;
             linkText_1.alignment = TextAlignmentOptions.Left;
-            linkText_1.gameObject.AddComponent<WebLink>().SetURL(bio.email, linkText_1);
+            linkText_1.gameObject.AddComponent<WebLink>().SetURL($"mailto:{bio.email}", linkText_1);
             linkText_1.color = CM_Theme.Link;
 
             TextMeshProUGUI linkText_2 = Instantiate(
@@ -119,7 +119,7 @@ namespace Cybermage.Common
                 .GetComponent<TextMeshProUGUI>();
             linkText_2.text = bio.linkedin;
             linkText_2.alignment = TextAlignmentOptions.Left;
-            linkText_2.gameObject.AddComponent<WebLink>().SetURL(bio.linkedin, linkText_2);
+            linkText_2.gameObject.AddComponent<WebLink>().SetURL($"https://{bio.linkedin}", linkText_2);
             linkText_2.color = CM_Theme.Link;
 
             TextMeshProUGUI linkText_3 = Instantiate(
@@ -128,7 +128,7 @@ namespace Cybermage.Common
                 .GetComponent<TextMeshProUGUI>();
             linkText_3.text = bio.imdb;
             linkText_3.alignment = TextAlignmentOptions.Left;
-            linkText_3.gameObject.AddComponent<WebLink>().SetURL(bio.imdb, linkText_3);
+            linkText_3.gameObject.AddComponent<WebLink>().SetURL($"https://{bio.imdb}", linkText_3);
             linkText_3.color = CM_Theme.Link;
 
             //Set UI for rebuilding.

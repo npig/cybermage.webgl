@@ -40,3 +40,6 @@ MonoBehaviour:
   - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
     Type: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
+  - Path: Assets/Resources/ASMaterialIcon/Fonts/MaterialIcons-Regular.ttf
+    Type: UnityEngine.Font, UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null

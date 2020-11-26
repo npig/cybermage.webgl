@@ -50,9 +50,10 @@ namespace Cybermage
         {
             if (e.Mobile.EntityType == EntityType.PLAYER)
             {
+                int score = GlobalsConfig.Score;
                 UpdateScore(GlobalsConfig.Score);
                 GlobalsConfig.ResetGame();
-                StateMachine.QueueState(new DeathMenu(GlobalsConfig.Score));
+                StateMachine.QueueState(new DeathMenu(score));
                 
             }
             else
@@ -104,12 +105,11 @@ namespace Cybermage
 
         public static void Awake()
         {
-            /*GameObject eventSystem = new GameObject("EventSystem");
+            GameObject eventSystem = new GameObject("EventSystem");
             eventSystem.AddComponent<EventSystem>();
             eventSystem.AddComponent<StandaloneInputModule>();
-            eventSystem.AddComponent<BaseInput>();*/
-            GameObject go = GameObject.Find("EventSystem");
-            MonoBehaviour.DontDestroyOnLoad(go);
+            eventSystem.AddComponent<BaseInput>();
+            MonoBehaviour.DontDestroyOnLoad(eventSystem);
         }
         
         private static Canvas BuildCanvas()

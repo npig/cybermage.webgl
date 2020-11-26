@@ -1851,7 +1851,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Hello, I'm Leon. \n\nCybermage is a showcase of my passions and interests
-    wrapped in a homage to growing up in the 90s This application is a desktop-only
+    wrapped in a homage to growing up in the 90s. This application is a desktop-only
     experience, where you're can explore the world by using your mouse to point and
     click."
   m_isRightToLeft: 0
@@ -2248,14 +2248,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.09411765, g: 0.09411765, b: 0.09411765, a: 1}
+  m_Color: {r: 0.06666667, g: 0.06666667, b: 0.06666667, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5014476455352311348, guid: 0aaa1abe12364a849bd5a56ecedce78a,
-    type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1

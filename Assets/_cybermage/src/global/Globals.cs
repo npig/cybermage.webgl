@@ -51,15 +51,15 @@ namespace Cybermage
             if (e.Mobile.EntityType == EntityType.PLAYER)
             {
                 int score = GlobalsConfig.Score;
-                UpdateScore(GlobalsConfig.Score);
                 GlobalsConfig.ResetGame();
                 StateMachine.QueueState(new DeathMenu(score));
-                
+                UpdateScore(GlobalsConfig.Score);
             }
             else
             {
                 GlobalsConfig.Score += 1;
                 GlobalsConfig.MobileCollection.Remove(e.Mobile);
+                UpdateScore(GlobalsConfig.Score);
             }
         }
 

@@ -21,10 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c3ff4c3b-00e4-40a2-a300-5c02907227f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cybermage.webgl/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/deathScreen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/deathScreen.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/mainScreen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/Resources/prefabs/ui/mainScreen.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/scenes/_main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_cybermage/src/global/Globals.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +142,7 @@
       <workItem from="1606276946505" duration="2393000" />
       <workItem from="1606301910272" duration="5487000" />
       <workItem from="1606357576920" duration="710000" />
-      <workItem from="1606382882286" duration="936000" />
+      <workItem from="1606382882286" duration="1469000" />
     </task>
     <servers />
   </component>
